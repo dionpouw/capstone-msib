@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CapstoneMSIB</string>
+    <string name="splash_screen_image">Splash Screen Image</string>
 </resources>
