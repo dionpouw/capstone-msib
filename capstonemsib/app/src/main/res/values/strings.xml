@@ -41,5 +41,6 @@
     <string name="recommended_psycholog">Rekomendasi Psikolog</string>
     <string name="view_more">Selengkapnya</string>
     <string name="profile">Profil</string>
+    <string name="save_profile">Simpan perubahan</string>
 
 </resources>
