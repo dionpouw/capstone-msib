@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,8 +8,95 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/psemibold"
+        android:textSize="18sp"
+        android:text="@string/profile"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="84dp"
+        tools:src="@drawable/sample_psikolog" />
+
+    <TextView
+        android:id="@+id/tv_profil_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/psemibold"
+        android:text="Risha Amara"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+    <TextView
+        android:id="@+id/tv_profil_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/pregular"
+        android:text="rishaamara95@gmail.com"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tv_profil_name"
+        app:layout_constraintStart_toStartOf="@+id/tv_profil_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil_name" />
+
+    <TextView
+        android:id="@+id/tv_profil_date_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/pregular"
+        android:text="01 Januari 2000"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tv_profil_email"
+        app:layout_constraintStart_toStartOf="@+id/tv_profil_email"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil_email" />
+
+    <TextView
+        android:id="@+id/tv_profil_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/pregular"
+        android:text="08211212121221"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tv_profil_date_birth"
+        app:layout_constraintStart_toStartOf="@+id/tv_profil_date_birth"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil_date_birth" />
+
+    <TextView
+        android:id="@+id/tv_profil_riwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/psemibold"
+        android:text="Riwayat konsultasi"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_profil_riwayat"
+        tools:listitem="@layout/item_psycholog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
