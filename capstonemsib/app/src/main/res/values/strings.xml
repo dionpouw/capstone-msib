@@ -1,5 +1,33 @@
 <resources>
     <string name="app_name">CapstoneMSIB</string>
+
+    <string name="on_boarding_one">On Boarding One</string>
+    <string name="mental_health_test">Tes Kesehatan Jiwa</string>
+    <string name="desc_ob1">Lakukan tes untuk mengetahui \n apakah kamu sedang \n mengalami depresi atau tidak</string>
+    <string name="skip">Lewati</string>
+    <string name="next">Lanjutkan</string>
+    <string name="on_boarding_two">On Boarding Two</string>
+    <string name="consultation">Konsultasi</string>
+    <string name="desc_ob2">"Ceritakan apa yang terjadi padamu \n pada psikolog berpengalaman "</string>
+    <string name="flexible">Fleksibel</string>
+    <string name="desc_ob3">Konsultasi mudah dilakukan \n dimana saja</string>
+    <string name="welcome">Selamat Datang,</string>
+    <string name="welcome_desc">Silakan masuk untuk melanjutkan aplikasi</string>
+    <string name="image_sign_in">Image Sign In</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Masukan email kamu</string>
+    <string name="password">Kata sandi</string>
+    <string name="hint_password">Masukan kata sandi kamu</string>
+    <string name="forget_password">Lupa kata sandi?</string>
+    <string name="image_sign_up">Image Sign Up</string>
+    <string name="sign_up">Buat Akun Kamu</string>
+    <string name="sign_up_desc">Buat akun kamu untuk memulai aplikasi</string>
+    <string name="enter">Masuk</string>
+    <string name="create_new_account">Buat Akun Baru</string>
+    <string name="create_account">Buat Akun</string>
+    <string name="full_name">Nama lengkap</string>
+    <string name="hint_name">Masukan nama lengkap kamu</string>
+
     <string name="splash_screen_image">Splash Screen Image</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -13,4 +41,5 @@
     <string name="recommended_psycholog">Rekomendasi Psikolog</string>
     <string name="view_more">Selengkapnya</string>
     <string name="welcome">Selamat datang!</string>
+
 </resources>
