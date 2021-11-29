@@ -7,4 +7,6 @@
     <string name="title_test">Test</string>
     <string name="title_psycholog">Psycholog</string>
     <string name="title_profile">Profile</string>
+    <string name="hi_natasya">Hi, %1$s</string>
+    <string name="image_psycholog">Image Psycholog</string>
 </resources>
