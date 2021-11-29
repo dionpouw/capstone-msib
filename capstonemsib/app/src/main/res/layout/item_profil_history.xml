@@ -27,8 +27,8 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/sample_psikolog"
-                android:contentDescription="@string/image_psycholog" />
+                android:contentDescription="@string/image_psycholog"
+                android:src="@drawable/sample_psikolog" />
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -38,7 +38,9 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:ellipsize="end"
+            android:fontFamily="@font/psemibold"
             android:maxLines="2"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toEndOf="@+id/cardView"
             app:layout_constraintTop_toTopOf="parent"
@@ -49,11 +51,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/pregular"
             android:maxLines="2"
+            android:textColor="@color/black"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/tv_name_show"
             app:layout_constraintTop_toBottomOf="@+id/tv_name_show"
-            tools:text="Psikolog klinis dewasa" />
+            tools:text="29 Agt, 05:00" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
@@ -67,6 +71,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:fontFamily="@font/pregular"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/tv_profil_date"
             tools:text="Rp. 200.000" />
