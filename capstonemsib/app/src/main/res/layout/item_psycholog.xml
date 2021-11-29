@@ -46,13 +46,11 @@
 
         <TextView
             android:id="@+id/tv_description"
-            style="@style/body_rv_item"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:maxLines="2"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/tv_name_show"
             app:layout_constraintTop_toBottomOf="@+id/tv_name_show"
             tools:text="Psikolog klinis dewasa" />

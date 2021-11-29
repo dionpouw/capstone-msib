@@ -9,4 +9,8 @@
     <string name="title_profile">Profile</string>
     <string name="hi_natasya">Hi, %1$s</string>
     <string name="image_psycholog">Image Psycholog</string>
+    <string name="most_liked_psycholog">Psikolog paling banyak disukai</string>
+    <string name="recommended_psycholog">Rekomendasi Psikolog</string>
+    <string name="view_more">Selengkapnya</string>
+    <string name="welcome">Selamat datang!</string>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
-        <!--        android:text="@string/hi_natasya" />-->
+    <!--        android:text="@string/hi_natasya" />-->
     <TextView
         android:id="@+id/tvHomeGreet"
         android:layout_width="wrap_content"
@@ -13,27 +13,28 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/psemibold"
+        android:text="@string/hi_natasya"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Hi, Natasya" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/pregular"
-        android:textSize="12sp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/pregular"
+        android:text="@string/welcome"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/tvHomeGreet"
-        app:layout_constraintTop_toBottomOf="@+id/tvHomeGreet"
-        tools:text="Selamat datang!" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHomeGreet" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:src="@tools:sample/avatars"
+        android:src="@drawable/sample_psikolog"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,16 +42,18 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rekomendasi Psikolog"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="213dp" />
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/recommended_psycholog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Psikolog paling banyak disukai"
+        android:text="@string/most_liked_psycholog"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -58,16 +61,21 @@
         android:id="@+id/tvSelengkapnya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Selengkapnya"
-        tools:layout_editor_absoluteX="300dp"
-        tools:layout_editor_absoluteY="213dp" />
+        android:layout_marginStart="32dp"
+        android:text="@string/view_more"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:listitem="@layout/item_psycholog"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
