@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_non"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_test"
+        android:icon="@drawable/ic_test_non"
+        android:title="@string/title_test" />
+    <item
+        android:id="@+id/navigation_psycholog"
+        android:icon="@drawable/ic_psycholog_non"
+        android:title="@string/title_psycholog" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile_non"
+        android:title="@string/title_profile" />
+</menu>

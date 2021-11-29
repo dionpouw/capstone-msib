@@ -5,24 +5,32 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.aldion.capstonemsib.databinding.ActivitySplashBinding
 import com.aldion.capstonemsib.ui.home.HomeActivity
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.*
 
 class SplashActivity : AppCompatActivity() {
     private var binding: ActivitySplashBinding? = null
+    private val time = 2000L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+        withCoroutine(time)
+    }
 
-        runBlocking {
-            launch {
-                delay(2000L)
-                val intent = Intent(this@SplashActivity, HomeActivity::class.java)
-                startActivity(intent)
+    private fun withCoroutine(time: Long) {
+        val mScope = CoroutineScope(Dispatchers.IO)
+        mScope.launch {
+            delay(time)
+            withContext(Dispatchers.Main) {
+                launchPostSplashActivity()
+                mScope.cancel(null)
             }
         }
+    }
+
+    private fun launchPostSplashActivity() {
+        val intent = Intent(this, HomeActivity::class.java)
+        startActivity(intent)
         finish()
     }
 
