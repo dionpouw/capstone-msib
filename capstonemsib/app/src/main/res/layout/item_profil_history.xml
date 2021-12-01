@@ -57,7 +57,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/tv_name_show"
             app:layout_constraintTop_toBottomOf="@+id/tv_name_show"
-            tools:text="Psikolog klinis dewasa" />
+            tools:text="29 Agt, 05:00" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"

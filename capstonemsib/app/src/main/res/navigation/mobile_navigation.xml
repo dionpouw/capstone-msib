@@ -25,6 +25,26 @@
         android:name="com.aldion.capstonemsib.ui.home.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/onBoardingOneActivity"
+        android:name="com.aldion.capstonemsib.onboarding.OnBoardingOneActivity"
+        android:label="activity_on_boarding_one"
+        tools:layout="@layout/activity_on_boarding_one" />
+    <activity
+        android:id="@+id/onBoardingTwoActivity"
+        android:name="com.aldion.capstonemsib.onboarding.OnBoardingTwoActivity"
+        android:label="activity_on_boarding_two"
+        tools:layout="@layout/activity_on_boarding_two" />
+    <activity
+        android:id="@+id/onBoardingThreeActivity"
+        android:name="com.aldion.capstonemsib.onboarding.OnBoardingThreeActivity"
+        android:label="activity_on_boarding_three"
+        tools:layout="@layout/activity_on_boarding_three" />
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.aldion.capstonemsib.signin.SignInActivity"
+        android:label="activity_sign_up"
+        tools:layout="@layout/activity_sign_up" />
 
 
 </navigation>
