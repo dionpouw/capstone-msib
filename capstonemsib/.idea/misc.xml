@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="app/src/main/res/drawable/ic_splash_image.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_test_non.xml" value="0.221875" />
         <entry key="app/src/main/res/drawable/shape_rectangle_edit_text.xml" value="0.18333333333333332" />
@@ -22,6 +23,7 @@
         <entry key="app/src/main/res/layout/item_psycholog.xml" value="0.3129251700680272" />
         <entry key="app/src/main/res/menu/botton_nav_menu.xml" value="0.1" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+
       </map>
     </option>
   </component>

@@ -46,6 +46,7 @@
     <string name="test_type1">Self-Reporting Questionnaire (SRQ)</string>
     <string name="desc_type_test1">kuesioner yang dikembangkan oleh\n World Health Organization (WHO) tes ini \ndigunakan untuk skrining gangguan \npsikiatri.</string>
     <string name="start_test">Mulai Test</string>
+    <string name="icon_test_sqr">Icon test SQR</string>
     <string name="profile">Profil</string>
     <string name="save_profile">Simpan perubahan</string>
 
