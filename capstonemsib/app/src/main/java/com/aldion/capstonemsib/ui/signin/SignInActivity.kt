@@ -1,10 +1,10 @@
-package com.aldion.capstonemsib.signin
+package com.aldion.capstonemsib.ui.signin
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aldion.capstonemsib.databinding.ActivitySignInBinding
-import com.aldion.capstonemsib.signup.SignUpActivity
+import com.aldion.capstonemsib.ui.signup.SignUpActivity
 
 class SignInActivity : AppCompatActivity() {
     private lateinit var signInBinding: ActivitySignInBinding

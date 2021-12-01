@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/pregular"
-        android:text="@string/welcome"
+        android:text="@string/welcome_sign_in"
         android:textColor="@color/darkerBlack"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/tvHomeGreet"
