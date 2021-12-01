@@ -1,10 +1,10 @@
-package com.aldion.capstonemsib.onboarding
+package com.aldion.capstonemsib.ui.onboarding
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aldion.capstonemsib.databinding.ActivityOnBoardingThreeBinding
-import com.aldion.capstonemsib.signin.SignInActivity
+import com.aldion.capstonemsib.ui.signin.SignInActivity
 
 class OnBoardingThreeActivity : AppCompatActivity() {
     private lateinit var onBoardingThreeBinding: ActivityOnBoardingThreeBinding

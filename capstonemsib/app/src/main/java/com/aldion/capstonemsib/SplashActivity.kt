@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.aldion.capstonemsib.databinding.ActivitySplashBinding
 import com.aldion.capstonemsib.ui.home.HomeActivity
+import com.aldion.capstonemsib.ui.onboarding.OnBoardingOneActivity
 import kotlinx.coroutines.*
 
 class SplashActivity : AppCompatActivity() {
@@ -29,7 +30,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun launchPostSplashActivity() {
-        val intent = Intent(this, HomeActivity::class.java)
+        val intent = Intent(this, OnBoardingOneActivity::class.java)
         startActivity(intent)
         finish()
     }

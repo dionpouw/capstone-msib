@@ -10,23 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneMSIB">
         <activity
-            android:name=".signup.SignUpActivity"
+            android:name="com.aldion.capstonemsib.ui.signup.SignUpActivity"
             android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".signin.SignInActivity"
+            android:name="com.aldion.capstonemsib.ui.signin.SignInActivity"
             android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".onboarding.OnBoardingThreeActivity"
+            android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingThreeActivity"
             android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".onboarding.OnBoardingTwoActivity"
+            android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingTwoActivity"
             android:theme="@style/Theme.Design.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".onboarding.OnBoardingOneActivity"
+            android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingOneActivity"
             android:theme="@style/Theme.Design.NoActionBar"
             android:exported="true">
         </activity>
