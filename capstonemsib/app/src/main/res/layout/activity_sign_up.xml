@@ -96,13 +96,53 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="30dp"
             android:fontFamily="@font/psemibold"
-            android:text="@string/email"
+            android:text="@string/username"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edtName" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/shape_rectangle_edit_text"
+            android:ems="10"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/hint_username"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/darkerBlack"
+            android:textColorHint="@color/darkerBlack"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleUsername"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:id="@+id/tvTitleEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/psemibold"
+            android:text="@string/email"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtUsername" />
 
         <TextView
             android:id="@+id/tvTitlePassword"
@@ -118,7 +158,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edtUsername" />
+            app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
 
         <EditText
             android:id="@+id/edtPassword"
@@ -145,7 +185,7 @@
             tools:ignore="TextFields" />
 
         <EditText
-            android:id="@+id/edtUsername"
+            android:id="@+id/edtEmail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -154,7 +194,7 @@
             android:background="@drawable/shape_rectangle_edit_text"
             android:ems="10"
             android:fontFamily="@font/pregular"
-            android:hint="@string/hint_username"
+            android:hint="@string/hint_email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
             android:paddingStart="16dp"
@@ -165,14 +205,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvTitleUsername"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleEmail"
             tools:ignore="TextFields" />
 
         <Button
             android:id="@+id/btnSignUp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="24dp"
             android:background="@drawable/shape_rectangle_primary"
             android:fontFamily="@font/psemibold"
             android:text="@string/create_account"
@@ -180,7 +220,7 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="@+id/btnSignIn"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/btnSignIn"
             app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
 

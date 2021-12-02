@@ -15,7 +15,9 @@ class SignUpActivity : AppCompatActivity() {
 
         signUpBinding.apply {
             btnSignUp.setOnClickListener(){
-                
+                suUsername = edtUsername.text.toString()
+                suPassword = edtPassword.text.toString()
+                suPassword = edtPassword.text.toString()
             }
             btnSignIn.setOnClickListener(){
                 val intentSignUp = Intent(this@SignUpActivity, SignInActivity::class.java)
