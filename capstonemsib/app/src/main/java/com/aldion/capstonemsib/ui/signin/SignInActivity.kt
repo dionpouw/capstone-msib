@@ -16,7 +16,13 @@ class SignInActivity : AppCompatActivity() {
         setContentView(signInBinding.root)
 
         signInBinding.apply {
-            
+            btnSignIn.setOnClickListener(){
+                // Write a message to the database
+                val database = Firebase.database
+                val myRef = database.getReference("message")
+
+                myRef.setValue("Yoi")
+            }
             btnSignUp.setOnClickListener(){
                 val intentSignUp = Intent(this@SignInActivity, SignUpActivity::class.java)
                 startActivity(intentSignUp)
