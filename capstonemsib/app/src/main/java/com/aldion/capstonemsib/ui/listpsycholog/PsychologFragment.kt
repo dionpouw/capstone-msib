@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.ui.home
+package com.aldion.capstonemsib.ui.listpsycholog
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

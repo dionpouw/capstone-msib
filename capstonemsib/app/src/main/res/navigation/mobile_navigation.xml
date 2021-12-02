@@ -45,6 +45,11 @@
         android:name="com.aldion.capstonemsib.signin.SignInActivity"
         android:label="activity_sign_up"
         tools:layout="@layout/activity_sign_up" />
+    <fragment
+        android:id="@+id/profileEditFragment"
+        android:name="com.aldion.capstonemsib.ui.home.ProfileEditFragment"
+        android:label="fragment_profile_edit"
+        tools:layout="@layout/fragment_profile_edit" />
 
 
 </navigation>
