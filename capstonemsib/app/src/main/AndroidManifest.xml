@@ -31,8 +31,8 @@
         <activity
             android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingOneActivity"
             android:theme="@style/Theme.Design.NoActionBar"
-            android:exported="true">
-        </activity>
+            android:exported="true"/>
+        <activity
             android:name=".ui.home.HomeActivity"
             android:exported="false"/>
         <activity
