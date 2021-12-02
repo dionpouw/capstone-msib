@@ -1,5 +1,9 @@
-package com.aldion.capstonemsib.ui.signin
+package com.aldion.capstonemsib.data.entity
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class User(
     var email: String? = "",
     var nama: String? = "",
@@ -7,4 +11,4 @@ data class User(
     var saldo: String? = "",
     var url: String? = "",
     var username: String? = ""
-)
+) : Parcelable
