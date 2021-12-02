@@ -30,7 +30,7 @@ class SignUpActivity : AppCompatActivity() {
         mDatabaseReference = mFirebaseInstance.getReference("User")
 
         signUpBinding.apply {
-            btnSignUp.setOnClickListener() {
+            btnSignUp.setOnClickListener {
                 suUsername = edtUsername.text.toString()
                 suPassword = edtPassword.text.toString()
                 suName = edtName.text.toString()
@@ -53,7 +53,7 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
 
-            btnSignIn.setOnClickListener() {
+            btnSignIn.setOnClickListener {
                 val intentSignUp = Intent(this@SignUpActivity, SignInActivity::class.java)
                 startActivity(intentSignUp)
             }
@@ -72,9 +72,7 @@ class SignUpActivity : AppCompatActivity() {
         user.name = suName
         user.password = suPassword
 
-        if (suUsername != null) {
-            checkingUsername(suUsername, user)
-        }
+        checkingUsername(suUsername, user)
     }
 
     private fun checkingUsername(suUsername: String, data: User) {
