@@ -1,7 +1,6 @@
 package com.aldion.capstonemsib.ui.signin
 
 import android.content.Intent
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -13,8 +12,8 @@ import com.google.firebase.database.*
 
 class SignInActivity : AppCompatActivity() {
     private lateinit var signInBinding: ActivitySignInBinding
-    private lateinit var iUsername: String
-    private lateinit var iPassword: String
+    private lateinit var siUsername: String
+    private lateinit var siPassword: String
 
     lateinit var mDatabase: DatabaseReference
     lateinit var preference: Preferences
@@ -37,17 +36,17 @@ class SignInActivity : AppCompatActivity() {
 
         signInBinding.apply {
             btnSignIn.setOnClickListener() {
-                iUsername = edtUsername.text.toString()
-                iPassword = edtPassword.text.toString()
+                siUsername = edtUsername.text.toString()
+                siPassword = edtPassword.text.toString()
 
-                if (iUsername == "" || iUsername.isEmpty()) {
+                if (siUsername == "" || siUsername.isEmpty()) {
                     edtUsername.error = "Silakan masukkan email terlebih dahulu!"
                     edtUsername.requestFocus()
-                } else if (iPassword == "" || iPassword.isEmpty()) {
+                } else if (siPassword == "" || siPassword.isEmpty()) {
                     edtPassword.error = "Silakan masukkan password terlebih dahulu!"
                     edtPassword.requestFocus()
                 } else {
-                    pushLogin(iUsername, iPassword)
+                    pushLogin(siUsername, siPassword)
                 }
             }
             btnSignUp.setOnClickListener() {
@@ -57,15 +56,15 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
-    private fun pushLogin(iUsername: String, iPassword: String) {
-        mDatabase.child(iUsername).addValueEventListener(object : ValueEventListener {
+    private fun pushLogin(siUsername: String, siPassword: String) {
+        mDatabase.child(siUsername).addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 val user = snapshot.getValue(User::class.java)
                 if (user == null) {
                     Toast.makeText(this@SignInActivity, "Akun tidak ditemukan", Toast.LENGTH_LONG)
                         .show()
                 } else {
-                    if(user.password.equals(iPassword)){
+                    if(user.password.equals(siPassword)){
 
                         preference.setValue("nama", user.nama.toString())
                         preference.setValue("username", user.username.toString())
@@ -77,7 +76,7 @@ class SignInActivity : AppCompatActivity() {
 
                         val intentToHome = Intent(this@SignInActivity, HomeActivity::class.java)
                         startActivity(intentToHome)
-                    } else if (user.password != iPassword){
+                    } else if (user.password != siPassword){
                         Toast.makeText(this@SignInActivity, "Password kamu salah", Toast.LENGTH_LONG)
                             .show()
                     }
