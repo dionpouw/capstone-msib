@@ -15,7 +15,7 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var siUsername: String
     private lateinit var siPassword: String
 
-    lateinit var mDatabase: DatabaseReference
+    private lateinit var mDatabase: DatabaseReference
     lateinit var preference: Preferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,11 +66,11 @@ class SignInActivity : AppCompatActivity() {
                 } else {
                     if (user.password.equals(siPassword)) {
 
-                        preference.setValue("nama", user.nama.toString())
+                        preference.setValue("name", user.name.toString())
                         preference.setValue("username", user.username.toString())
                         preference.setValue("url", user.url.toString())
                         preference.setValue("email", user.email.toString())
-                        preference.setValue("saldo", user.saldo.toString())
+                        preference.setValue("dateOfBirth", user.dateOfBirth.toString())
                         preference.setValue("status", "1")
 
 
