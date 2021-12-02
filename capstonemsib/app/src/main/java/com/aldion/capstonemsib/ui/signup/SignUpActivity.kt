@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
-import com.aldion.capstonemsib.ui.signin.User
+import com.aldion.capstonemsib.data.entity.User
 import com.google.firebase.database.*
 
 class SignUpActivity : AppCompatActivity() {
@@ -72,9 +72,7 @@ class SignUpActivity : AppCompatActivity() {
         user.nama = suName
         user.password = suPassword
 
-        if (suUsername != null) {
-            checkingUsername(suUsername, user)
-        }
+        checkingUsername(suUsername, user)
     }
 
     private fun checkingUsername(suUsername: String, data: User) {
