@@ -15,7 +15,7 @@
     <string name="welcome_desc">Silakan masuk untuk melanjutkan aplikasi</string>
     <string name="image_sign_in">Image Sign In</string>
     <string name="email">Email</string>
-    <string name="hint_email">Masukan email kamu</string>
+    <string name="hint_username">Masukan username kamu</string>
     <string name="password">Kata sandi</string>
     <string name="hint_password">Masukan kata sandi kamu</string>
     <string name="forget_password">Lupa kata sandi?</string>
@@ -49,5 +49,6 @@
     <string name="icon_test_sqr">Icon test SQR</string>
     <string name="profile">Profil</string>
     <string name="save_profile">Simpan perubahan</string>
+    <string name="username">Username</string>
 
 </resources>

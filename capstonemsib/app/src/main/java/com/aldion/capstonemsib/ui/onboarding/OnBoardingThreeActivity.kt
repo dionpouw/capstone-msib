@@ -16,6 +16,8 @@ class OnBoardingThreeActivity : AppCompatActivity() {
 
         onBoardingThreeBinding.apply {
             btnNext.setOnClickListener(){
+                finishAffinity()
+
                 val intentNext = Intent(this@OnBoardingThreeActivity, SignInActivity::class.java)
                 startActivity(intentNext)
             }
