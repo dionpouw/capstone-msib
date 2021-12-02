@@ -113,7 +113,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/edtUsername" />
 
     <EditText
         android:id="@+id/edtPassword"
@@ -140,7 +140,7 @@
         tools:ignore="TextFields" />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtUsername"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -149,7 +149,7 @@
         android:background="@drawable/shape_rectangle_edit_text"
         android:ems="10"
         android:fontFamily="@font/pregular"
-        android:hint="@string/hint_email"
+        android:hint="@string/hint_username"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:paddingStart="16dp"
