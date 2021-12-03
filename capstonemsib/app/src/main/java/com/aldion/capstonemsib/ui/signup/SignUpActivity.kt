@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
+import com.aldion.capstonemsib.ui.signin.User
+import com.google.firebase.database.*
 
 class SignUpActivity : AppCompatActivity() {
     private lateinit var signUpBinding: ActivitySignUpBinding

@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.data.entity
+package com.aldion.capstonemsib.ui.signin
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
