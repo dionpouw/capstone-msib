@@ -27,7 +27,7 @@ class SignInActivity : AppCompatActivity() {
         preference = Preferences(this)
 
         preference.setValue("onboarding", "1")
-        if (preference.getValue("status") == "1") {
+        if (preference.getValue("status") == "1"){
             finishAffinity()
 
             val goHome = Intent(this@SignInActivity, HomeActivity::class.java)
@@ -40,7 +40,7 @@ class SignInActivity : AppCompatActivity() {
                 siPassword = edtPassword.text.toString()
 
                 if (siUsername == "" || siUsername.isEmpty()) {
-                    edtUsername.error = "Silakan masukkan nama pengguna terlebih dahulu!"
+                    edtUsername.error = "Silakan masukkan email terlebih dahulu!"
                     edtUsername.requestFocus()
                 } else if (siPassword == "" || siPassword.isEmpty()) {
                     edtPassword.error = "Silakan masukkan password terlebih dahulu!"
@@ -64,7 +64,7 @@ class SignInActivity : AppCompatActivity() {
                     Toast.makeText(this@SignInActivity, "Akun tidak ditemukan", Toast.LENGTH_LONG)
                         .show()
                 } else {
-                    if (user.password.equals(siPassword)) {
+                    if(user.password.equals(siPassword)){
 
                         preference.setValue("name", user.name.toString())
                         preference.setValue("username", user.username.toString())
@@ -77,12 +77,8 @@ class SignInActivity : AppCompatActivity() {
 
                         val intentToHome = Intent(this@SignInActivity, HomeActivity::class.java)
                         startActivity(intentToHome)
-                    } else if (user.password != siPassword) {
-                        Toast.makeText(
-                            this@SignInActivity,
-                            "Password kamu salah",
-                            Toast.LENGTH_LONG
-                        )
+                    } else if (user.password != siPassword){
+                        Toast.makeText(this@SignInActivity, "Password kamu salah", Toast.LENGTH_LONG)
                             .show()
                     }
                 }

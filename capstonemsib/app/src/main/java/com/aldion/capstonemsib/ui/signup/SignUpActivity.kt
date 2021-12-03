@@ -1,9 +1,9 @@
 package com.aldion.capstonemsib.ui.signup
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
 import com.aldion.capstonemsib.ui.signin.User
@@ -86,7 +86,11 @@ class SignUpActivity : AppCompatActivity() {
                     startActivity(intentSignIn)
 
                 } else {
-                    Toast.makeText(this@SignUpActivity, "Akun kamu berhasil didaftarkan", Toast.LENGTH_LONG)
+                    Toast.makeText(
+                        this@SignUpActivity,
+                        "Akun kamu berhasil didaftarkan",
+                        Toast.LENGTH_LONG
+                    )
                         .show()
                 }
             }

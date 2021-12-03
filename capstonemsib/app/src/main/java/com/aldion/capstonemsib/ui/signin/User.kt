@@ -1,5 +1,4 @@
-package com.aldion.capstonemsib.ui.signin
-
+package com.aldion.caps
 class User {
     var email: String? = ""
     var name: String? = ""
@@ -8,5 +7,4 @@ class User {
     var url: String? = ""
     var username: String? = ""
     var telephoneNumber: String? = ""
-    
 }
