@@ -8,6 +8,4 @@ class User {
     var url: String? = ""
     var username: String? = ""
     var telephoneNumber: String? = ""
-
-    //test
 }
