@@ -49,7 +49,7 @@ class SignInActivity : AppCompatActivity() {
                     pushLogin(siUsername, siPassword)
                 }
             }
-            btnSignUp.setOnClickListener{
+            btnSignUp.setOnClickListener {
                 val intentSignUp = Intent(this@SignInActivity, SignUpActivity::class.java)
                 startActivity(intentSignUp)
             }
@@ -71,7 +71,7 @@ class SignInActivity : AppCompatActivity() {
                         preference.setValue("url", user.url.toString())
                         preference.setValue("email", user.email.toString())
                         preference.setValue("dateOfBirth", user.dateOfBirth.toString())
-                        preference.setValue("telephoneNumber",user.telephoneNumber.toString())
+                        preference.setValue("telephoneNumber", user.telephoneNumber.toString())
                         preference.setValue("status", "1")
 
 
