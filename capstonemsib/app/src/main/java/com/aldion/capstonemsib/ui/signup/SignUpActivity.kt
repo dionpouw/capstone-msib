@@ -69,7 +69,7 @@ class SignUpActivity : AppCompatActivity() {
         val user = User()
         user.email = suEmail
         user.username = suUsername
-        user.nama = suName
+        user.name = suName
         user.password = suPassword
 
         checkingUsername(suUsername, user)
