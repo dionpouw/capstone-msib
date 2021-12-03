@@ -9,5 +9,4 @@ class User {
     var username: String? = ""
     var telephoneNumber: String? = ""
     
-    //Testing pull request
 }
