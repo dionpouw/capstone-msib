@@ -19,14 +19,36 @@
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_profile.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_profile_edit.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_psycholog.xml" value="0.25677083333333334" />
-        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_test.xml" value="0.2" />
+        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_test.xml" value="0.4" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/item_profil_history.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/item_psycholog.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/item_test_type.xml" value="0.4" />
+        <entry key="app/src/main/res/drawable/ic_profile_non.xml" value="0.3828125" />
+        <entry key="app/src/main/res/drawable/ic_splash_image.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_test_non.xml" value="0.221875" />
+        <entry key="app/src/main/res/drawable/shape_rectangle_edit_text.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/drawable/shape_rectangle_edit_text_purple.xml" value="0.3828125" />
+        <entry key="app/src/main/res/drawable/shape_rectangle_primary.xml" value="0.3828125" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/activity_on_boarding_one.xml" value="0.22485207100591717" />
+        <entry key="app/src/main/res/layout/activity_on_boarding_three.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/activity_on_boarding_two.xml" value="0.36666666666666664" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.184375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_item_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_profile_edit.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.3328804347826087" />
+        <entry key="app/src/main/res/layout/item_profil_history.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_psikolog.xml" value="0.29891304347826086" />
+        <entry key="app/src/main/res/layout/item_psycholog.xml" value="0.3129251700680272" />
+        <entry key="app/src/main/res/menu/botton_nav_menu.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
