@@ -11,7 +11,7 @@ import com.aldion.capstonemsib.utils.Preferences
 import com.google.firebase.database.*
 
 class SignInActivity : AppCompatActivity() {
-    private lateinit var signInBinding: ActivitySignInBinding
+    private  var signInBinding: ActivitySignInBinding? = null
     private lateinit var siUsername: String
     private lateinit var siPassword: String
 
@@ -21,7 +21,7 @@ class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         signInBinding = ActivitySignInBinding.inflate(layoutInflater)
-        setContentView(signInBinding.root)
+        setContentView(signInBinding?.root)
 
         mDatabase = FirebaseDatabase.getInstance().getReference("User")
         preference = Preferences(this)
@@ -34,7 +34,7 @@ class SignInActivity : AppCompatActivity() {
             startActivity(goHome)
         }
 
-        signInBinding.apply {
+        signInBinding?.apply {
             btnSignIn.setOnClickListener {
                 siUsername = edtUsername.text.toString()
                 siPassword = edtPassword.text.toString()

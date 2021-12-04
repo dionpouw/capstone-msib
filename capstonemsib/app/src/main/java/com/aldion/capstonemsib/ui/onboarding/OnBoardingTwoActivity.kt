@@ -7,14 +7,14 @@ import com.aldion.capstonemsib.databinding.ActivityOnBoardingTwoBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
 
 class OnBoardingTwoActivity : AppCompatActivity() {
-    private lateinit var onBoardingTwoBinding: ActivityOnBoardingTwoBinding
+    private var onBoardingTwoBinding: ActivityOnBoardingTwoBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         onBoardingTwoBinding = ActivityOnBoardingTwoBinding.inflate(layoutInflater)
-        setContentView(onBoardingTwoBinding.root)
+        setContentView(onBoardingTwoBinding?.root)
 
-        onBoardingTwoBinding.apply {
+        onBoardingTwoBinding?.apply {
             btnNext.setOnClickListener() {
                 val intentNext =
                     Intent(this@OnBoardingTwoActivity, OnBoardingThreeActivity::class.java)

@@ -10,11 +10,11 @@ import com.aldion.capstonemsib.utils.Preferences
 class OnBoardingOneActivity : AppCompatActivity() {
     private lateinit var preference: Preferences
 
-    private lateinit var onBoardingOneBinding: ActivityOnBoardingOneBinding
+    private var onBoardingOneBinding: ActivityOnBoardingOneBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         onBoardingOneBinding = ActivityOnBoardingOneBinding.inflate(layoutInflater)
-        setContentView(onBoardingOneBinding.root)
+        setContentView(onBoardingOneBinding?.root)
 
         preference = Preferences(this)
 
@@ -25,7 +25,7 @@ class OnBoardingOneActivity : AppCompatActivity() {
             startActivity(intentSkip)
         }
 
-        onBoardingOneBinding.apply {
+        onBoardingOneBinding?.apply {
             btnNext.setOnClickListener() {
                 val intentNext =
                     Intent(this@OnBoardingOneActivity, OnBoardingTwoActivity::class.java)
