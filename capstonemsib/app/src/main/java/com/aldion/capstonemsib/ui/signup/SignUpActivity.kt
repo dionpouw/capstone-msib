@@ -10,7 +10,7 @@ import com.aldion.capstonemsib.ui.signin.SignInActivity
 import com.google.firebase.database.*
 
 class SignUpActivity : AppCompatActivity() {
-    private lateinit var signUpBinding: ActivitySignUpBinding
+    private var signUpBinding: ActivitySignUpBinding? = null
     private lateinit var suUsername: String
     private lateinit var suPassword: String
     private lateinit var suName: String
@@ -23,13 +23,13 @@ class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         signUpBinding = ActivitySignUpBinding.inflate(layoutInflater)
-        setContentView(signUpBinding.root)
+        setContentView(signUpBinding?.root)
 
         mFirebaseInstance = FirebaseDatabase.getInstance()
         mDatabase = FirebaseDatabase.getInstance().reference
         mDatabaseReference = mFirebaseInstance.getReference("User")
 
-        signUpBinding.apply {
+        signUpBinding?.apply {
             btnSignUp.setOnClickListener {
                 suUsername = edtUsername.text.toString()
                 suPassword = edtPassword.text.toString()

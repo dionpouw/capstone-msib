@@ -2,13 +2,13 @@ package com.aldion.capstonemsib.ui.testscreen.question
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.aldion.capstonemsib.databinding.ActivityQuestionBinding
+import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
 
-class QuestionActivity : AppCompatActivity() {
-    private var binding: ActivityQuestionBinding? = null
+class QuestionTestActivity : AppCompatActivity() {
+    private var binding: ActivityQuestionTestBinding? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityQuestionBinding.inflate(layoutInflater)
+        binding = ActivityQuestionTestBinding.inflate(layoutInflater)
         setContentView(binding?.root)
     }
 }

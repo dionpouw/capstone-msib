@@ -7,14 +7,14 @@ import com.aldion.capstonemsib.databinding.ActivityOnBoardingThreeBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
 
 class OnBoardingThreeActivity : AppCompatActivity() {
-    private lateinit var onBoardingThreeBinding: ActivityOnBoardingThreeBinding
+    private var onBoardingThreeBinding: ActivityOnBoardingThreeBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         onBoardingThreeBinding = ActivityOnBoardingThreeBinding.inflate(layoutInflater)
-        setContentView(onBoardingThreeBinding.root)
+        setContentView(onBoardingThreeBinding?.root)
 
-        onBoardingThreeBinding.apply {
+        onBoardingThreeBinding?.apply {
             btnNext.setOnClickListener(){
                 finishAffinity()
 
