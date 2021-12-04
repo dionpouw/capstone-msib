@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aldion.capstonemsib">
+    package="com.aldion.capstonemsib" >
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
-    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -15,36 +16,46 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CapstoneMSIB">
+        android:theme="@style/Theme.CapstoneMSIB" >
         <activity
-            android:name="com.aldion.capstonemsib.ui.signup.SignUpActivity"
-            android:theme="@style/Theme.Design.NoActionBar"
+            android:name=".ui.testscreen.result.ResultTestActivity"
             android:exported="false" />
         <activity
-            android:name="com.aldion.capstonemsib.ui.signin.SignInActivity"
-            android:theme="@style/Theme.Design.NoActionBar"
+            android:name=".ui.testscreen.result.ResultActivity"
             android:exported="false" />
         <activity
-            android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingThreeActivity"
-            android:theme="@style/Theme.Design.NoActionBar"
+            android:name=".ui.testscreen.question.QuestionActivity"
             android:exported="false" />
         <activity
-            android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingTwoActivity"
-            android:theme="@style/Theme.Design.NoActionBar"
-            android:exported="false" />
+            android:name=".ui.signup.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
-            android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingOneActivity"
-            android:theme="@style/Theme.Design.NoActionBar"
-            android:exported="true"/>
+            android:name=".ui.signin.SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingThreeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingTwoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".ui.onboarding.OnBoardingOneActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".ui.home.HomeActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

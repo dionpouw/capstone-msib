@@ -51,5 +51,10 @@
     <string name="save_profile">Simpan perubahan</string>
     <string name="username">Nama Pengguna</string>
     <string name="hint_email">Masukkan email kamu</string>
+    <string name="image_result_test">Image Result Test</string>
+    <string name="complete_test">Tes Sudah Selesai</string>
+    <string name="desc_result_test">Dari tes yang sudah kamu lewati, \nsepertinya kamu harus konsultasi deh. \nUntuk langsung konsultasi, kamu bisa \ntekan tombol konsultasi di bawah ini.</string>
+    <string name="back_to_test_category">Kembali ke Kategori Tes</string>
+    <string name="consultation">Konsultasi</string>
 
 </resources>
