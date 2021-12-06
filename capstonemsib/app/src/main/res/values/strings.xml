@@ -63,5 +63,8 @@
     <string name="desc_option_four">Saya sama sekali tidak dapat \nmengambil keputusan</string>
     <string name="next">Selanjutnya</string>
     <string name="previous">Sebelumnya</string>
+    <string name="image_test_bdi">Image Test BDI</string>
+    <string name="title_test_bdi">Test Beck Depression \nInventory (BDI)</string>
+    <string name="desc_test_bdi">Pilihlah satu pernyataan dalam masing-\nmasing kelompok yang paling \nmenggambarkan perasaan kamu 1 bulan \nterakhir, dengan tes ini kamu akan \nmengetahui tingkat kesehatan mental \nkamu.</string>
 
 </resources>
