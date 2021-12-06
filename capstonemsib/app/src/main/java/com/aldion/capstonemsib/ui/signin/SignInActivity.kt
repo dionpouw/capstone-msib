@@ -11,7 +11,7 @@ import com.aldion.capstonemsib.utils.Preferences
 import com.google.firebase.database.*
 
 class SignInActivity : AppCompatActivity() {
-    private  var signInBinding: ActivitySignInBinding? = null
+    private var signInBinding: ActivitySignInBinding? = null
     private lateinit var siUsername: String
     private lateinit var siPassword: String
 
@@ -27,7 +27,7 @@ class SignInActivity : AppCompatActivity() {
         preference = Preferences(this)
 
         preference.setValue("onboarding", "1")
-        if (preference.getValue("status") == "1"){
+        if (preference.getValue("status") == "1") {
             finishAffinity()
 
             val goHome = Intent(this@SignInActivity, HomeActivity::class.java)
@@ -64,7 +64,7 @@ class SignInActivity : AppCompatActivity() {
                     Toast.makeText(this@SignInActivity, "Akun tidak ditemukan", Toast.LENGTH_LONG)
                         .show()
                 } else {
-                    if(user.password.equals(siPassword)){
+                    if (user.password.equals(siPassword)) {
 
                         preference.setValue("name", user.name.toString())
                         preference.setValue("username", user.username.toString())
@@ -77,8 +77,12 @@ class SignInActivity : AppCompatActivity() {
 
                         val intentToHome = Intent(this@SignInActivity, HomeActivity::class.java)
                         startActivity(intentToHome)
-                    } else if (user.password != siPassword){
-                        Toast.makeText(this@SignInActivity, "Password kamu salah", Toast.LENGTH_LONG)
+                    } else if (user.password != siPassword) {
+                        Toast.makeText(
+                            this@SignInActivity,
+                            "Password kamu salah",
+                            Toast.LENGTH_LONG
+                        )
                             .show()
                     }
                 }
