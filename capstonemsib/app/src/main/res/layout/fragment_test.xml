@@ -5,45 +5,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".ui.home.TestFragment">
+    tools:context=".ui.testscreen.TestFragment">
 
 
-    <TextView
-        android:id="@+id/tvTestTitle"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:fontFamily="@font/psemibold"
-        android:text="@string/test_title"
-        android:textColor="@color/black"
-        android:textSize="18sp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/test_bdi"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image_test_bdi"/>
 
     <TextView
-        android:id="@+id/tvDescTestTitle"
+        android:id="@+id/tvTitleTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/title_test_bdi"
+        android:textAlignment="center"
+        android:fontFamily="@font/psemibold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/tvDescTestBDI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:text="@string/desc_test_bdi"
+        android:fontFamily="@font/pregular"
+        android:textSize="14sp"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitleTest"
+        app:layout_constraintStart_toStartOf="@+id/tvTitleTest"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleTest" />
+
+    <Button
+        android:id="@+id/btnStartTest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/desc_test_title"
-        android:textColor="@color/black"
-        android:fontFamily="@font/pregular"
-        app:layout_constraintStart_toStartOf="@+id/tvTestTitle"
-        app:layout_constraintTop_toBottomOf="@+id/tvTestTitle" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        tools:itemCount="3"
-        android:layout_width="0dp"
-        android:paddingBottom="8dp"
-        android:layout_height="595dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/start_test"
+        android:fontFamily="@font/psemibold"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/shape_rectangle_primary"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvDescTestTitle"
-        app:layout_constraintVertical_bias="0.0"
-        tools:listitem="@layout/item_test_type" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDescTestBDI" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
