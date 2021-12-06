@@ -46,7 +46,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvTitleResultTest" />
 
     <Button
-        android:id="@+id/btnBackToTestCategory"
+        android:id="@+id/btnBackToTest"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -54,7 +54,7 @@
         android:layout_marginBottom="24dp"
         android:background="@drawable/shape_rectangle_secondary"
         android:fontFamily="@font/psemibold"
-        android:text="@string/back_to_test_category"
+        android:text="@string/back_to_test"
         android:textAllCaps="false"
         android:textColor="@color/blue"
         android:textSize="18sp"
@@ -75,7 +75,7 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnBackToTestCategory"
+        app:layout_constraintBottom_toTopOf="@+id/btnBackToTest"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
