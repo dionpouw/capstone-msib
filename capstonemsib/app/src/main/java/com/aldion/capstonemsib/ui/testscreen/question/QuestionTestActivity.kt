@@ -6,11 +6,10 @@ import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
 
 class QuestionTestActivity : AppCompatActivity() {
     private var binding: ActivityQuestionTestBinding? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityQuestionTestBinding.inflate(layoutInflater)
         setContentView(binding?.root)
-
-        SetData.getStatement()
     }
 }

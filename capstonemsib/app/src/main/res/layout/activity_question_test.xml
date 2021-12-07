@@ -24,10 +24,10 @@
             android:progressDrawable="@drawable/custom_progressbar"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvNumberOfQuestion" />
+            app:layout_constraintTop_toBottomOf="@+id/tvProgress" />
 
         <TextView
-            android:id="@+id/tvNumberOfQuestion"
+            android:id="@+id/tvProgress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -65,6 +65,8 @@
             android:fontFamily="@font/pmedium"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:text="@string/desc_option_one"
             android:textAllCaps="false"
             android:textColor="@color/blue"
@@ -83,6 +85,8 @@
             android:fontFamily="@font/pmedium"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:text="@string/desc_option_two"
             android:textAllCaps="false"
             android:textColor="@color/blue"
@@ -101,6 +105,8 @@
             android:fontFamily="@font/pmedium"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:text="@string/desc_option_three"
             android:textAllCaps="false"
             android:textColor="@color/blue"
@@ -119,6 +125,8 @@
             android:fontFamily="@font/pmedium"
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
             android:text="@string/desc_option_four"
             android:textAllCaps="false"
             android:textColor="@color/blue"
