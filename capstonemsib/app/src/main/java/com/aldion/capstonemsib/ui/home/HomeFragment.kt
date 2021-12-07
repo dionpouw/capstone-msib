@@ -52,7 +52,6 @@ class HomeFragment : Fragment() {
                 val intent = Intent(activity, TestFragment::class.java)
                 startActivity(intent)
             }
-        }
     }
 
     override fun onDestroyView() {

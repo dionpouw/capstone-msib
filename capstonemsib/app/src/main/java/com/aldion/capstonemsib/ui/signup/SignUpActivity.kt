@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.aldion.capstonemsib.ui.signin.User
+import com.aldion.capstonemsib.data.entity.User
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
 import com.google.firebase.database.*
