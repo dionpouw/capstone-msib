@@ -9,8 +9,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:background="@drawable/shape_rectangle_primary"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle_primary">
 
 
         <ImageView
@@ -19,9 +19,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:background="@color/blue"
-            android:visibility="visible"
             android:contentDescription="@string/image_psycholog"
             android:src="@drawable/home_test"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -34,13 +34,13 @@
             android:ellipsize="end"
             android:fontFamily="@font/psemibold"
             android:maxLines="2"
+            android:text="@string/depression_test"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:visibility="visible"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Tes Depresi" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tv_profil_date"
@@ -55,7 +55,7 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/tv_name_show"
             app:layout_constraintTop_toBottomOf="@+id/tv_name_show"
-            tools:text="Berisi beberapa daftar pertanyaan\nuntuk memeriksa kondisi mental Anda." />
+            android:text="@string/item_home_test_description" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline2"
@@ -69,11 +69,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
+            android:contentDescription="@string/arrow_right_icon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/arrow_right"
-            android:contentDescription="@string/arrow_right_icon" />
+            app:srcCompat="@drawable/arrow_right" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

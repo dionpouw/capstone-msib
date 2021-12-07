@@ -75,5 +75,7 @@
     <string name="halo_name">Halo Risha Amara</string>
     <string name="sign_up_photo_desc">Silahkan masukan foto kamu ya</string>
     <string name="upload_later">Upload nanti</string>
+    <string name="depression_test">Tes Depresi</string>
+    <string name="item_home_test_description">Berisi beberapa daftar pertanyaan\nuntuk memeriksa kondisi mental Anda.</string>
 
 </resources>
