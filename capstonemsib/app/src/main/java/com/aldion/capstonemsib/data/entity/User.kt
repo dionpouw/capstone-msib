@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.ui.signin
+package com.aldion.capstonemsib.data.entity
 
 data class User (
     var email: String? = "",
