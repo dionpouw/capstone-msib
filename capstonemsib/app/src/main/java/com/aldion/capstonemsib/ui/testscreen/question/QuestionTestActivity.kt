@@ -10,5 +10,7 @@ class QuestionTestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityQuestionTestBinding.inflate(layoutInflater)
         setContentView(binding?.root)
+
+        SetData.getStatement()
     }
 }
