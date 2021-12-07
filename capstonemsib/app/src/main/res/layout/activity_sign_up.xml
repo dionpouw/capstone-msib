@@ -129,6 +129,86 @@
             tools:ignore="TextFields" />
 
         <TextView
+            android:id="@+id/tvTelephoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/psemibold"
+            android:text="@string/telephone_number"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtUsername" />
+
+        <EditText
+            android:id="@+id/edtTelephoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/shape_rectangle_edit_text"
+            android:ems="10"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/hint_telephone_number"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/darkerBlack"
+            android:textColorHint="@color/darkerBlack"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvTelephoneNumber"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:id="@+id/tvDateOfBirth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/psemibold"
+            android:text="@string/date_of_birth"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtTelephoneNumber" />
+
+        <EditText
+            android:id="@+id/edtDateOfBirth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/shape_rectangle_edit_text"
+            android:ems="10"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/hint_date_of_birth"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/darkerBlack"
+            android:textColorHint="@color/darkerBlack"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDateOfBirth"
+            tools:ignore="TextFields" />
+
+        <TextView
             android:id="@+id/tvTitleEmail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -142,7 +222,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edtUsername" />
+            app:layout_constraintTop_toBottomOf="@+id/edtDateOfBirth" />
 
         <TextView
             android:id="@+id/tvTitlePassword"
@@ -215,7 +295,7 @@
             android:layout_marginTop="24dp"
             android:background="@drawable/shape_rectangle_primary"
             android:fontFamily="@font/psemibold"
-            android:text="@string/create_account"
+            android:text="@string/next"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="18sp"
