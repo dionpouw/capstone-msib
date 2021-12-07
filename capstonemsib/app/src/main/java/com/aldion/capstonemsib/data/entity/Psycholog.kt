@@ -8,5 +8,6 @@ data class Psycholog(
     val id:Int,
     val name:String,
     val experienceYear:Int,
-    val consultationPrice:Int
+    val consultationPrice:Int,
+    val imagePath:String
 ):Parcelable

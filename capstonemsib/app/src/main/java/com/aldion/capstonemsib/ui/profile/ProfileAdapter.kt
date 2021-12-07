@@ -1,24 +1,41 @@
 package com.aldion.capstonemsib.ui.profile
 
-import android.view.View
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.aldion.capstonemsib.data.entity.Transaction
+import com.aldion.capstonemsib.databinding.ItemProfilHistoryBinding
 
-class ProfileAdapter : RecyclerView.Adapter<ProfileAdapter.ViewHolder>() {
+class ProfileAdapter : RecyclerView.Adapter<ProfileAdapter.ListViewHolder>() {
+    private var listTransaction = ArrayList<Transaction>()
 
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
+    fun setTransaction(transaction: List<Transaction>) {
+        this.listTransaction.clear()
+        this.listTransaction.addAll(transaction)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        TODO("Not yet implemented")
+    inner class ListViewHolder(private val binding: ItemProfilHistoryBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(transaction: Transaction) {
+            with(binding) {
+                tvNameShow.text = transaction.transactionTime
+                tvPricePsycholog.text = transaction.
+
+            }
+        }
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
+        val binding =
+            ItemProfilHistoryBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return ListViewHolder(binding)
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
+        val transaction = listTransaction[position]
+        holder.bind(transaction)
     }
+
+    override fun getItemCount(): Int = listTransaction.size
 }

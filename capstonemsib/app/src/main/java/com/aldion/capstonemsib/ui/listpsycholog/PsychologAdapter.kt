@@ -1,23 +1,43 @@
 package com.aldion.capstonemsib.ui.listpsycholog
 
-import android.view.View
+import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.aldion.capstonemsib.data.entity.Psycholog
+import com.aldion.capstonemsib.databinding.ItemPsychologBinding
+import com.bumptech.glide.Glide
 
-class PsychologAdapter : RecyclerView.Adapter<PsychologAdapter.ViewHolder>() {
-    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class PsychologAdapter : RecyclerView.Adapter<PsychologAdapter.ListViewHolder>() {
+    private var listPsycholog = ArrayList<Psycholog>()
 
+    fun setPsycholog(psycholog: List<Psycholog>) {
+        this.listPsycholog.clear()
+        this.listPsycholog.addAll(psycholog)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        TODO("Not yet implemented")
+    inner class ListViewHolder(private val binding: ItemPsychologBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun bind(psycholog: Psycholog) {
+            with(binding) {
+                tvNameShow.text = psycholog.name
+                tvPricePsycholog.text = psycholog.consultationPrice.toString()
+                Glide.with(itemView.context)
+                    .load(psycholog.imagePath)
+                    .into(imageView)
+            }
+        }
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+    override fun getItemCount(): Int = listPsycholog.size
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
+        val binding =
+            ItemPsychologBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return ListViewHolder(binding)
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
+        val psycholog = listPsycholog[position]
+        holder.bind(psycholog)
     }
 }
