@@ -5,13 +5,21 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.aldion.capstonemsib.R
+import com.aldion.capstonemsib.data.entity.Psycholog
+import com.aldion.capstonemsib.data.entity.Transaction
 import com.aldion.capstonemsib.databinding.FragmentProfileBinding
 import com.aldion.capstonemsib.databinding.FragmentTestBinding
+import com.aldion.capstonemsib.ui.home.HomeAdapter
 
 class ProfileFragment : Fragment() {
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding
+
+    private var listTransaction = ProfileAdapter()
+
+    private var datalist = ArrayList<Transaction>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -24,6 +32,15 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        datalist.add(Transaction(1,"2021-2101"))
+        listTransaction.setTransaction(datalist)
+        binding?.apply {
+            rvProfileHistory.apply {
+                layoutManager = LinearLayoutManager(context)
+                adapter = listTransaction
+            }
+        }
+
     }
 
     override fun onDestroyView() {

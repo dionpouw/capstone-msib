@@ -18,13 +18,12 @@ class ProfileAdapter : RecyclerView.Adapter<ProfileAdapter.ListViewHolder>() {
         RecyclerView.ViewHolder(binding.root) {
         fun bind(transaction: Transaction) {
             with(binding) {
-                tvNameShow.text = transaction.transactionTime
-                tvPricePsycholog.text = transaction.
-
+                tvNamePsycholog.text = transaction.id.toString()
+                tvProfilDate.text = transaction.transactionTime
+                tvPricePsycholog.text = transaction.transactionTime
             }
         }
     }
-
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
         val binding =
