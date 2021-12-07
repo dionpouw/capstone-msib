@@ -68,5 +68,7 @@
     <string name="desc_test_bdi">Dengan tes ini, kamu akan mengetahui \ntingkat kesehatan mental \nkamu.</string>
     <string name="test_instructions">Pilihlah satu pernyataan dalam masing-masing kelompok yang paling menggambarkan perasaan Anda 1 bulan terakhir</string>
     <string name="arrow_right_icon">arrow right icon</string>
+    <string name="depression_test">Tes Depresi</string>
+    <string name="item_home_test_description">Berisi beberapa daftar pertanyaan\nuntuk memeriksa kondisi mental Anda.</string>
 
 </resources>
