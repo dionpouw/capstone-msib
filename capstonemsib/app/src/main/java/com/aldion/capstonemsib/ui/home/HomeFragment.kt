@@ -52,7 +52,7 @@ class HomeFragment : Fragment() {
                 .apply(RequestOptions.circleCropTransform())
                 .into(ivProfile)
 
-            Log.v("test", "url " + preferences.getValues("url"))
+            Log.v("test", "url " + preferences.getValue("url"))
 
             rvHomeFragment.apply {
                 layoutManager = LinearLayoutManager(context)
