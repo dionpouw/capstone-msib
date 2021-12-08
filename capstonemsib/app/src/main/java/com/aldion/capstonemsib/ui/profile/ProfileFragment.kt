@@ -6,12 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.aldion.capstonemsib.R
-import com.aldion.capstonemsib.data.entity.Psycholog
 import com.aldion.capstonemsib.data.entity.Transaction
 import com.aldion.capstonemsib.databinding.FragmentProfileBinding
-import com.aldion.capstonemsib.databinding.FragmentTestBinding
-import com.aldion.capstonemsib.ui.home.HomeAdapter
 import com.aldion.capstonemsib.utils.Preferences
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
