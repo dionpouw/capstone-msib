@@ -97,9 +97,7 @@ class SignUpActivity : AppCompatActivity() {
         user.password = suPassword
         user.telephoneNumber = suTelephoneNumber
         user.dateOfBirth = suDateOfBirth
-        if (suUsername != null) {
-            checkingUsername(suUsername, user)
-        }
+        checkingUsername(suUsername, user)
     }
 
     private fun checkingUsername(suUsername: String, data: User) {

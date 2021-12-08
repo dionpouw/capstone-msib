@@ -20,16 +20,11 @@ import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.firebase.database.*
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-import com.karumi.dexter.PermissionToken
-import com.karumi.dexter.listener.PermissionDeniedResponse
-import com.karumi.dexter.listener.PermissionGrantedResponse
-import com.karumi.dexter.listener.single.PermissionListener
 import java.util.*
 
-class SignUpPhotoScreenActivity : AppCompatActivity(), PermissionListener {
+class SignUpPhotoScreenActivity : AppCompatActivity(){
     private var binding: ActivitySignUpPhotoScreenBinding? = null
 
-    val REQUEST_IMAGE_CAPTURE = 1
     var statusAdd:Boolean = false
     lateinit var filePath: Uri
 
@@ -108,22 +103,6 @@ class SignUpPhotoScreenActivity : AppCompatActivity(), PermissionListener {
                 }
             }
         }
-    }
-
-    override fun onPermissionGranted(response: PermissionGrantedResponse?) {
-        ImagePicker.with(this)
-            .cameraOnly()	//User can only capture image using Camera
-            .start()
-    }
-
-    override fun onPermissionDenied(response: PermissionDeniedResponse?) {
-        Toast.makeText(this, "Anda tidak bisa menambahkan photo profile", Toast.LENGTH_LONG ).show()
-    }
-
-    override fun onPermissionRationaleShouldBeShown(
-        permission: com.karumi.dexter.listener.PermissionRequest?,
-        token: PermissionToken?
-    ) {
     }
 
     override fun onBackPressed() {
