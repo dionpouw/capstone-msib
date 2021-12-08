@@ -86,5 +86,16 @@
     <string name="exp_username">rishaamara</string>
     <string name="search_psikolog">Cari psikolog</string>
     <string name="psychologist_lis">Daftar Psikolog</string>
+    <string name="image_detail_psycholog">Image detail psycholog</string>
+    <string name="exp_psycholog_name">Moch Akbar Zulfikar M.Psi</string>
+    <string name="exp_psycholog_type">Psikologi klinis dewasa</string>
+    <string name="exp_psycholog_experience">5 Tahun Pengalaman</string>
+    <string name="alumni">Alumni</string>
+    <string name="exp_psycholog_alumni">Universitas Pendidikan Indonesia, 2019</string>
+    <string name="practice_place">Tempat Praktik</string>
+    <string name="exp_psycholog_practice_place">Biro psikologi Laksita Educare Yogyakarta \ndan Rektorat Kemahasiswaan UII DIY, Yogyakarta</string>
+    <string name="str_number">Nomor STR</string>
+    <string name="exp_psycholog_str_number">72329323764346374372</string>
+    <string name="chat_now">Chat Sekarang</string>
 
 </resources>
