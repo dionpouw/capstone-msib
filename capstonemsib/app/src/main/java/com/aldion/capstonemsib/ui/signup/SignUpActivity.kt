@@ -6,7 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.aldion.capstonemsib.data.entity.User
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
-import com.aldion.capstonemsib.ui.signin.SignInActivity
+import com.aldion.capstonemsib.utils.Preferences
 import com.google.firebase.database.*
 
 class SignUpActivity : AppCompatActivity() {
@@ -22,6 +22,8 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var mFirebaseInstance: FirebaseDatabase
     private lateinit var mDatabase: DatabaseReference
 
+    private lateinit var preferences: Preferences
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         signUpBinding = ActivitySignUpBinding.inflate(layoutInflater)
@@ -30,6 +32,8 @@ class SignUpActivity : AppCompatActivity() {
         mFirebaseInstance = FirebaseDatabase.getInstance()
         mDatabase = FirebaseDatabase.getInstance().reference
         mDatabaseReference = mFirebaseInstance.getReference("User")
+
+        preferences = Preferences(this)
 
         signUpBinding?.apply {
             btnSignUp.setOnClickListener {
@@ -43,36 +47,37 @@ class SignUpActivity : AppCompatActivity() {
                 if (suUsername == "" || suUsername.isEmpty()) {
                     edtUsername.error = "Silakan masukkan nama pengguna terlebih dahulu!"
                     edtUsername.requestFocus()
-                } else if (suPassword == "" || suPassword.isEmpty()) {
-                    edtPassword.error = "Silakan masukkan password terlebih dahulu!"
-                    edtPassword.requestFocus()
                 } else if (suName == "" || suName.isEmpty()) {
                     edtName.error = "Silakan masukkan nama terlebih dahulu!"
                     edtName.requestFocus()
-                } else if (suEmail == "" || suEmail.isEmpty()) {
-                    edtEmail.error = "Silakan masukkan email terlebih dahulu!"
-                    edtEmail.requestFocus()
                 } else if (suTelephoneNumber == "" || suTelephoneNumber.isEmpty()) {
                     edtTelephoneNumber.error = "Silakan masukkan nomor telephone terlebih dahulu!"
                     edtTelephoneNumber.requestFocus()
                 } else if (suDateOfBirth == "" || suDateOfBirth.isEmpty()) {
                     edtDateOfBirth.error = "Silakan masukkan tanggal lahir terlebih dahulu!"
                     edtDateOfBirth.requestFocus()
+                } else if (suEmail == "" || suEmail.isEmpty()) {
+                    edtEmail.error = "Silakan masukkan email terlebih dahulu!"
+                    edtEmail.requestFocus()
+                } else if (suPassword == "" || suPassword.isEmpty()) {
+                    edtPassword.error = "Silakan masukkan password terlebih dahulu!"
+                    edtPassword.requestFocus()
                 } else {
-                    saveUsername(
-                        suUsername,
-                        suPassword,
-                        suName,
-                        suEmail,
-                        suTelephoneNumber,
-                        suDateOfBirth
-                    )
+                    val statusUsername = suUsername.indexOf(".")
+                    if (statusUsername>=0){
+                        edtUsername.error = "Silahkan tulis Username Anda tanpa ."
+                        edtUsername.requestFocus()
+                    } else {
+                        saveUsername(
+                            suUsername,
+                            suPassword,
+                            suName,
+                            suEmail,
+                            suTelephoneNumber,
+                            suDateOfBirth
+                        )
+                    }
                 }
-            }
-
-            btnSignIn.setOnClickListener {
-                val intentSignUp = Intent(this@SignUpActivity, SignInActivity::class.java)
-                startActivity(intentSignUp)
             }
         }
     }
@@ -92,7 +97,9 @@ class SignUpActivity : AppCompatActivity() {
         user.password = suPassword
         user.telephoneNumber = suTelephoneNumber
         user.dateOfBirth = suDateOfBirth
-        checkingUsername(suUsername, user)
+        if (suUsername != null) {
+            checkingUsername(suUsername, user)
+        }
     }
 
     private fun checkingUsername(suUsername: String, data: User) {
@@ -102,9 +109,18 @@ class SignUpActivity : AppCompatActivity() {
                 if (user == null) {
                     mDatabaseReference.child(suUsername).setValue(data)
 
+                    preferences.setValue("email", data.email.toString())
+                    preferences.setValue("name", data.name.toString())
+                    preferences.setValue("dateOfBirth", data.dateOfBirth.toString())
+                    preferences.setValue("telephoneNumber", data.telephoneNumber.toString())
+                    preferences.setValue("username", data.username.toString())
+                    preferences.setValue("url", "")
+                    preferences.setValue("status", "1")
+
                     val intentSignUpPhotoScreen = Intent(
                         this@SignUpActivity,
-                        SignUpPhotoScreenActivity::class.java).putExtra("name", user?.name)
+                        SignUpPhotoScreenActivity::class.java
+                    ).putExtra("data", data)
                     startActivity(intentSignUpPhotoScreen)
 
                 } else {
@@ -120,7 +136,6 @@ class SignUpActivity : AppCompatActivity() {
             override fun onCancelled(error: DatabaseError) {
                 Toast.makeText(this@SignUpActivity, "" + error.message, Toast.LENGTH_LONG).show()
             }
-
         })
     }
 }
