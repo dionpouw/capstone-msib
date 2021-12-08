@@ -7,7 +7,7 @@
     tools:context=".ui.profile.ProfileFragment">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvTitleProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -37,10 +37,9 @@
             android:layout_height="match_parent">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/circleImageView"
+                android:id="@+id/imgProfile"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
-
                 android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.492"
@@ -57,9 +56,9 @@
                 android:text="@string/exp_name"
                 android:textSize="18sp"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/circleImageView"
-                app:layout_constraintStart_toStartOf="@+id/circleImageView"
-                app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                app:layout_constraintEnd_toEndOf="@+id/imgProfile"
+                app:layout_constraintStart_toStartOf="@+id/imgProfile"
+                app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
 
             <TextView
                 android:id="@+id/tv_profil_email"
