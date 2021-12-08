@@ -79,5 +79,10 @@
     <string name="item_home_test_description">Berisi beberapa daftar pertanyaan\nuntuk memeriksa kondisi mental Anda.</string>
     <string name="img_sign_up">Image Sign Up Photo Screen</string>
     <string name="add_image">Add image</string>
+    <string name="exp_name">Risha Amara</string>
+    <string name="exp_email">rishaamara95@gmail.com</string>
+    <string name="exp_date_of_birth">01 Januari 2000</string>
+    <string name="exp_number_phone">08211212121221</string>
+    <string name="exp_username">rishaamara</string>
 
 </resources>

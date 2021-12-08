@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.profile.ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -20,76 +19,111 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="420dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/shape_rectangle_secondary"
         android:gravity="center"
-        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/circleImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/sample_psikolog" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
 
-        <TextView
-            android:id="@+id/tv_profil_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:fontFamily="@font/psemibold"
-            android:text="Risha Amara"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="@+id/circleImageView"
-            app:layout_constraintStart_toStartOf="@+id/circleImageView"
-            app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnEdit"
+                tools:src="@drawable/sample_psikolog" />
 
-        <TextView
-            android:id="@+id/tv_profil_email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pregular"
-            android:text="rishaamara95@gmail.com"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="@+id/tv_profil_name"
-            app:layout_constraintStart_toStartOf="@+id/tv_profil_name"
-            app:layout_constraintTop_toBottomOf="@+id/tv_profil_name" />
+            <TextView
+                android:id="@+id/tv_profil_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/psemibold"
+                android:text="@string/exp_name"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+                app:layout_constraintStart_toStartOf="@+id/circleImageView"
+                app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
-        <TextView
-            android:id="@+id/tv_profil_date_birth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pregular"
-            android:text="01 Januari 2000"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="@+id/tv_profil_email"
-            app:layout_constraintStart_toStartOf="@+id/tv_profil_email"
-            app:layout_constraintTop_toBottomOf="@+id/tv_profil_email" />
+            <TextView
+                android:id="@+id/tv_profil_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/pregular"
+                android:text="@string/exp_email"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/tv_profil_name"
+                app:layout_constraintStart_toStartOf="@+id/tv_profil_name"
+                app:layout_constraintTop_toBottomOf="@+id/tv_profil_name" />
 
-        <TextView
-            android:id="@+id/tv_profil_phone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pregular"
-            android:text="08211212121221"
-            android:textColor="@color/black"
-            app:layout_constraintEnd_toEndOf="@+id/tv_profil_date_birth"
-            app:layout_constraintStart_toStartOf="@+id/tv_profil_date_birth"
-            app:layout_constraintTop_toBottomOf="@+id/tv_profil_date_birth" />
+            <TextView
+                android:id="@+id/tv_profil_date_birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/pregular"
+                android:text="@string/exp_date_of_birth"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/tv_profil_email"
+                app:layout_constraintStart_toStartOf="@+id/tv_profil_email"
+                app:layout_constraintTop_toBottomOf="@+id/tv_profil_email" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/tv_profil_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/pregular"
+                android:text="@string/exp_number_phone"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/tv_profil_date_birth"
+                app:layout_constraintStart_toStartOf="@+id/tv_profil_date_birth"
+                app:layout_constraintTop_toBottomOf="@+id/tv_profil_date_birth" />
+
+            <ImageView
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/edit_profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/pregular"
+                android:text="@string/exp_username"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="@+id/tv_profil_phone"
+                app:layout_constraintStart_toStartOf="@+id/tv_profil_phone"
+                app:layout_constraintTop_toBottomOf="@+id/tv_profil_phone" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/tv_profil_riwayat"
