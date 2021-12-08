@@ -39,13 +39,14 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         preferences = Preferences(requireActivity().applicationContext)
-        mDatabase = FirebaseDatabase.getInstance().getReference("Psychology")
+        mDatabase = FirebaseDatabase.getInstance().getReference("Psychologist")
 
         datalist.add(Psycholog(1,"Aldion",2021,2000000,"adsasd"))
         listPsycholog.setPsycholog(datalist)
+
         binding?.apply {
-            //tvName.text = preferences.getValue("name")
-            tvName.text = getString(R.string.hi_natasya)
+            tvName.text = preferences.getValue("name")
+            //tvName.text = getString(R.string.hi_natasya)
 
             Glide.with(this@HomeFragment)
                 .load(preferences.getValue("url"))
