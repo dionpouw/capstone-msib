@@ -1,43 +1,58 @@
 package com.aldion.capstonemsib.ui.home
 
+import android.content.Context
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.aldion.capstonemsib.data.entity.Psycholog
-import com.aldion.capstonemsib.databinding.ItemPsychologBinding
+import com.aldion.capstonemsib.R
+import com.aldion.capstonemsib.data.entity.Psychologist
 import com.bumptech.glide.Glide
 
-class HomeAdapter : RecyclerView.Adapter<HomeAdapter.ListViewHolder>() {
-    private var listPsycholog = ArrayList<Psycholog>()
+class HomeAdapter(
+    private var data: List<Psychologist>,
+    private val listener: (Psychologist) -> Unit
+) : RecyclerView.Adapter<HomeAdapter.ListViewHolder>() {
 
-    fun setPsycholog(psycholog: List<Psycholog>) {
-        this.listPsycholog.clear()
-        this.listPsycholog.addAll(psycholog)
-    }
+    lateinit var contextAdapter: Context
 
-    inner class ListViewHolder(private val binding: ItemPsychologBinding) :
-        RecyclerView.ViewHolder(binding.root) {
-        fun bind(psycholog: Psycholog) {
-            with(binding) {
-                tvNameShow.text = psycholog.name
-                tvPricePsycholog.text = psycholog.consultationPrice.toString()
-                Glide.with(itemView.context)
-                    .load(psycholog.imagePath)
-                    .into(imageView)
+    class ListViewHolder (view : View) : RecyclerView.ViewHolder(view) {
+        private val tvName: TextView = view.findViewById(R.id.tv_name_show)
+        private val tvType: TextView = view.findViewById(R.id.tv_type)
+        private val tvExperience: TextView = view.findViewById(R.id.tvExperience)
+
+        private val tvImage: ImageView = view.findViewById(R.id.iv_poster_image)
+
+        fun bindItem(data: Psychologist, listener: (Psychologist) -> Unit, context: Context, position: Int) {
+
+            tvName.text = data.name
+            tvType.text = data.type
+            tvExperience.text = data.workExperience
+
+            Glide.with(context)
+                .load(data.url)
+                .into(tvImage);
+
+            itemView.setOnClickListener {
+                listener(data)
             }
         }
     }
 
-    override fun getItemCount(): Int = listPsycholog.size
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeAdapter.ListViewHolder {
+        val layoutInflater = LayoutInflater.from(parent.context)
+        contextAdapter = parent.context
+        val inflatedView: View =
+            layoutInflater.inflate(R.layout.item_psycholog, parent, false)
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        val binding =
-            ItemPsychologBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-        return ListViewHolder(binding)
+        return ListViewHolder(inflatedView)
     }
 
-    override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val psycholog = listPsycholog[position]
-        holder.bind(psycholog)
+    override fun onBindViewHolder(holder: HomeAdapter.ListViewHolder, position: Int) {
+        holder.bindItem(data[position], listener, contextAdapter, position)
     }
+
+    override fun getItemCount(): Int = data.size
 }

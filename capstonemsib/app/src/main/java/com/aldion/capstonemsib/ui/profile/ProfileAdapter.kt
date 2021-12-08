@@ -17,11 +17,11 @@ class ProfileAdapter : RecyclerView.Adapter<ProfileAdapter.ListViewHolder>() {
     inner class ListViewHolder(private val binding: ItemProfilHistoryBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(transaction: Transaction) {
-            with(binding) {
-                tvNamePsycholog.text = transaction.id.toString()
-                tvProfilDate.text = transaction.transactionTime
-                tvPricePsycholog.text = transaction.transactionTime
-            }
+//            with(binding) {
+//                tvNamePsycholog.text = transaction.id.toString()
+//                tvProfilDate.text = transaction.transactionTime
+//                tvPricePsycholog.text = transaction.transactionTime
+//            }
         }
     }
 

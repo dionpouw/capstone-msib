@@ -3,28 +3,28 @@ package com.aldion.capstonemsib.ui.listpsycholog
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.aldion.capstonemsib.data.entity.Psycholog
+import com.aldion.capstonemsib.data.entity.Psychologist
 import com.aldion.capstonemsib.databinding.ItemPsychologBinding
 import com.bumptech.glide.Glide
 
 class PsychologAdapter : RecyclerView.Adapter<PsychologAdapter.ListViewHolder>() {
-    private var listPsycholog = ArrayList<Psycholog>()
+    private var listPsycholog = ArrayList<Psychologist>()
 
-    fun setPsycholog(psycholog: List<Psycholog>) {
+    fun setPsycholog(psychologist: List<Psychologist>) {
         this.listPsycholog.clear()
-        this.listPsycholog.addAll(psycholog)
+        this.listPsycholog.addAll(psychologist)
     }
 
     inner class ListViewHolder(private val binding: ItemPsychologBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(psycholog: Psycholog) {
-            with(binding) {
-                tvNameShow.text = psycholog.name
-                tvPricePsycholog.text = psycholog.consultationPrice.toString()
-                Glide.with(itemView.context)
-                    .load(psycholog.imagePath)
-                    .into(imageView)
-            }
+        fun bind(psychologist: Psychologist) {
+//            with(binding) {
+//                tvNameShow.text = psychologist.name
+//                tvPricePsycholog.text = psychologist.consultationPrice.toString()
+//                Glide.with(itemView.context)
+//                    .load(psychologist.imagePath)
+//                    .into(imageView)
+//            }
         }
     }
 
