@@ -4,9 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.aldion.capstonemsib.data.entity.User
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
-import com.aldion.capstonemsib.ui.signin.User
 import com.google.firebase.database.*
 
 class SignUpActivity : AppCompatActivity() {
@@ -15,6 +15,8 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var suPassword: String
     private lateinit var suName: String
     private lateinit var suEmail: String
+    private lateinit var suTelephoneNumber: String
+    private lateinit var suDateOfBirth: String
 
     private lateinit var mDatabaseReference: DatabaseReference
     private lateinit var mFirebaseInstance: FirebaseDatabase
@@ -35,6 +37,8 @@ class SignUpActivity : AppCompatActivity() {
                 suPassword = edtPassword.text.toString()
                 suName = edtName.text.toString()
                 suEmail = edtEmail.text.toString()
+                suTelephoneNumber = edtTelephoneNumber.text.toString()
+                suDateOfBirth = edtDateOfBirth.text.toString()
 
                 if (suUsername == "" || suUsername.isEmpty()) {
                     edtUsername.error = "Silakan masukkan nama pengguna terlebih dahulu!"
@@ -48,8 +52,21 @@ class SignUpActivity : AppCompatActivity() {
                 } else if (suEmail == "" || suEmail.isEmpty()) {
                     edtEmail.error = "Silakan masukkan email terlebih dahulu!"
                     edtEmail.requestFocus()
+                } else if (suTelephoneNumber == "" || suTelephoneNumber.isEmpty()) {
+                    edtTelephoneNumber.error = "Silakan masukkan nomor telephone terlebih dahulu!"
+                    edtTelephoneNumber.requestFocus()
+                } else if (suDateOfBirth == "" || suDateOfBirth.isEmpty()) {
+                    edtDateOfBirth.error = "Silakan masukkan tanggal lahir terlebih dahulu!"
+                    edtDateOfBirth.requestFocus()
                 } else {
-                    saveUsername(suUsername, suPassword, suName, suEmail)
+                    saveUsername(
+                        suUsername,
+                        suPassword,
+                        suName,
+                        suEmail,
+                        suTelephoneNumber,
+                        suDateOfBirth
+                    )
                 }
             }
 
@@ -64,14 +81,17 @@ class SignUpActivity : AppCompatActivity() {
         suUsername: String,
         suPassword: String,
         suName: String,
-        suEmail: String
+        suEmail: String,
+        suTelephoneNumber: String,
+        suDateOfBirth: String
     ) {
         val user = User()
         user.email = suEmail
         user.username = suUsername
         user.name = suName
         user.password = suPassword
-
+        user.telephoneNumber = suTelephoneNumber
+        user.dateOfBirth = suDateOfBirth
         checkingUsername(suUsername, user)
     }
 
@@ -82,8 +102,10 @@ class SignUpActivity : AppCompatActivity() {
                 if (user == null) {
                     mDatabaseReference.child(suUsername).setValue(data)
 
-                    val intentSignIn = Intent(this@SignUpActivity, SignInActivity::class.java)
-                    startActivity(intentSignIn)
+                    val intentSignUpPhotoScreen = Intent(
+                        this@SignUpActivity,
+                        SignUpPhotoScreenActivity::class.java).putExtra("name", user?.name)
+                    startActivity(intentSignUpPhotoScreen)
 
                 } else {
                     Toast.makeText(
