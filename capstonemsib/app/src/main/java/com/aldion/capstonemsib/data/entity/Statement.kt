@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.data
+package com.aldion.capstonemsib.data.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
