@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.ui.home
+package com.aldion.capstonemsib.ui.listpsycholog
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -11,10 +11,10 @@ import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Psychologist
 import com.bumptech.glide.Glide
 
-class HomeAdapter(
+class PsychologistAdapter(
     private var data: List<Psychologist>,
     private val listener: (Psychologist) -> Unit
-) : RecyclerView.Adapter<HomeAdapter.ListViewHolder>() {
+) : RecyclerView.Adapter<PsychologistAdapter.ListViewHolder>() {
 
     private lateinit var contextAdapter: Context
 
