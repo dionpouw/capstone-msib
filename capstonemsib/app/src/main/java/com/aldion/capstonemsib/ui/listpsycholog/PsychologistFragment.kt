@@ -1,6 +1,5 @@
-package com.aldion.capstonemsib.ui.home
+package com.aldion.capstonemsib.ui.listpsycholog
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,20 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Psychologist
-import com.aldion.capstonemsib.databinding.FragmentHomeBinding
-import com.aldion.capstonemsib.ui.listpsycholog.DetailPsychologistActivity
+import com.aldion.capstonemsib.databinding.FragmentPsychologBinding
 import com.aldion.capstonemsib.utils.Preferences
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import com.google.firebase.database.*
 
-class HomeFragment : Fragment() {
+class PsychologistFragment : Fragment() {
 
-    private var _binding: FragmentHomeBinding? = null
+    private var _binding: FragmentPsychologBinding? = null
     private val binding get() = _binding
 
     private lateinit var preferences: Preferences
@@ -33,35 +27,23 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        _binding = FragmentPsychologBinding.inflate(inflater, container, false)
         return binding?.root
     }
 
-    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         preferences = Preferences(requireActivity().applicationContext)
         mDatabase = FirebaseDatabase.getInstance().getReference("psychologist")
 
         binding?.apply {
-            tvName.text = "Halo "+ preferences.getValue("name")+","
-
-            Glide.with(this@HomeFragment)
-                .load(preferences.getValue("url"))
-                .apply(RequestOptions.circleCropTransform())
-                .into(ivProfile)
-
-            rvHomeFragment.layoutManager = LinearLayoutManager(requireContext().applicationContext)
+            rvPsychologist.layoutManager = LinearLayoutManager(requireContext().applicationContext)
             getData()
-
-            itemHomeTest.iRight.setOnClickListener(
-                Navigation.createNavigateOnClickListener(R.id.action_navigation_home_to_navigation_test)
-            )
         }
     }
 
     private fun getData() {
-        mDatabase.addValueEventListener(object : ValueEventListener{
+        mDatabase.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 datalist.clear()
                 for (getDataSnapshot in snapshot.children){
@@ -71,7 +53,7 @@ class HomeFragment : Fragment() {
 
                 binding?.apply {
                     if (datalist.isNotEmpty()) {
-                        rvHomeFragment.adapter = HomeAdapter(datalist) {
+                        rvPsychologist.adapter = PsychologistAdapter(datalist) {
                             val intent = Intent(
                                 context,
                                 DetailPsychologistActivity::class.java
