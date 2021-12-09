@@ -9,15 +9,15 @@
     tools:context=".ui.listpsycholog.DetailPsychologistActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="30dp"
+            android:layout_marginEnd="16dp"
             android:paddingBottom="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -124,7 +124,7 @@
 
                 <TextView
                     android:id="@+id/tvPracticePlace"
-                    android:layout_width="294dp"
+                    android:layout_width="0dp"
                     android:layout_height="60dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
@@ -156,11 +156,9 @@
                     android:layout_height="36dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="16dp"
                     android:fontFamily="@font/pregular"
                     android:text="@string/exp_psycholog_str_number"
                     android:textSize="14sp"
-                    app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tvTitleSTRNumber" />
 
@@ -172,12 +170,12 @@
                     android:layout_marginTop="24dp"
                     android:layout_marginEnd="60dp"
                     android:layout_marginBottom="16dp"
-                    android:text="@string/chat_now"
-                    android:textColor="@color/white"
-                    android:fontFamily="@font/pmedium"
-                    android:textSize="16sp"
-                    android:textAllCaps="false"
                     android:background="@drawable/shape_rectangle_primary"
+                    android:fontFamily="@font/pmedium"
+                    android:text="@string/chat_now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
