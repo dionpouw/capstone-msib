@@ -1,5 +1,6 @@
 package com.aldion.capstonemsib.ui.home
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -37,16 +38,14 @@ class HomeFragment : Fragment() {
         return binding?.root
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         preferences = Preferences(requireActivity().applicationContext)
         mDatabase = FirebaseDatabase.getInstance().getReference("psychologist")
 
-//        datalist.add(Psycholog(1,"Aldion",2021,2000000,"adsasd"))
-//        listPsycholog.setPsycholog(datalist)
-
         binding?.apply {
-            tvName.text = preferences.getValue("name")
+            tvName.text = "Halo "+ preferences.getValue("name")+","
 
             Glide.with(this@HomeFragment)
                 .load(preferences.getValue("url"))
@@ -54,11 +53,6 @@ class HomeFragment : Fragment() {
                 .into(ivProfile)
 
             Log.v("test", "url " + preferences.getValue("url"))
-
-//            rvHomeFragment.apply {
-//                layoutManager = LinearLayoutManager(context)
-//                adapter = listPsycholog
-//            }
 
             rvHomeFragment.layoutManager = LinearLayoutManager(requireContext().applicationContext)
             getData()
@@ -96,7 +90,6 @@ class HomeFragment : Fragment() {
             }
         })
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
