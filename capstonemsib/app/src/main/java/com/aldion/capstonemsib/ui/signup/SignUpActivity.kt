@@ -64,7 +64,7 @@ class SignUpActivity : AppCompatActivity() {
                     edtPassword.requestFocus()
                 } else {
                     val statusUsername = suUsername.indexOf(".")
-                    if (statusUsername>=0){
+                    if (statusUsername >= 0) {
                         edtUsername.error = "Silahkan tulis Username Anda tanpa ."
                         edtUsername.requestFocus()
                     } else {
