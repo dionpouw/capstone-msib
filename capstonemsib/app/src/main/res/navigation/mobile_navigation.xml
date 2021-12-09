@@ -54,4 +54,28 @@
         android:name="com.aldion.capstonemsib.ui.profile.ProfileEditFragment"
         android:label="fragment_profile_edit"
         tools:layout="@layout/fragment_profile_edit" />
+    <activity
+        android:id="@+id/resultTestActivity"
+        android:name="com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity"
+        android:label="activity_result_test"
+        tools:layout="@layout/activity_result_test" />
+    <activity
+        android:id="@+id/detailPsychologistActivity"
+        android:name="com.aldion.capstonemsib.ui.listpsycholog.DetailPsychologistActivity"
+        android:label="activity_detail_psychologist"
+        tools:layout="@layout/activity_detail_psychologist" />
+    <activity
+        android:id="@+id/questionTestActivity"
+        android:name="com.aldion.capstonemsib.ui.testscreen.question.QuestionTestActivity"
+        android:label="activity_question_test"
+        tools:layout="@layout/activity_question_test" />
+    <activity
+        android:id="@+id/signUpPhotoScreenActivity"
+        android:name="com.aldion.capstonemsib.ui.signup.SignUpPhotoScreenActivity"
+        android:label="activity_sign_up_photo_screen"
+        tools:layout="@layout/activity_sign_up_photo_screen" />
+    <activity
+        android:id="@+id/signUpActivity"
+        android:name="com.aldion.capstonemsib.ui.signup.SignUpActivity"
+        android:label="SignUpActivity" />
 </navigation>
