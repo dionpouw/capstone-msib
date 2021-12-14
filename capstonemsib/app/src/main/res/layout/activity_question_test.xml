@@ -54,8 +54,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/pbQuestion" />
 
-        <Button
-            android:id="@+id/btnOption1"
+        <TextView
+            android:id="@+id/tvOption1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -74,8 +74,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
-        <Button
-            android:id="@+id/btnOption2"
+        <TextView
+            android:id="@+id/tvOption2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -92,10 +92,10 @@
             android:textColor="@color/blue"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnOption1" />
+            app:layout_constraintTop_toBottomOf="@+id/tvOption1" />
 
-        <Button
-            android:id="@+id/btnOption3"
+        <TextView
+            android:id="@+id/tvOption3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -112,10 +112,10 @@
             android:textColor="@color/blue"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnOption2" />
+            app:layout_constraintTop_toBottomOf="@+id/tvOption2" />
 
-        <Button
-            android:id="@+id/btnOption4"
+        <TextView
+            android:id="@+id/tvOption4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -132,7 +132,7 @@
             android:textColor="@color/blue"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnOption3" />
+            app:layout_constraintTop_toBottomOf="@+id/tvOption3" />
 
 
         <Button
@@ -151,7 +151,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnOption4" />
+            app:layout_constraintTop_toBottomOf="@+id/tvOption4" />
 
         <Button
             android:id="@+id/btnPrevious"
