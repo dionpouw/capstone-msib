@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.ui.listpsycholog
+package com.aldion.capstonemsib.ui.consultation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
