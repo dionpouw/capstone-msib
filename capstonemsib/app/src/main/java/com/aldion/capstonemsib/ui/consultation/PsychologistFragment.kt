@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.ui.listpsycholog
+package com.aldion.capstonemsib.ui.consultation
 
 import android.content.Intent
 import android.os.Bundle

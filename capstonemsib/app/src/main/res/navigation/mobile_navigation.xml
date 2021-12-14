@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_test" />
     <fragment
         android:id="@+id/navigation_psycholog"
-        android:name="com.aldion.capstonemsib.ui.listpsycholog.PsychologistFragment"
+        android:name="com.aldion.capstonemsib.ui.consultation.PsychologistFragment"
         android:label="@string/title_psycholog"
         tools:layout="@layout/fragment_psycholog" />
     <fragment
@@ -61,7 +61,7 @@
         tools:layout="@layout/activity_result_test" />
     <activity
         android:id="@+id/detailPsychologistActivity"
-        android:name="com.aldion.capstonemsib.ui.listpsycholog.DetailPsychologistActivity"
+        android:name="com.aldion.capstonemsib.ui.consultation.DetailPsychologistActivity"
         android:label="activity_detail_psychologist"
         tools:layout="@layout/activity_detail_psychologist" />
     <activity

@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Psychologist
 import com.aldion.capstonemsib.databinding.FragmentHomeBinding
-import com.aldion.capstonemsib.ui.listpsycholog.DetailPsychologistActivity
+import com.aldion.capstonemsib.ui.consultation.DetailPsychologistActivity
 import com.aldion.capstonemsib.utils.Preferences
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
