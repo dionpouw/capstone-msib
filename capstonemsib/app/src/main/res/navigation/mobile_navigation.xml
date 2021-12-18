@@ -57,7 +57,11 @@
         android:id="@+id/profileEditFragment"
         android:name="com.aldion.capstonemsib.ui.profile.ProfileEditFragment"
         android:label="fragment_profile_edit"
-        tools:layout="@layout/fragment_profile_edit" />
+        tools:layout="@layout/fragment_profile_edit" >
+        <action
+            android:id="@+id/action_profileEditFragment_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
     <activity
         android:id="@+id/resultTestActivity"
         android:name="com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity"
