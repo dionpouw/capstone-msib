@@ -11,9 +11,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Transaction
 import com.aldion.capstonemsib.databinding.FragmentProfileBinding
+import com.aldion.capstonemsib.ui.signin.SignInActivity
 import com.aldion.capstonemsib.utils.Preferences
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.google.firebase.database.DataSnapshot
 
 class ProfileFragment : Fragment() {
     private var _binding: FragmentProfileBinding? = null
@@ -43,6 +45,7 @@ class ProfileFragment : Fragment() {
 //        listTransaction.setTransaction(datalist)
         binding?.apply {
 
+
             tvProfilName.text = preferences.getValue("name")
             tvProfilEmail.text = preferences.getValue("email")
             tvProfilDateBirth.text = preferences.getValue("dateOfBirth")
@@ -55,15 +58,16 @@ class ProfileFragment : Fragment() {
                 .apply(RequestOptions.circleCropTransform())
                 .into(imgProfile)
 
-            btnEdit.setOnClickListener{
+            btnEdit.setOnClickListener {
                 Navigation.createNavigateOnClickListener(R.id.action_navigation_profile_to_profileEditFragment)
             }
 
-
-//            rvProfileHistory.apply {
-//                layoutManager = LinearLayoutManager(context)
-//                adapter = listTransaction
-//            }
+            btnLogOut.setOnClickListener(){
+                preferences.setValue("status", "0")
+                activity?.finish()
+                val intent = Intent(activity, SignInActivity::class.java)
+                startActivity(intent)
+            }
         }
 
     }
