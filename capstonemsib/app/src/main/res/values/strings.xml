@@ -101,4 +101,5 @@
     <string name="finish">Finish</string>
     <string name="next_question">Next Question</string>
     <string name="log_out">Log Out</string>
+    <string name="icon_edit_profile">Icon Edit Profile</string>
 </resources>
