@@ -112,6 +112,7 @@ class SignUpActivity : AppCompatActivity() {
                     preferences.setValue("dateOfBirth", data.dateOfBirth.toString())
                     preferences.setValue("telephoneNumber", data.telephoneNumber.toString())
                     preferences.setValue("username", data.username.toString())
+                    preferences.setValue("password", data.password.toString())
                     preferences.setValue("url", "")
                     preferences.setValue("status", "1")
 

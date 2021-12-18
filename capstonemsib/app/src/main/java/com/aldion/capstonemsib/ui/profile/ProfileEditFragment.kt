@@ -15,7 +15,7 @@ class ProfileEditFragment : Fragment() {
     private var _binding: FragmentProfileEditBinding? = null
     private val binding get() = _binding
 
-    lateinit var preferences: Preferences
+    private lateinit var preferences: Preferences
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -29,14 +29,13 @@ class ProfileEditFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         preferences = Preferences(requireContext())
-
         binding?.apply {
-//            edtNameProfile.text = preferences.child("name")
-//            edtEmailProfile.text = preferences.getValue("email")
-//            edtDateProfile.text = preferences.getValue("dateOfBirth")
-//            edtTelephoneProfile.text = preferences.getValue("telephoneNumber")
-//            edtUsernameProfile.text = preferences.getValue("username")
-//            edtPasswordProfile.text = preferences.getValue("password").toString()
+           edtNameProfile.setText(preferences.getValue("name").toString())
+            edtEmailProfile.setText(preferences.getValue("email").toString())
+            edtDateProfile.setText(preferences.getValue("dateOfBirth").toString())
+            edtTelephoneProfile.setText(preferences.getValue("telephoneNumber").toString())
+            edtUsernameProfile.setText(preferences.getValue("username").toString())
+            edtPasswordProfile.setText(preferences.getValue("password").toString())
 
             Glide.with(this@ProfileEditFragment)
                 .load(preferences.getValue("url"))
