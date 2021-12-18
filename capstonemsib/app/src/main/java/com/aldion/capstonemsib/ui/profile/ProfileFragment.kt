@@ -7,15 +7,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.navigation.findNavController
 import com.aldion.capstonemsib.R
-import com.aldion.capstonemsib.data.entity.Transaction
 import com.aldion.capstonemsib.databinding.FragmentProfileBinding
 import com.aldion.capstonemsib.ui.signin.SignInActivity
 import com.aldion.capstonemsib.utils.Preferences
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.google.firebase.database.DataSnapshot
 
 class ProfileFragment : Fragment() {
     private var _binding: FragmentProfileBinding? = null
@@ -44,22 +42,23 @@ class ProfileFragment : Fragment() {
 //        datalist.add(Transaction(1,"2021-2101"))
 //        listTransaction.setTransaction(datalist)
         binding?.apply {
-
-
             tvProfilName.text = preferences.getValue("name")
             tvProfilEmail.text = preferences.getValue("email")
             tvProfilDateBirth.text = preferences.getValue("dateOfBirth")
             tvProfilPhone.text = preferences.getValue("telephoneNumber")
             tvUsername.text = preferences.getValue("username")
 
-
             Glide.with(this@ProfileFragment)
                 .load(preferences.getValue("url"))
                 .apply(RequestOptions.circleCropTransform())
                 .into(imgProfile)
 
-            btnEdit.setOnClickListener {
+            imgProfile.setOnClickListener {
                 Navigation.createNavigateOnClickListener(R.id.action_navigation_profile_to_profileEditFragment)
+            }
+
+            btnEdit.setOnClickListener { view ->
+                view.findNavController().navigate(R.id.action_navigation_profile_to_profileEditFragment)
             }
 
             btnLogOut.setOnClickListener(){
