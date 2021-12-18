@@ -100,4 +100,5 @@
     <string name="api_key">gw2u3cmttmy8</string>
     <string name="finish">Finish</string>
     <string name="next_question">Next Question</string>
+    <string name="log_out">Log Out</string>
 </resources>
