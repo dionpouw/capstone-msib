@@ -1,11 +1,14 @@
 package com.aldion.capstonemsib.ui.profile
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Transaction
 import com.aldion.capstonemsib.databinding.FragmentProfileBinding
 import com.aldion.capstonemsib.utils.Preferences
@@ -18,9 +21,9 @@ class ProfileFragment : Fragment() {
 
     lateinit var preferences: Preferences
 
-    private var listTransaction = ProfileAdapter()
-
-    private var datalist = ArrayList<Transaction>()
+//    private var listTransaction = ProfileAdapter()
+//
+//    private var datalist = ArrayList<Transaction>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -36,8 +39,8 @@ class ProfileFragment : Fragment() {
 
         preferences = Preferences(requireContext())
 
-        datalist.add(Transaction(1,"2021-2101"))
-        listTransaction.setTransaction(datalist)
+//        datalist.add(Transaction(1,"2021-2101"))
+//        listTransaction.setTransaction(datalist)
         binding?.apply {
 
             tvProfilName.text = preferences.getValue("name")
@@ -52,11 +55,15 @@ class ProfileFragment : Fragment() {
                 .apply(RequestOptions.circleCropTransform())
                 .into(imgProfile)
 
-
-            rvProfileHistory.apply {
-                layoutManager = LinearLayoutManager(context)
-                adapter = listTransaction
+            btnEdit.setOnClickListener{
+                Navigation.createNavigateOnClickListener(R.id.action_navigation_profile_to_profileEditFragment)
             }
+
+
+//            rvProfileHistory.apply {
+//                layoutManager = LinearLayoutManager(context)
+//                adapter = listTransaction
+//            }
         }
 
     }
