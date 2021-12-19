@@ -8,4 +8,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "CapstoneMSIB"
-include ':app'
+include ':user app'
+include ':psychologistapp'
