@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileEditFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/sample_psikolog" />
+
+    <TextView
+        android:id="@+id/tv_edit_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/psemibold"
+        android:text="Nama"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
+
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/shape_rectangle_edit_text_purple"
+        android:fontFamily="@font/pregular"
+        android:inputType="text"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintEnd_toEndOf="@+id/tv_edit_nama"
+        app:layout_constraintStart_toStartOf="@+id/tv_edit_nama"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edit_nama" />
+
+    <EditText
+        android:id="@+id/editTextTTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/shape_rectangle_edit_text_purple"
+        android:fontFamily="@font/pregular"
+        android:inputType="date"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintEnd_toEndOf="@+id/tv_edt_tgllahir"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="@+id/tv_edt_tgllahir"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edt_tgllahir" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/shape_rectangle_edit_text_purple"
+        android:fontFamily="@font/pregular"
+        android:inputType="phone"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintEnd_toEndOf="@+id/tv_edt_notelp"
+        app:layout_constraintStart_toStartOf="@+id/tv_edt_notelp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edt_notelp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/shape_rectangle_edit_text_purple"
+        android:fontFamily="@font/pregular"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintEnd_toEndOf="@+id/tv_edt_email"
+        app:layout_constraintStart_toStartOf="@+id/tv_edt_email"
+        app:layout_constraintTop_toBottomOf="@+id/tv_edt_email" />
+
+    <TextView
+        android:id="@+id/tv_edt_tgllahir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/psemibold"
+        android:text="Tanggal Lahir"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNama"
+        app:layout_constraintStart_toStartOf="@+id/editTextNama"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNama" />
+
+    <TextView
+        android:id="@+id/tv_edt_notelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/psemibold"
+        android:text="Nomor telepon"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintStart_toStartOf="@+id/editTextTTL"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTTL" />
+
+    <TextView
+        android:id="@+id/tv_edt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/psemibold"
+        android:text="@string/email"
+        android:textColor="@color/darkerBlack"
+        app:layout_constraintStart_toStartOf="@+id/editTextPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <Button
+        android:id="@+id/save_edt_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/shape_rectangle_primary"
+        android:fontFamily="@font/psemibold"
+        android:text="@string/save_profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1258 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.databinding:viewbinding:7.0.4] /home/aldion/.gradle/caches/transforms-3/ca3837b3e2c0369ed5d45fd4bb006ac0/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:2:1-45:12
+MERGED from [io.coil-kt:coil:1.4.0] /home/aldion/.gradle/caches/transforms-3/3c2587206f79ab9eae7215f6c86a593a/transformed/jetified-coil-1.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-gif:1.4.0] /home/aldion/.gradle/caches/transforms-3/be2fde136f961591cdc197819ddbadbd/transformed/jetified-coil-gif-1.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-video:1.4.0] /home/aldion/.gradle/caches/transforms-3/1452cc9d7b07d8479d1e2240becdca30/transformed/jetified-coil-video-1.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:1.4.0] /home/aldion/.gradle/caches/transforms-3/23fdcd952808444d3b6f6bf418ca388b/transformed/jetified-coil-base-1.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/522de449565a24f72a42a7fde035e48e/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/4cac61a99249c71c79f2137b467b260d/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/0a026cd7f235ab84861735e6c08ee304/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /home/aldion/.gradle/caches/transforms-3/23da0cebffd29ddd78c920240c6105a1/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] /home/aldion/.gradle/caches/transforms-3/bcdce1288966a0e9a32eb133536e4d07/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:2:1-42:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/48b9d3096351c6bd0964c8bc724864ba/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [io.getstream:stream-chat-android-offline:4.23.0] /home/aldion/.gradle/caches/transforms-3/0238bc828651ba8dbdc6dd66a45d3fed/transformed/jetified-stream-chat-android-offline-4.23.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /home/aldion/.gradle/caches/transforms-3/f4491c44b179399cb1bb746213e6a58f/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/aldion/.gradle/caches/transforms-3/ad323d2c97026a34f59574fab6170a34/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.material:material:1.4.0] /home/aldion/.gradle/caches/transforms-3/8bdc6e90ef6cb1583d9332708fa14cc8/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.brianwernick:ExoMedia:743fa9757c] /home/aldion/.gradle/caches/transforms-3/856602ba5b7e69bd598f73a94ede76d4/transformed/jetified-ExoMedia-743fa9757c/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/aldion/.gradle/caches/transforms-3/56fa8e9803784cfb4d607896b9c0f615/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:4.0.0] /home/aldion/.gradle/caches/transforms-3/9604e1a5c3af2d641487e2b299b0996b/transformed/jetified-lottie-4.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.stfalcon-studio:StfalconImageViewer:d11578fe3f] /home/aldion/.gradle/caches/transforms-3/e34ce24fdd1dd977c27e27f18ef4aa76/transformed/jetified-StfalconImageViewer-d11578fe3f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /home/aldion/.gradle/caches/transforms-3/bf0d7ecac698a899424c551f33f9bd01/transformed/jetified-PhotoView-2.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.yalantis:ucrop:2.2.6] /home/aldion/.gradle/caches/transforms-3/5491886200dd24430e3d8c7c51629c98/transformed/jetified-ucrop-2.2.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/aldion/.gradle/caches/transforms-3/0c03ca18760e073bb8dee014ba518568/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/b6d1e68faa61fd68c6a3a4c0010f8a2b/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/aldion/.gradle/caches/transforms-3/5863bc7829c1ca6f8a04be58b26552d5/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.3.0] /home/aldion/.gradle/caches/transforms-3/45da57566f794d23f5bbf053e0d09f59/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /home/aldion/.gradle/caches/transforms-3/f3149f2ddd6c977e71143dec807da301/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/aldion/.gradle/caches/transforms-3/9885b6b92715ad13d31308cb11dd2092/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/aldion/.gradle/caches/transforms-3/15f84367331b3c2395cf60b0026d8659/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/aldion/.gradle/caches/transforms-3/5d4fbee2999431f2f413dc402e9f7033/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/aldion/.gradle/caches/transforms-3/1bc1f03749d0ec155721734e3fa66e04/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/2776486a7c00712fe46a140682e5c7d5/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /home/aldion/.gradle/caches/transforms-3/3f585699f4eed65f5649d5ccde86fb62/transformed/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/aldion/.gradle/caches/transforms-3/0b5ff39abcad447b7170679f0ba4ffc6/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/aldion/.gradle/caches/transforms-3/57205096b6fc60d80b6c49b04a4130b5/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/aldion/.gradle/caches/transforms-3/6dd2ccb1d15755c853d380812a0dde23/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/aldion/.gradle/caches/transforms-3/57a3cbee8a1aafb8c3c1a751395f8da1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/aldion/.gradle/caches/transforms-3/9a042296a4c634e29409b49f0b022d3b/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/aldion/.gradle/caches/transforms-3/ce0431d9b0117dbdd8a3400aa2521463/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/aldion/.gradle/caches/transforms-3/069ad51c15bb7c95fc4e99fbf5441e94/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/aldion/.gradle/caches/transforms-3/936de97a29d8cb2f136a464a01f9d85c/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /home/aldion/.gradle/caches/transforms-3/82e4821be1df13c337088589e2c77c3b/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/aldion/.gradle/caches/transforms-3/cd084d4c99b991d72a2f432d104689e2/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /home/aldion/.gradle/caches/transforms-3/cb1069ba890432c1f4863fbfbcfc5f7a/transformed/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/aldion/.gradle/caches/transforms-3/b6f9c9b5f1b238d7156c873bb1045d2c/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/aldion/.gradle/caches/transforms-3/91d82dc51bf3523d190ab7e327b8ce43/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/aldion/.gradle/caches/transforms-3/aaa35a7f252527a1efdbb6c3ca208bdd/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/aldion/.gradle/caches/transforms-3/b0745e2c2da6b11bf89a9da602b54908/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/aldion/.gradle/caches/transforms-3/957968000c5196e6acd4816a77d90ff6/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/aldion/.gradle/caches/transforms-3/2d85895fead42d5f1e92a511644b999a/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/aldion/.gradle/caches/transforms-3/08abfe3b883a4c17a7bfcf8866e4cf4a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/aldion/.gradle/caches/transforms-3/f5217f0485dd6f6c7ac12bec84013a4b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/aldion/.gradle/caches/transforms-3/43a3cdf829dd8c1f35920c81e7ff98e2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/aldion/.gradle/caches/transforms-3/765de2885472adc8268257300c45126f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/aldion/.gradle/caches/transforms-3/fa006f5ae29a47e567bbc42ec00f518b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/aldion/.gradle/caches/transforms-3/82ffa0e5f6fc4cfaaa19d18d9b0f205e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/aldion/.gradle/caches/transforms-3/c057bcde49b54c17e63a6e917d383114/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] /home/aldion/.gradle/caches/transforms-3/cdb8b8c66a2840b2c894375f97c25015/transformed/jetified-activity-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/aldion/.gradle/caches/transforms-3/09c5f6f668e5bba28e423c9f8a08bf82/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/aldion/.gradle/caches/transforms-3/062c619d164c06a770f51fcbdb2b57df/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/aldion/.gradle/caches/transforms-3/51c6c18f25135f17f119eb9f802a4852/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/aldion/.gradle/caches/transforms-3/8a1a139986eed0cdf07a1bca56c083f0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/aldion/.gradle/caches/transforms-3/f276d11774d3bd99d551f0716129a1b3/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/aldion/.gradle/caches/transforms-3/9c18578198ec32fa49459512d823634d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/aldion/.gradle/caches/transforms-3/848391d1980df6293b316bd6c86c5cf4/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/aldion/.gradle/caches/transforms-3/214accf1cee17bab146d062dd67b93dc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/aldion/.gradle/caches/transforms-3/e6ae48423b930ca0858f7877edf7bc01/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/aldion/.gradle/caches/transforms-3/03828f4ae624c5629a4e25d44107b125/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core:1.7.0] /home/aldion/.gradle/caches/transforms-3/e8e29259b0dd20bb8d17a009a0e5f562/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/aldion/.gradle/caches/transforms-3/2683696372beb6dfe747210ab15e9a24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/aldion/.gradle/caches/transforms-3/f8c632319874540015147c1b822e2559/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/aldion/.gradle/caches/transforms-3/cebb58c0f8bb9c99cddeaf9d611731c2/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/aldion/.gradle/caches/transforms-3/611268e640c722acc1a5f87ca08a4888/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /home/aldion/.gradle/caches/transforms-3/5ad09575188ca05174f9a060187ef951/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/aldion/.gradle/caches/transforms-3/1e13f899bd17c54a143e083b5e4bc1ef/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/aldion/.gradle/caches/transforms-3/ea4673e5e56470cdb268154fd9eddf46/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/aldion/.gradle/caches/transforms-3/24e74c082e62678d2dd76b445273c5fb/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:17:1-33:12
+MERGED from [io.noties.markwon:linkify:4.6.2] /home/aldion/.gradle/caches/transforms-3/8e2a2a04257c32191d440e2a75feb1e1/transformed/jetified-linkify-4.6.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.noties.markwon:ext-strikethrough:4.6.2] /home/aldion/.gradle/caches/transforms-3/bb840083a2d8e9e035bc64ce09324315/transformed/jetified-ext-strikethrough-4.6.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.noties.markwon:image:4.6.2] /home/aldion/.gradle/caches/transforms-3/510e26f3e55f947da69a1a754c22d652/transformed/jetified-image-4.6.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.noties.markwon:core:4.6.2] /home/aldion/.gradle/caches/transforms-3/b9c783c184567691a0572d37a0c060ca/transformed/jetified-core-4.6.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /home/aldion/.gradle/caches/transforms-3/3caddb9d42442196b82165135e980a7d/transformed/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/aldion/.gradle/caches/transforms-3/39eb01f00537d2182061535c174618ae/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /home/aldion/.gradle/caches/transforms-3/a562cf8c74c48ba34db6547f2c7a7654/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/aa85cc56cf27f2d6363c440d8709354e/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /home/aldion/.gradle/caches/transforms-3/638f7b0423b08892d58117ca469efafe/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/aldion/.gradle/caches/transforms-3/7c6d839b83fcdbb9053fae7aa23065a9/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/b20175481d88e6c6ac9dde47b2c3cb10/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/aldion/.gradle/caches/transforms-3/a0acc36385da9acfc33a65c4916aa471/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/aldion/.gradle/caches/transforms-3/380b3ab94cbdb3530076c0329041b25e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/aldion/.gradle/caches/transforms-3/ac67ee885c23419fea0e51266151cc06/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/aldion/.gradle/caches/transforms-3/1a63954652ecdc01483d2002c6405899/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/aldion/.gradle/caches/transforms-3/c934f89e4e55e21947367bf82c172f20/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/aldion/.gradle/caches/transforms-3/615efd5ab2925786ee0751e7edf0b347/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.13.3] /home/aldion/.gradle/caches/transforms-3/c42c75adc9c36d70a2cd090547fb2a87/transformed/jetified-exoplayer-dash-2.13.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.13.3] /home/aldion/.gradle/caches/transforms-3/83e4f9541a8c19f6238afbd8f94e5f1b/transformed/jetified-exoplayer-hls-2.13.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.13.3] /home/aldion/.gradle/caches/transforms-3/f970bcf1dc549af7e70bec2826effd30/transformed/jetified-exoplayer-smoothstreaming-2.13.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.13.3] /home/aldion/.gradle/caches/transforms-3/cf99111a29900a4025a2253078f17ba1/transformed/jetified-exoplayer-core-2.13.3/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.13.3] /home/aldion/.gradle/caches/transforms-3/1da67fd8e7a74d2be1593ec474414a76/transformed/jetified-exoplayer-extractor-2.13.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.13.3] /home/aldion/.gradle/caches/transforms-3/4f2dc5520d4f6d8ebcdfcf1855197e03/transformed/jetified-exoplayer-common-2.13.3/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/aldion/.gradle/caches/transforms-3/edc25923e175bb63307b0e471fa38c6a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] /home/aldion/.gradle/caches/transforms-3/20ba384d45e893dfb7dd92582e038cc5/transformed/jetified-keyboardvisibilityevent-2.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] /home/aldion/.gradle/caches/transforms-3/dd0bcaa2f883090c6e43476979ddea78/transformed/jetified-threetenabp-1.3.1/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:1-79:12
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:10:5-67
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:10:5-79
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:10:5-79
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:9:5-79
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:9:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.13.3] /home/aldion/.gradle/caches/transforms-3/cf99111a29900a4025a2253078f17ba1/transformed/jetified-exoplayer-core-2.13.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.13.3] /home/aldion/.gradle/caches/transforms-3/cf99111a29900a4025a2253078f17ba1/transformed/jetified-exoplayer-core-2.13.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.13.3] /home/aldion/.gradle/caches/transforms-3/4f2dc5520d4f6d8ebcdfcf1855197e03/transformed/jetified-exoplayer-common-2.13.3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.13.3] /home/aldion/.gradle/caches/transforms-3/4f2dc5520d4f6d8ebcdfcf1855197e03/transformed/jetified-exoplayer-common-2.13.3/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:9:5-81
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:12:5-81
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission-sdk-23#android.permission.INTERNET
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:11:29-71
+uses-permission-sdk-23#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:12:29-80
+uses-permission-sdk-23#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:13:29-83
+uses-permission-sdk-23#android.permission.CAMERA
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:14:5-72
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:14:29-69
+uses-permission-sdk-23#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:15:5-88
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:15:29-85
+uses-feature#android.hardware.camera
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:17:5-19:35
+	android:required
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:19:9-32
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:18:9-47
+application
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:21:5-77:19
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:14:5-43:19
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:14:5-43:19
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:19:5-43:19
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:19:5-43:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:21:5-40:19
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:21:5-40:19
+MERGED from [io.getstream:stream-chat-android-offline:4.23.0] /home/aldion/.gradle/caches/transforms-3/0238bc828651ba8dbdc6dd66a45d3fed/transformed/jetified-stream-chat-android-offline-4.23.0/AndroidManifest.xml:9:5-20
+MERGED from [io.getstream:stream-chat-android-offline:4.23.0] /home/aldion/.gradle/caches/transforms-3/0238bc828651ba8dbdc6dd66a45d3fed/transformed/jetified-stream-chat-android-offline-4.23.0/AndroidManifest.xml:9:5-20
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:12:5-22:19
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:12:5-22:19
+MERGED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:26:5-30:19
+MERGED from [com.google.android.material:material:1.4.0] /home/aldion/.gradle/caches/transforms-3/8bdc6e90ef6cb1583d9332708fa14cc8/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /home/aldion/.gradle/caches/transforms-3/8bdc6e90ef6cb1583d9332708fa14cc8/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.brianwernick:ExoMedia:743fa9757c] /home/aldion/.gradle/caches/transforms-3/856602ba5b7e69bd598f73a94ede76d4/transformed/jetified-ExoMedia-743fa9757c/AndroidManifest.xml:11:5-20
+MERGED from [com.github.brianwernick:ExoMedia:743fa9757c] /home/aldion/.gradle/caches/transforms-3/856602ba5b7e69bd598f73a94ede76d4/transformed/jetified-ExoMedia-743fa9757c/AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/aldion/.gradle/caches/transforms-3/56fa8e9803784cfb4d607896b9c0f615/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/aldion/.gradle/caches/transforms-3/56fa8e9803784cfb4d607896b9c0f615/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:4.0.0] /home/aldion/.gradle/caches/transforms-3/9604e1a5c3af2d641487e2b299b0996b/transformed/jetified-lottie-4.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:4.0.0] /home/aldion/.gradle/caches/transforms-3/9604e1a5c3af2d641487e2b299b0996b/transformed/jetified-lottie-4.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/aldion/.gradle/caches/transforms-3/15f84367331b3c2395cf60b0026d8659/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/aldion/.gradle/caches/transforms-3/15f84367331b3c2395cf60b0026d8659/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/aldion/.gradle/caches/transforms-3/1bc1f03749d0ec155721734e3fa66e04/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/aldion/.gradle/caches/transforms-3/1bc1f03749d0ec155721734e3fa66e04/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /home/aldion/.gradle/caches/transforms-3/3f585699f4eed65f5649d5ccde86fb62/transformed/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /home/aldion/.gradle/caches/transforms-3/3f585699f4eed65f5649d5ccde86fb62/transformed/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/aldion/.gradle/caches/transforms-3/0b5ff39abcad447b7170679f0ba4ffc6/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/aldion/.gradle/caches/transforms-3/0b5ff39abcad447b7170679f0ba4ffc6/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/aldion/.gradle/caches/transforms-3/57205096b6fc60d80b6c49b04a4130b5/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/aldion/.gradle/caches/transforms-3/57205096b6fc60d80b6c49b04a4130b5/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/aldion/.gradle/caches/transforms-3/936de97a29d8cb2f136a464a01f9d85c/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/aldion/.gradle/caches/transforms-3/936de97a29d8cb2f136a464a01f9d85c/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /home/aldion/.gradle/caches/transforms-3/82e4821be1df13c337088589e2c77c3b/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /home/aldion/.gradle/caches/transforms-3/82e4821be1df13c337088589e2c77c3b/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/aldion/.gradle/caches/transforms-3/cd084d4c99b991d72a2f432d104689e2/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/aldion/.gradle/caches/transforms-3/cd084d4c99b991d72a2f432d104689e2/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /home/aldion/.gradle/caches/transforms-3/cb1069ba890432c1f4863fbfbcfc5f7a/transformed/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /home/aldion/.gradle/caches/transforms-3/cb1069ba890432c1f4863fbfbcfc5f7a/transformed/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/aldion/.gradle/caches/transforms-3/b6f9c9b5f1b238d7156c873bb1045d2c/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/aldion/.gradle/caches/transforms-3/b6f9c9b5f1b238d7156c873bb1045d2c/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/aldion/.gradle/caches/transforms-3/91d82dc51bf3523d190ab7e327b8ce43/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/aldion/.gradle/caches/transforms-3/91d82dc51bf3523d190ab7e327b8ce43/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/aldion/.gradle/caches/transforms-3/aaa35a7f252527a1efdbb6c3ca208bdd/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/aldion/.gradle/caches/transforms-3/aaa35a7f252527a1efdbb6c3ca208bdd/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/aldion/.gradle/caches/transforms-3/e8e29259b0dd20bb8d17a009a0e5f562/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/aldion/.gradle/caches/transforms-3/e8e29259b0dd20bb8d17a009a0e5f562/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/aldion/.gradle/caches/transforms-3/1e13f899bd17c54a143e083b5e4bc1ef/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/aldion/.gradle/caches/transforms-3/1e13f899bd17c54a143e083b5e4bc1ef/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/aldion/.gradle/caches/transforms-3/39eb01f00537d2182061535c174618ae/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/aldion/.gradle/caches/transforms-3/39eb01f00537d2182061535c174618ae/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] /home/aldion/.gradle/caches/transforms-3/dd0bcaa2f883090c6e43476979ddea78/transformed/jetified-threetenabp-1.3.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] /home/aldion/.gradle/caches/transforms-3/dd0bcaa2f883090c6e43476979ddea78/transformed/jetified-threetenabp-1.3.1/AndroidManifest.xml:7:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:24:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/aldion/.gradle/caches/transforms-3/e8e29259b0dd20bb8d17a009a0e5f562/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:25:9-54
+	android:icon
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:27:9-50
+activity#com.aldion.capstonemsib.ui.consultation.DetailPsychologistActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:28:9-31:74
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:29:13-71
+activity#com.aldion.capstonemsib.ui.signup.SignUpPhotoScreenActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:32:9-35:75
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:34:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:35:13-72
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:33:13-64
+activity#com.aldion.capstonemsib.ui.testscreen.question.QuestionTestActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:36:9-39:75
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:38:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:39:13-72
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:37:13-72
+activity#com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:40:9-43:75
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:42:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:43:13-72
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:41:13-68
+activity#com.aldion.capstonemsib.ui.signup.SignUpActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:44:9-47:63
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:46:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:47:13-60
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:45:13-53
+activity#com.aldion.capstonemsib.ui.signin.SignInActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:48:9-51:63
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:50:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:51:13-60
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:49:13-53
+activity#com.aldion.capstonemsib.ui.onboarding.OnBoardingThreeActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:52:9-55:63
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:54:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:55:13-60
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:53:13-66
+activity#com.aldion.capstonemsib.ui.onboarding.OnBoardingTwoActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:56:9-59:63
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:58:13-37
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:59:13-60
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:57:13-64
+activity#com.aldion.capstonemsib.ui.onboarding.OnBoardingOneActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:60:9-63:63
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:62:13-36
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:63:13-60
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:61:13-64
+activity#com.aldion.capstonemsib.ui.home.HomeActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:64:9-66:39
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:66:13-36
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:65:13-49
+activity#com.aldion.capstonemsib.SplashActivity
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:67:9-76:20
+	android:exported
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:69:13-36
+	android:theme
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:70:13-72
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:68:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:71:13-75:29
+action#android.intent.action.MAIN
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:72:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml:74:27-74
+uses-sdk
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.databinding:viewbinding:7.0.4] /home/aldion/.gradle/caches/transforms-3/ca3837b3e2c0369ed5d45fd4bb006ac0/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] /home/aldion/.gradle/caches/transforms-3/ca3837b3e2c0369ed5d45fd4bb006ac0/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.coil-kt:coil:1.4.0] /home/aldion/.gradle/caches/transforms-3/3c2587206f79ab9eae7215f6c86a593a/transformed/jetified-coil-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.4.0] /home/aldion/.gradle/caches/transforms-3/3c2587206f79ab9eae7215f6c86a593a/transformed/jetified-coil-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-gif:1.4.0] /home/aldion/.gradle/caches/transforms-3/be2fde136f961591cdc197819ddbadbd/transformed/jetified-coil-gif-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-gif:1.4.0] /home/aldion/.gradle/caches/transforms-3/be2fde136f961591cdc197819ddbadbd/transformed/jetified-coil-gif-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-video:1.4.0] /home/aldion/.gradle/caches/transforms-3/1452cc9d7b07d8479d1e2240becdca30/transformed/jetified-coil-video-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-video:1.4.0] /home/aldion/.gradle/caches/transforms-3/1452cc9d7b07d8479d1e2240becdca30/transformed/jetified-coil-video-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.4.0] /home/aldion/.gradle/caches/transforms-3/23fdcd952808444d3b6f6bf418ca388b/transformed/jetified-coil-base-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.4.0] /home/aldion/.gradle/caches/transforms-3/23fdcd952808444d3b6f6bf418ca388b/transformed/jetified-coil-base-1.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/522de449565a24f72a42a7fde035e48e/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/522de449565a24f72a42a7fde035e48e/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/4cac61a99249c71c79f2137b467b260d/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/4cac61a99249c71c79f2137b467b260d/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/0a026cd7f235ab84861735e6c08ee304/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/0a026cd7f235ab84861735e6c08ee304/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /home/aldion/.gradle/caches/transforms-3/23da0cebffd29ddd78c920240c6105a1/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /home/aldion/.gradle/caches/transforms-3/23da0cebffd29ddd78c920240c6105a1/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] /home/aldion/.gradle/caches/transforms-3/bcdce1288966a0e9a32eb133536e4d07/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] /home/aldion/.gradle/caches/transforms-3/bcdce1288966a0e9a32eb133536e4d07/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/48b9d3096351c6bd0964c8bc724864ba/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/aldion/.gradle/caches/transforms-3/48b9d3096351c6bd0964c8bc724864ba/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [io.getstream:stream-chat-android-offline:4.23.0] /home/aldion/.gradle/caches/transforms-3/0238bc828651ba8dbdc6dd66a45d3fed/transformed/jetified-stream-chat-android-offline-4.23.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.getstream:stream-chat-android-offline:4.23.0] /home/aldion/.gradle/caches/transforms-3/0238bc828651ba8dbdc6dd66a45d3fed/transformed/jetified-stream-chat-android-offline-4.23.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/aldion/.gradle/caches/transforms-3/f4491c44b179399cb1bb746213e6a58f/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/aldion/.gradle/caches/transforms-3/f4491c44b179399cb1bb746213e6a58f/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/aldion/.gradle/caches/transforms-3/ad323d2c97026a34f59574fab6170a34/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/aldion/.gradle/caches/transforms-3/ad323d2c97026a34f59574fab6170a34/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.material:material:1.4.0] /home/aldion/.gradle/caches/transforms-3/8bdc6e90ef6cb1583d9332708fa14cc8/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /home/aldion/.gradle/caches/transforms-3/8bdc6e90ef6cb1583d9332708fa14cc8/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.brianwernick:ExoMedia:743fa9757c] /home/aldion/.gradle/caches/transforms-3/856602ba5b7e69bd598f73a94ede76d4/transformed/jetified-ExoMedia-743fa9757c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.brianwernick:ExoMedia:743fa9757c] /home/aldion/.gradle/caches/transforms-3/856602ba5b7e69bd598f73a94ede76d4/transformed/jetified-ExoMedia-743fa9757c/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/aldion/.gradle/caches/transforms-3/56fa8e9803784cfb4d607896b9c0f615/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/aldion/.gradle/caches/transforms-3/56fa8e9803784cfb4d607896b9c0f615/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:4.0.0] /home/aldion/.gradle/caches/transforms-3/9604e1a5c3af2d641487e2b299b0996b/transformed/jetified-lottie-4.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:4.0.0] /home/aldion/.gradle/caches/transforms-3/9604e1a5c3af2d641487e2b299b0996b/transformed/jetified-lottie-4.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.stfalcon-studio:StfalconImageViewer:d11578fe3f] /home/aldion/.gradle/caches/transforms-3/e34ce24fdd1dd977c27e27f18ef4aa76/transformed/jetified-StfalconImageViewer-d11578fe3f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.stfalcon-studio:StfalconImageViewer:d11578fe3f] /home/aldion/.gradle/caches/transforms-3/e34ce24fdd1dd977c27e27f18ef4aa76/transformed/jetified-StfalconImageViewer-d11578fe3f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /home/aldion/.gradle/caches/transforms-3/bf0d7ecac698a899424c551f33f9bd01/transformed/jetified-PhotoView-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.chrisbanes:PhotoView:2.3.0] /home/aldion/.gradle/caches/transforms-3/bf0d7ecac698a899424c551f33f9bd01/transformed/jetified-PhotoView-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] /home/aldion/.gradle/caches/transforms-3/5491886200dd24430e3d8c7c51629c98/transformed/jetified-ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] /home/aldion/.gradle/caches/transforms-3/5491886200dd24430e3d8c7c51629c98/transformed/jetified-ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/aldion/.gradle/caches/transforms-3/0c03ca18760e073bb8dee014ba518568/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /home/aldion/.gradle/caches/transforms-3/0c03ca18760e073bb8dee014ba518568/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/b6d1e68faa61fd68c6a3a4c0010f8a2b/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/b6d1e68faa61fd68c6a3a4c0010f8a2b/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/aldion/.gradle/caches/transforms-3/5863bc7829c1ca6f8a04be58b26552d5/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/aldion/.gradle/caches/transforms-3/5863bc7829c1ca6f8a04be58b26552d5/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /home/aldion/.gradle/caches/transforms-3/45da57566f794d23f5bbf053e0d09f59/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0] /home/aldion/.gradle/caches/transforms-3/45da57566f794d23f5bbf053e0d09f59/transformed/jetified-room-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /home/aldion/.gradle/caches/transforms-3/f3149f2ddd6c977e71143dec807da301/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /home/aldion/.gradle/caches/transforms-3/f3149f2ddd6c977e71143dec807da301/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/aldion/.gradle/caches/transforms-3/9885b6b92715ad13d31308cb11dd2092/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/aldion/.gradle/caches/transforms-3/9885b6b92715ad13d31308cb11dd2092/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/aldion/.gradle/caches/transforms-3/15f84367331b3c2395cf60b0026d8659/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/aldion/.gradle/caches/transforms-3/15f84367331b3c2395cf60b0026d8659/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/aldion/.gradle/caches/transforms-3/5d4fbee2999431f2f413dc402e9f7033/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/aldion/.gradle/caches/transforms-3/5d4fbee2999431f2f413dc402e9f7033/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/aldion/.gradle/caches/transforms-3/1bc1f03749d0ec155721734e3fa66e04/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /home/aldion/.gradle/caches/transforms-3/1bc1f03749d0ec155721734e3fa66e04/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/2776486a7c00712fe46a140682e5c7d5/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/2776486a7c00712fe46a140682e5c7d5/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /home/aldion/.gradle/caches/transforms-3/3f585699f4eed65f5649d5ccde86fb62/transformed/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:20.0.0] /home/aldion/.gradle/caches/transforms-3/3f585699f4eed65f5649d5ccde86fb62/transformed/jetified-firebase-analytics-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/aldion/.gradle/caches/transforms-3/0b5ff39abcad447b7170679f0ba4ffc6/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] /home/aldion/.gradle/caches/transforms-3/0b5ff39abcad447b7170679f0ba4ffc6/transformed/jetified-firebase-appcheck-interop-16.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/aldion/.gradle/caches/transforms-3/57205096b6fc60d80b6c49b04a4130b5/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /home/aldion/.gradle/caches/transforms-3/57205096b6fc60d80b6c49b04a4130b5/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/aldion/.gradle/caches/transforms-3/6dd2ccb1d15755c853d380812a0dde23/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /home/aldion/.gradle/caches/transforms-3/6dd2ccb1d15755c853d380812a0dde23/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/aldion/.gradle/caches/transforms-3/57a3cbee8a1aafb8c3c1a751395f8da1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/aldion/.gradle/caches/transforms-3/57a3cbee8a1aafb8c3c1a751395f8da1/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/aldion/.gradle/caches/transforms-3/9a042296a4c634e29409b49f0b022d3b/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/aldion/.gradle/caches/transforms-3/9a042296a4c634e29409b49f0b022d3b/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/aldion/.gradle/caches/transforms-3/ce0431d9b0117dbdd8a3400aa2521463/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] /home/aldion/.gradle/caches/transforms-3/ce0431d9b0117dbdd8a3400aa2521463/transformed/jetified-firebase-database-collection-18.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/aldion/.gradle/caches/transforms-3/069ad51c15bb7c95fc4e99fbf5441e94/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /home/aldion/.gradle/caches/transforms-3/069ad51c15bb7c95fc4e99fbf5441e94/transformed/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/aldion/.gradle/caches/transforms-3/936de97a29d8cb2f136a464a01f9d85c/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/aldion/.gradle/caches/transforms-3/936de97a29d8cb2f136a464a01f9d85c/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /home/aldion/.gradle/caches/transforms-3/82e4821be1df13c337088589e2c77c3b/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:20.0.0] /home/aldion/.gradle/caches/transforms-3/82e4821be1df13c337088589e2c77c3b/transformed/jetified-play-services-measurement-sdk-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/aldion/.gradle/caches/transforms-3/cd084d4c99b991d72a2f432d104689e2/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/aldion/.gradle/caches/transforms-3/cd084d4c99b991d72a2f432d104689e2/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /home/aldion/.gradle/caches/transforms-3/cb1069ba890432c1f4863fbfbcfc5f7a/transformed/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.0.0] /home/aldion/.gradle/caches/transforms-3/cb1069ba890432c1f4863fbfbcfc5f7a/transformed/jetified-play-services-measurement-base-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/aldion/.gradle/caches/transforms-3/b6f9c9b5f1b238d7156c873bb1045d2c/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/aldion/.gradle/caches/transforms-3/b6f9c9b5f1b238d7156c873bb1045d2c/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/aldion/.gradle/caches/transforms-3/91d82dc51bf3523d190ab7e327b8ce43/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/aldion/.gradle/caches/transforms-3/91d82dc51bf3523d190ab7e327b8ce43/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/aldion/.gradle/caches/transforms-3/aaa35a7f252527a1efdbb6c3ca208bdd/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/aldion/.gradle/caches/transforms-3/aaa35a7f252527a1efdbb6c3ca208bdd/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/aldion/.gradle/caches/transforms-3/b0745e2c2da6b11bf89a9da602b54908/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/aldion/.gradle/caches/transforms-3/b0745e2c2da6b11bf89a9da602b54908/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/aldion/.gradle/caches/transforms-3/957968000c5196e6acd4816a77d90ff6/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/aldion/.gradle/caches/transforms-3/957968000c5196e6acd4816a77d90ff6/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/aldion/.gradle/caches/transforms-3/2d85895fead42d5f1e92a511644b999a/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/aldion/.gradle/caches/transforms-3/2d85895fead42d5f1e92a511644b999a/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/aldion/.gradle/caches/transforms-3/08abfe3b883a4c17a7bfcf8866e4cf4a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/aldion/.gradle/caches/transforms-3/08abfe3b883a4c17a7bfcf8866e4cf4a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/aldion/.gradle/caches/transforms-3/f5217f0485dd6f6c7ac12bec84013a4b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/aldion/.gradle/caches/transforms-3/f5217f0485dd6f6c7ac12bec84013a4b/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/aldion/.gradle/caches/transforms-3/43a3cdf829dd8c1f35920c81e7ff98e2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/aldion/.gradle/caches/transforms-3/43a3cdf829dd8c1f35920c81e7ff98e2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/aldion/.gradle/caches/transforms-3/765de2885472adc8268257300c45126f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/aldion/.gradle/caches/transforms-3/765de2885472adc8268257300c45126f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/aldion/.gradle/caches/transforms-3/fa006f5ae29a47e567bbc42ec00f518b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/aldion/.gradle/caches/transforms-3/fa006f5ae29a47e567bbc42ec00f518b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/aldion/.gradle/caches/transforms-3/82ffa0e5f6fc4cfaaa19d18d9b0f205e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/aldion/.gradle/caches/transforms-3/82ffa0e5f6fc4cfaaa19d18d9b0f205e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/aldion/.gradle/caches/transforms-3/c057bcde49b54c17e63a6e917d383114/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/aldion/.gradle/caches/transforms-3/c057bcde49b54c17e63a6e917d383114/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] /home/aldion/.gradle/caches/transforms-3/cdb8b8c66a2840b2c894375f97c25015/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] /home/aldion/.gradle/caches/transforms-3/cdb8b8c66a2840b2c894375f97c25015/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/aldion/.gradle/caches/transforms-3/09c5f6f668e5bba28e423c9f8a08bf82/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/aldion/.gradle/caches/transforms-3/09c5f6f668e5bba28e423c9f8a08bf82/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/aldion/.gradle/caches/transforms-3/062c619d164c06a770f51fcbdb2b57df/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/aldion/.gradle/caches/transforms-3/062c619d164c06a770f51fcbdb2b57df/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/aldion/.gradle/caches/transforms-3/51c6c18f25135f17f119eb9f802a4852/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/aldion/.gradle/caches/transforms-3/51c6c18f25135f17f119eb9f802a4852/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/aldion/.gradle/caches/transforms-3/8a1a139986eed0cdf07a1bca56c083f0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/aldion/.gradle/caches/transforms-3/8a1a139986eed0cdf07a1bca56c083f0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/aldion/.gradle/caches/transforms-3/f276d11774d3bd99d551f0716129a1b3/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/aldion/.gradle/caches/transforms-3/f276d11774d3bd99d551f0716129a1b3/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/aldion/.gradle/caches/transforms-3/9c18578198ec32fa49459512d823634d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/aldion/.gradle/caches/transforms-3/9c18578198ec32fa49459512d823634d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/aldion/.gradle/caches/transforms-3/848391d1980df6293b316bd6c86c5cf4/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/aldion/.gradle/caches/transforms-3/848391d1980df6293b316bd6c86c5cf4/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/aldion/.gradle/caches/transforms-3/214accf1cee17bab146d062dd67b93dc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/aldion/.gradle/caches/transforms-3/214accf1cee17bab146d062dd67b93dc/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/aldion/.gradle/caches/transforms-3/e6ae48423b930ca0858f7877edf7bc01/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/aldion/.gradle/caches/transforms-3/e6ae48423b930ca0858f7877edf7bc01/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/aldion/.gradle/caches/transforms-3/03828f4ae624c5629a4e25d44107b125/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/aldion/.gradle/caches/transforms-3/03828f4ae624c5629a4e25d44107b125/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/aldion/.gradle/caches/transforms-3/e8e29259b0dd20bb8d17a009a0e5f562/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/aldion/.gradle/caches/transforms-3/e8e29259b0dd20bb8d17a009a0e5f562/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/aldion/.gradle/caches/transforms-3/2683696372beb6dfe747210ab15e9a24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/aldion/.gradle/caches/transforms-3/2683696372beb6dfe747210ab15e9a24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/aldion/.gradle/caches/transforms-3/f8c632319874540015147c1b822e2559/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/aldion/.gradle/caches/transforms-3/f8c632319874540015147c1b822e2559/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/aldion/.gradle/caches/transforms-3/cebb58c0f8bb9c99cddeaf9d611731c2/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/aldion/.gradle/caches/transforms-3/cebb58c0f8bb9c99cddeaf9d611731c2/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/aldion/.gradle/caches/transforms-3/611268e640c722acc1a5f87ca08a4888/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/aldion/.gradle/caches/transforms-3/611268e640c722acc1a5f87ca08a4888/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /home/aldion/.gradle/caches/transforms-3/5ad09575188ca05174f9a060187ef951/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /home/aldion/.gradle/caches/transforms-3/5ad09575188ca05174f9a060187ef951/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/aldion/.gradle/caches/transforms-3/1e13f899bd17c54a143e083b5e4bc1ef/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/aldion/.gradle/caches/transforms-3/1e13f899bd17c54a143e083b5e4bc1ef/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/aldion/.gradle/caches/transforms-3/ea4673e5e56470cdb268154fd9eddf46/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/aldion/.gradle/caches/transforms-3/ea4673e5e56470cdb268154fd9eddf46/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/aldion/.gradle/caches/transforms-3/24e74c082e62678d2dd76b445273c5fb/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/aldion/.gradle/caches/transforms-3/24e74c082e62678d2dd76b445273c5fb/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [io.noties.markwon:linkify:4.6.2] /home/aldion/.gradle/caches/transforms-3/8e2a2a04257c32191d440e2a75feb1e1/transformed/jetified-linkify-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:linkify:4.6.2] /home/aldion/.gradle/caches/transforms-3/8e2a2a04257c32191d440e2a75feb1e1/transformed/jetified-linkify-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:ext-strikethrough:4.6.2] /home/aldion/.gradle/caches/transforms-3/bb840083a2d8e9e035bc64ce09324315/transformed/jetified-ext-strikethrough-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:ext-strikethrough:4.6.2] /home/aldion/.gradle/caches/transforms-3/bb840083a2d8e9e035bc64ce09324315/transformed/jetified-ext-strikethrough-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:image:4.6.2] /home/aldion/.gradle/caches/transforms-3/510e26f3e55f947da69a1a754c22d652/transformed/jetified-image-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:image:4.6.2] /home/aldion/.gradle/caches/transforms-3/510e26f3e55f947da69a1a754c22d652/transformed/jetified-image-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:core:4.6.2] /home/aldion/.gradle/caches/transforms-3/b9c783c184567691a0572d37a0c060ca/transformed/jetified-core-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.noties.markwon:core:4.6.2] /home/aldion/.gradle/caches/transforms-3/b9c783c184567691a0572d37a0c060ca/transformed/jetified-core-4.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.documentfile:documentfile:1.0.1] /home/aldion/.gradle/caches/transforms-3/3caddb9d42442196b82165135e980a7d/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /home/aldion/.gradle/caches/transforms-3/3caddb9d42442196b82165135e980a7d/transformed/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/aldion/.gradle/caches/transforms-3/39eb01f00537d2182061535c174618ae/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/aldion/.gradle/caches/transforms-3/39eb01f00537d2182061535c174618ae/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /home/aldion/.gradle/caches/transforms-3/a562cf8c74c48ba34db6547f2c7a7654/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /home/aldion/.gradle/caches/transforms-3/a562cf8c74c48ba34db6547f2c7a7654/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/aa85cc56cf27f2d6363c440d8709354e/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /home/aldion/.gradle/caches/transforms-3/aa85cc56cf27f2d6363c440d8709354e/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /home/aldion/.gradle/caches/transforms-3/638f7b0423b08892d58117ca469efafe/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /home/aldion/.gradle/caches/transforms-3/638f7b0423b08892d58117ca469efafe/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/aldion/.gradle/caches/transforms-3/7c6d839b83fcdbb9053fae7aa23065a9/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/aldion/.gradle/caches/transforms-3/7c6d839b83fcdbb9053fae7aa23065a9/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/b20175481d88e6c6ac9dde47b2c3cb10/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/b20175481d88e6c6ac9dde47b2c3cb10/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/aldion/.gradle/caches/transforms-3/a0acc36385da9acfc33a65c4916aa471/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/aldion/.gradle/caches/transforms-3/a0acc36385da9acfc33a65c4916aa471/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/aldion/.gradle/caches/transforms-3/380b3ab94cbdb3530076c0329041b25e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/aldion/.gradle/caches/transforms-3/380b3ab94cbdb3530076c0329041b25e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/aldion/.gradle/caches/transforms-3/ac67ee885c23419fea0e51266151cc06/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/aldion/.gradle/caches/transforms-3/ac67ee885c23419fea0e51266151cc06/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/aldion/.gradle/caches/transforms-3/1a63954652ecdc01483d2002c6405899/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/aldion/.gradle/caches/transforms-3/1a63954652ecdc01483d2002c6405899/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/aldion/.gradle/caches/transforms-3/c934f89e4e55e21947367bf82c172f20/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/aldion/.gradle/caches/transforms-3/c934f89e4e55e21947367bf82c172f20/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/aldion/.gradle/caches/transforms-3/615efd5ab2925786ee0751e7edf0b347/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/aldion/.gradle/caches/transforms-3/615efd5ab2925786ee0751e7edf0b347/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.13.3] /home/aldion/.gradle/caches/transforms-3/c42c75adc9c36d70a2cd090547fb2a87/transformed/jetified-exoplayer-dash-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.13.3] /home/aldion/.gradle/caches/transforms-3/c42c75adc9c36d70a2cd090547fb2a87/transformed/jetified-exoplayer-dash-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.13.3] /home/aldion/.gradle/caches/transforms-3/83e4f9541a8c19f6238afbd8f94e5f1b/transformed/jetified-exoplayer-hls-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.13.3] /home/aldion/.gradle/caches/transforms-3/83e4f9541a8c19f6238afbd8f94e5f1b/transformed/jetified-exoplayer-hls-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.13.3] /home/aldion/.gradle/caches/transforms-3/f970bcf1dc549af7e70bec2826effd30/transformed/jetified-exoplayer-smoothstreaming-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.13.3] /home/aldion/.gradle/caches/transforms-3/f970bcf1dc549af7e70bec2826effd30/transformed/jetified-exoplayer-smoothstreaming-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.13.3] /home/aldion/.gradle/caches/transforms-3/cf99111a29900a4025a2253078f17ba1/transformed/jetified-exoplayer-core-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.13.3] /home/aldion/.gradle/caches/transforms-3/cf99111a29900a4025a2253078f17ba1/transformed/jetified-exoplayer-core-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.13.3] /home/aldion/.gradle/caches/transforms-3/1da67fd8e7a74d2be1593ec474414a76/transformed/jetified-exoplayer-extractor-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.13.3] /home/aldion/.gradle/caches/transforms-3/1da67fd8e7a74d2be1593ec474414a76/transformed/jetified-exoplayer-extractor-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.13.3] /home/aldion/.gradle/caches/transforms-3/4f2dc5520d4f6d8ebcdfcf1855197e03/transformed/jetified-exoplayer-common-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.13.3] /home/aldion/.gradle/caches/transforms-3/4f2dc5520d4f6d8ebcdfcf1855197e03/transformed/jetified-exoplayer-common-2.13.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/aldion/.gradle/caches/transforms-3/edc25923e175bb63307b0e471fa38c6a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/aldion/.gradle/caches/transforms-3/edc25923e175bb63307b0e471fa38c6a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] /home/aldion/.gradle/caches/transforms-3/20ba384d45e893dfb7dd92582e038cc5/transformed/jetified-keyboardvisibilityevent-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0] /home/aldion/.gradle/caches/transforms-3/20ba384d45e893dfb7dd92582e038cc5/transformed/jetified-keyboardvisibilityevent-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] /home/aldion/.gradle/caches/transforms-3/dd0bcaa2f883090c6e43476979ddea78/transformed/jetified-threetenabp-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] /home/aldion/.gradle/caches/transforms-3/dd0bcaa2f883090c6e43476979ddea78/transformed/jetified-threetenabp-1.3.1/AndroidManifest.xml:5:5-44
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		ADDED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:11:22-77
+provider#androidx.startup.InitializationProvider
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:15:9-23:20
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:34:9-42:20
+MERGED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:34:9-42:20
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.0] /home/aldion/.gradle/caches/transforms-3/4a1435fbecf8ba2012f0f7fbb2f4d34f/transformed/jetified-startup-runtime-1.1.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:19:13-31
+	android:authorities
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:17:13-68
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:16:13-67
+meta-data#io.getstream.chat.android.ui.common.ChatUIInitializer
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:20:13-22:52
+	android:value
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:22:17-49
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:21:17-85
+activity#io.getstream.chat.android.ui.gallery.AttachmentGalleryActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:25:9-28:65
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:28:13-62
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:26:13-90
+activity#io.getstream.chat.android.ui.gallery.AttachmentMediaActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:29:9-32:61
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:30:13-88
+activity#io.getstream.chat.android.ui.gallery.AttachmentActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:33:9-36:66
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:36:13-63
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:34:13-83
+activity#io.getstream.chat.android.ui.channel.ChannelListActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:38:13-84
+activity#io.getstream.chat.android.ui.message.MessageListActivity
+ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-components:4.23.0] /home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/AndroidManifest.xml:41:13-84
+queries
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:10:5-17:15
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:9:5-19:15
+MERGED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:9:5-19:15
+MERGED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:24:5-28:15
+intent#action:name:android.media.action.VIDEO_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:11:9-13:18
+action#android.media.action.VIDEO_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:12:13-73
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:12:21-70
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:14:9-16:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:15:13-73
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:15:21-70
+activity#com.getstream.sdk.chat.view.activity.AttachmentDocumentActivity
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:20:9-23:75
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:22:13-37
+	android:theme
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:23:13-72
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:21:13-91
+provider#com.getstream.sdk.chat.StreamFileProvider
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:25:9-33:20
+	android:grantUriPermissions
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:29:13-47
+	android:authorities
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:27:13-70
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:26:13-69
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:30:13-32:60
+	android:resource
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:32:17-57
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:31:17-67
+meta-data#com.getstream.sdk.chat.startup.ThreeTenInitializer
+ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:39:13-41:52
+	android:value
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:41:17-49
+	android:name
+		ADDED from [io.getstream:stream-chat-android-ui-common:4.23.0] /home/aldion/.gradle/caches/transforms-3/c6696502047f962cf6dc76bc859c22ef/transformed/jetified-stream-chat-android-ui-common-4.23.0/AndroidManifest.xml:40:17-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:14:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/cd8ebb17d501ea63366ae37e9c438f8e/transformed/jetified-firebase-storage-ktx-20.0.0/AndroidManifest.xml:16:17-122
+intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:16:9-18:18
+action#android.intent.action.OPEN_DOCUMENT_TREE
+ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:17:13-79
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:17:21-76
+activity#com.github.dhaval2404.imagepicker.ImagePickerActivity
+ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:22:9-25:68
+	android:screenOrientation
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:24:13-52
+	android:theme
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:25:13-65
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:23:13-81
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:26:9-29:72
+	android:screenOrientation
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:28:13-49
+	android:theme
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:27:13-60
+provider#com.github.dhaval2404.imagepicker.ImagePickerFileProvider
+ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:31:9-39:20
+	android:grantUriPermissions
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:35:13-47
+	android:authorities
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:33:13-72
+	android:exported
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.github.dhaval2404:imagepicker:2.1] /home/aldion/.gradle/caches/transforms-3/a4917dd6007f604cbcdea4e4ccefe006/transformed/jetified-imagepicker-2.1/AndroidManifest.xml:32:13-85
+receiver#io.getstream.chat.android.client.receivers.NotificationMessageReceiver
+ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:13:9-21:20
+	android:enabled
+		ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:15:13-35
+	android:exported
+		ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:14:13-98
+intent-filter#action:name:com.getstream.sdk.chat.READ+action:name:com.getstream.sdk.chat.REPLY
+ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:17:13-20:29
+action#com.getstream.sdk.chat.READ
+ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:18:17-70
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:18:25-67
+action#com.getstream.sdk.chat.REPLY
+ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:19:17-71
+	android:name
+		ADDED from [io.getstream:stream-chat-android-client:4.23.0] /home/aldion/.gradle/caches/transforms-3/7f97f7442d2ab3a411ce26cbb8b6004e/transformed/jetified-stream-chat-android-client-4.23.0/AndroidManifest.xml:19:25-68
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.2.3] /home/aldion/.gradle/caches/transforms-3/e18c24df25ed8c8195791e825712407d/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:28:13-60
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/39043e4b124002ec5c4bb69fa74d6b51/transformed/jetified-play-services-measurement-sdk-api-20.0.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /home/aldion/.gradle/caches/transforms-3/f929c09f415b51c99e3f804f7b1cb819/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0] /home/aldion/.gradle/caches/transforms-3/51f390d4f5457411f96ab465bb9e6a9a/transformed/room-runtime-2.4.0/AndroidManifest.xml:26:13-74
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/7dcb42024d03c2434421d55ce27306a8/transformed/jetified-firebase-analytics-ktx-20.0.0/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.0.3] /home/aldion/.gradle/caches/transforms-3/9dc5831d031f70d29a9fd2005d06ffd4/transformed/jetified-firebase-database-ktx-20.0.3/AndroidManifest.xml:16:17-124
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /home/aldion/.gradle/caches/transforms-3/799b544748bd17eda923291619c01134/transformed/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] /home/aldion/.gradle/caches/transforms-3/f70906897e3438e0e60f95f769116805/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] /home/aldion/.gradle/caches/transforms-3/933918681934006474f665e95c058adb/transformed/jetified-firebase-database-20.0.3/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:20.0.0] /home/aldion/.gradle/caches/transforms-3/12905dc1f4f4aa05f8dd54762d440993/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /home/aldion/.gradle/caches/transforms-3/5acc631db7ce092b3ab828b94f35a62b/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /home/aldion/.gradle/caches/transforms-3/980ab809d2437b167d08d0848fade32f/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/aldion/.gradle/caches/transforms-3/39f30e4de84eaf6e9fc6c28dd4a6f504/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:20.0.0] /home/aldion/.gradle/caches/transforms-3/fe4f9cb289efe2814546d1f96059d44f/transformed/jetified-play-services-measurement-impl-20.0.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:20.0.0] /home/aldion/.gradle/caches/transforms-3/9c77529bdf6ee229171ac1908d70e92e/transformed/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/aldion/.gradle/caches/transforms-3/6408d3a01f23261fc4bc3444ad443b29/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/aldion/.gradle/caches/transforms-3/24c0f54f3486fade478017c943eda0f9/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media:media:1.3.0] /home/aldion/.gradle/caches/transforms-3/ca94816e4bca0ab75192710ec0e4caf5/transformed/media-1.3.0/AndroidManifest.xml:26:21-76
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/aldion/.gradle/caches/transforms-3/2ab4982f869c4cb1965b45e173366ea8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

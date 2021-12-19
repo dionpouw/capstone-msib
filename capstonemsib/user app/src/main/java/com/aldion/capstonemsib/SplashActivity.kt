@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.aldion.capstonemsib.databinding.ActivitySplashBinding
-import com.aldion.capstonemsib.ui.home.HomeActivity
 import com.aldion.capstonemsib.ui.onboarding.OnBoardingOneActivity
 import kotlinx.coroutines.*
 

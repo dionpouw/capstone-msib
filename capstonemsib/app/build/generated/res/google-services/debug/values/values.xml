@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">508238194739-524jg36vvndmaqssh25uju9c3k66dkcr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://abi-atma-apps-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">508238194739</string>
+    <string name="google_api_key" translatable="false">AIzaSyDLXA1rzKFXTcPmMhFFieloWQms2au8_SQ</string>
+    <string name="google_app_id" translatable="false">1:508238194739:android:fd3757f4877f90bd949b46</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDLXA1rzKFXTcPmMhFFieloWQms2au8_SQ</string>
+    <string name="google_storage_bucket" translatable="false">abi-atma-apps.appspot.com</string>
+    <string name="project_id" translatable="false">abi-atma-apps</string>
+</resources>

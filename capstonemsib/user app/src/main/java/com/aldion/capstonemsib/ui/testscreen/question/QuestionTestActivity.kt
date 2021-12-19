@@ -12,6 +12,7 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Statement
+import com.aldion.capstonemsib.data.room.StatementRepository
 import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
 import com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity
 import com.aldion.capstonemsib.utils.ViewModelFactory
@@ -23,6 +24,7 @@ class QuestionTestActivity : AppCompatActivity(), View.OnClickListener {
     private var mQuestionList: ArrayList<Statement>? = null
     private var mSelectedOptionPosition: Int = 0
     private lateinit var viewModel: QuestionTestViewModel
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,7 +38,7 @@ class QuestionTestActivity : AppCompatActivity(), View.OnClickListener {
             mQuestionList = it
         })
 
-        setQuestion()
+        setQuestion(mQuestionList!!)
 
         binding?.tvOption1?.setOnClickListener(this)
         binding?.tvOption2?.setOnClickListener(this)
@@ -49,7 +51,7 @@ class QuestionTestActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     @SuppressLint("SetTextI18n")
-    private fun setQuestion() {
+    private fun setQuestion(mQuestionList:ArrayList<Statement>) {
         val question = mQuestionList!!.get(mCurrentPosition - 1)
         defaultOptionsView()
         if (mCurrentPosition == mQuestionList!!.size) {
@@ -104,7 +106,7 @@ class QuestionTestActivity : AppCompatActivity(), View.OnClickListener {
                 if (mSelectedOptionPosition == 0) {
                     when {
                         mCurrentPosition <= mQuestionList!!.size -> {
-                            setQuestion()
+                            setQuestion(mQuestionList!!)
                         }
                         else -> {
                             val intent = Intent(this, ResultTestActivity::class.java)

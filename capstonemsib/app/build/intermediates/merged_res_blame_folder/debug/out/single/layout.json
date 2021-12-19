@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_in.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chat.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_on_boarding_three.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_on_boarding_three.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_result_test.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_result_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_home_test.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_home_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_profil_history.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_profil_history.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_test.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_detail_psychologist.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_detail_psychologist.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_on_boarding_two.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_on_boarding_two.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_psycholog.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_psycholog.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_psycholog.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_psycholog.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up_photo_screen.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_sign_up_photo_screen.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_question_test.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_question_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile_edit.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_profile_edit.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_test_type.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_test_type.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_on_boarding_one.xml",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_on_boarding_one.xml"
+    }
+]

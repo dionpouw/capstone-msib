@@ -1,14 +1,16 @@
 package com.aldion.capstonemsib.data.entity
 
+import android.os.Parcelable
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import kotlinx.parcelize.Parcelize
 
 @Entity(tableName = "statement_table")
+@Parcelize
 data class Statement(
-
-    @ColumnInfo(name = "id")
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
     val id: Int = 0,
 
     @ColumnInfo(name = "optA")
@@ -22,4 +24,4 @@ data class Statement(
 
     @ColumnInfo(name = "optD")
     val optD: String
-)
+) : Parcelable

@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/home/aldion/.gradle/caches/transforms-3/e1d515e10599e0af9186d825eae6cce0/transformed/jetified-stream-chat-android-ui-components-4.23.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,193,253,303,358,413,464,532,594,643,702,759,813,867,926,976,1032",
+                        "endColumns": "67,69,59,49,54,54,50,67,61,48,58,56,53,53,58,49,55,54",
+                        "endOffsets": "118,188,248,298,353,408,459,527,589,638,697,754,808,862,921,971,1027,1082"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,168,238,298,348,403,458,509,577,639,688,747,804,858,912,971,1021,1077",
+                        "endColumns": "67,69,59,49,54,54,50,67,61,48,58,56,53,53,58,49,55,54",
+                        "endOffsets": "163,233,293,343,398,453,504,572,634,683,742,799,853,907,966,1016,1072,1127"
+                    }
+                },
+                {
+                    "source": "/home/aldion/.gradle/caches/transforms-3/8bdc6e90ef6cb1583d9332708fa14cc8/transformed/material-1.4.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2041,2171,2293,2431,2565,2681",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
+                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2036,2166,2288,2426,2560,2676,2796"
+                    },
+                    "to": {
+                        "startLines": "40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,63",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2488,2576,2700,2802,2904,3020,3122,3236,3364,3480,3602,3738,3858,3992,4112,4224,4439,4563,4693,4815,4953,5087,5203",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
+                        "endOffsets": "2571,2695,2797,2899,3015,3117,3231,3359,3475,3597,3733,3853,3987,4107,4219,4345,4558,4688,4810,4948,5082,5198,5318"
+                    }
+                },
+                {
+                    "source": "/home/aldion/.gradle/caches/transforms-3/0c03ca18760e073bb8dee014ba518568/transformed/appcompat-1.4.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,56",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1132,1202,1286,1370,1466,1568,1670,4350",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "1197,1281,1365,1461,1563,1665,1759,4434"
+                    }
+                },
+                {
+                    "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "821"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "1764",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2483"
+                    }
+                }
+            ]
+        }
+    ]
+}

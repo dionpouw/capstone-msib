@@ -22,12 +22,12 @@ abstract class StatementDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     StatementDatabase::class.java,
-                    "statement.db"
+                    "statement"
                 ).addCallback(object : RoomDatabase.Callback() {
                     override fun onCreate(db: SupportSQLiteDatabase) {
                         INSTANCE?.let {
                             Executors.newSingleThreadExecutor().execute {
-                                populateDbAsyncTask(context.applicationContext, it.statementDao())
+                                populateDbAsyncTask(it.statementDao())
                             }
                         }
                     }
@@ -37,7 +37,7 @@ abstract class StatementDatabase : RoomDatabase() {
             }
         }
 
-        private fun populateDbAsyncTask(context: Context, statementDao: StatementDao) {
+        private fun populateDbAsyncTask(statementDao: StatementDao) {
             statementDao.insert(
                 Statement(
                     1,

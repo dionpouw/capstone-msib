@@ -1,0 +1,294 @@
+[
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_splash.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_sign_in.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/sign_in.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ic_thumbs_up.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ic_thumbs_up.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_btn_delete_upload.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/btn_delete_upload.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_item_home_test.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_home_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ob2.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ob2.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_result_test_img.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/result_test_img.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_item_test_type.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_test_type.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_on_boarding_two.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_on_boarding_two.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_icon_app.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/icon_app.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ic_profile_non.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ic_profile_non.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_bag.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/bag.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_on_boarding_one.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_on_boarding_one.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_splash_screen.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/splash_screen.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_sign_up.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/sign_up.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/font_pmedium.ttf.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/font/pmedium.ttf"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ic_home_non.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ic_home_non.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ic_psycholog_non.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ic_psycholog_non.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_detail_psychologist.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_detail_psychologist.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ic_test_non.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ic_test_non.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_fragment_psycholog.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_psycholog.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_edit_profile.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/edit_profile.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_custom_progressbar.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/custom_progressbar.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_sign_up.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_sign_up_photo_screen.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_sign_up_photo_screen.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_fragment_test.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_result_test.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_result_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_arrow_right.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/arrow_right.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_icon_test1.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/icon_test1.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_fragment_chat.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_test_bdi.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/test_bdi.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_sample_psikolog.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/sample_psikolog.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_shape_rectangle_edit_text_purple.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/shape_rectangle_edit_text_purple.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ob1.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ob1.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_sign_in.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_item_psycholog.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_psycholog.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_profil_blue.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/profil_blue.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_btn_upload.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/btn_upload.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ic_briefcase.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ic_briefcase.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_fragment_profile.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_on_boarding_three.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_on_boarding_three.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/font_pregular.ttf.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/font/pregular.ttf"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_activity_question_test.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/activity_question_test.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_fragment_profile_edit.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/fragment_profile_edit.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_ob3.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/ob3.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_shape_rectangle_primary.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/shape_rectangle_primary.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/font_psemibold.ttf.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/font/psemibold.ttf"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/layout_item_profil_history.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/layout/item_profil_history.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_shape_rectangle_edit_text.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/shape_rectangle_edit_text.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_home_test.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/home_test.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/menu_botton_nav_menu.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/menu/botton_nav_menu.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/drawable_shape_rectangle_secondary.xml.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/drawable/shape_rectangle_secondary.xml"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/aldion/Code/MSIB/capstone-msib/capstonemsib/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
