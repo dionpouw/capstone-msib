@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">CapstoneMSIB</string>
-
+    <string name="app_name">Abi Atma</string>
     <string name="on_boarding_one">On Boarding One</string>
     <string name="mental_health_test">Tes Kesehatan Jiwa</string>
     <string name="desc_ob1">Lakukan tes untuk mengetahui \n apakah kamu sedang \n mengalami depresi atau tidak</string>
