@@ -12,8 +12,30 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_profile"
         android:name="com.abiatma.psychologistapp.ui.profile.ProfileFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_profile" />
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_navigation_profiles_to_profileEditFragment"
+            app:destination="@id/profileEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileEditFragment"
+        android:name="com.abiatma.psychologistapp.ui.profile.ProfileEditFragment"
+        android:label="fragment_profile_edit"
+        tools:layout="@layout/fragment_profile_edit" >
+        <action
+            android:id="@+id/action_profileEditFragment_to_navigation_notifications"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+    <activity
+        android:id="@+id/signUpActivity"
+        android:name="com.abiatma.psychologistapp.ui.signup.SignUpActivity"
+        android:label="SignUpActivity" />
+    <activity
+        android:id="@+id/signInActivity"
+        android:name="com.abiatma.psychologistapp.ui.signin.SignInActivity"
+        android:label="activity_sign_in"
+        tools:layout="@layout/activity_sign_in" />
 </navigation>
