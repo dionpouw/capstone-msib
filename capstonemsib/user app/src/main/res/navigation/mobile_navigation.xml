@@ -48,11 +48,6 @@
         android:name="com.aldion.capstonemsib.ui.onboarding.OnBoardingThreeActivity"
         android:label="activity_on_boarding_three"
         tools:layout="@layout/activity_on_boarding_three" />
-    <activity
-        android:id="@+id/signInActivity"
-        android:name="com.aldion.capstonemsib.ui.signin.SignInActivity"
-        android:label="activity_sign_up"
-        tools:layout="@layout/activity_sign_up" />
     <fragment
         android:id="@+id/profileEditFragment"
         android:name="com.aldion.capstonemsib.ui.profile.ProfileEditFragment"
@@ -77,13 +72,4 @@
         android:name="com.aldion.capstonemsib.ui.testscreen.question.QuestionTestActivity"
         android:label="activity_question_test"
         tools:layout="@layout/activity_question_test" />
-    <activity
-        android:id="@+id/signUpPhotoScreenActivity"
-        android:name="com.aldion.capstonemsib.ui.signup.SignUpPhotoScreenActivity"
-        android:label="activity_sign_up_photo_screen"
-        tools:layout="@layout/activity_sign_up_photo_screen" />
-    <activity
-        android:id="@+id/signUpActivity"
-        android:name="com.aldion.capstonemsib.ui.signup.SignUpActivity"
-        android:label="SignUpActivity" />
 </navigation>

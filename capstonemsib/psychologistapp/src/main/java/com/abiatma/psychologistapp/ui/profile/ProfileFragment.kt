@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
+import com.abiatma.psychologistapp.R
 import com.abiatma.psychologistapp.databinding.FragmentProfileBinding
 import com.abiatma.psychologistapp.ui.signin.SignInActivity
 import com.abiatma.psychologistapp.utils.Preferences
@@ -16,7 +18,7 @@ class ProfileFragment : Fragment() {
     private var _binding: FragmentProfileBinding? = null
     private val binding get() = _binding
 
-    lateinit var preferences: Preferences
+    private lateinit var preferences: Preferences
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -32,20 +34,21 @@ class ProfileFragment : Fragment() {
 
         preferences = Preferences(requireContext())
 
-//        datalist.add(Transaction(1,"2021-2101"))
-//        listTransaction.setTransaction(datalist)
         binding?.apply {
             tvProfilName.text = preferences.getValue("name")
-            tvProfilEmail.text = preferences.getValue("email")
-            tvUsername.text = preferences.getValue("username")
+            tvType.text = preferences.getValue("type")
+            tvWorkExperience.text = preferences.getValue("workExperience")
+            tvAlumni.text = preferences.getValue("alumni")
+            tvPracticePlace.text = preferences.getValue("practicePlace")
+            tvSTRNumber.text = preferences.getValue("noSTR")
 
             Glide.with(this@ProfileFragment)
                 .load(preferences.getValue("url"))
                 .apply(RequestOptions.circleCropTransform())
                 .into(imgProfile)
-//            btnEdit.setOnClickListener { view ->
-//                view.findNavController().navigate(R.id.action_navigation_profile_to_profileEditFragment)
-//            }
+            btnEdit.setOnClickListener { view ->
+                view.findNavController().navigate(R.id.action_navigation_profiles_to_profileEditFragment)
+            }
 
             btnLogOut.setOnClickListener(){
                 preferences.setValue("status", "0")

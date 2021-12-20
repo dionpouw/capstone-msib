@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.aldion.capstonemsib.data.entity.User
 import com.aldion.capstonemsib.databinding.ActivitySignUpBinding
+import com.aldion.capstonemsib.ui.signin.SignInActivity
 import com.aldion.capstonemsib.utils.Preferences
 import com.google.firebase.database.*
 
@@ -75,6 +76,11 @@ class SignUpActivity : AppCompatActivity() {
                             suDateOfBirth
                         )
                     }
+                }
+
+                btnSignIn.setOnClickListener {
+                    val intent = Intent(this@SignUpActivity, SignInActivity::class.java)
+                    startActivity(intent)
                 }
             }
         }

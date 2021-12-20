@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.abiatma.psychologistapp.databinding.ActivitySignUpBinding
 import com.abiatma.psychologistapp.entity.Psychologist
+import com.abiatma.psychologistapp.ui.signin.SignInActivity
 import com.abiatma.psychologistapp.utils.Preferences
 import com.google.firebase.database.*
 
@@ -92,6 +93,11 @@ class SignUpActivity : AppCompatActivity() {
                             suWorkExperience,
                             suAlumni
                         )
+                    }
+
+                    btnSignIn.setOnClickListener {
+                        val intent = Intent(this@SignUpActivity, SignInActivity::class.java)
+                        startActivity(intent)
                     }
                 }
             }
