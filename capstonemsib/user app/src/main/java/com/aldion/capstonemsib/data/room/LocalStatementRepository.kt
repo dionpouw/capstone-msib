@@ -4,19 +4,19 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import com.aldion.capstonemsib.data.entity.Statement
 
-class StatementRepository(private val statementDao: StatementDao) {
+class LocalStatementRepository(private val statementDao: StatementDao) {
 
     companion object {
         @Volatile
-        private var instance: StatementRepository? = null
+        private var instance: LocalStatementRepository? = null
 
-        fun getInstance(context: Context): StatementRepository {
+        fun getInstance(context: Context): LocalStatementRepository {
             return instance ?: synchronized(this) {
                 if (instance == null) {
                     val database = StatementDatabase.getInstance(context)
-                    instance = StatementRepository(database.statementDao())
+                    instance = LocalStatementRepository(database.statementDao())
                 }
-                return instance as StatementRepository
+                return instance as LocalStatementRepository
             }
         }
     }

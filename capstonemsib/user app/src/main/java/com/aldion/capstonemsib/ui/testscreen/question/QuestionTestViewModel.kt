@@ -3,16 +3,25 @@ package com.aldion.capstonemsib.ui.testscreen.question
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.liveData
 import com.aldion.capstonemsib.data.entity.Statement
-import com.aldion.capstonemsib.data.room.StatementRepository
+import com.aldion.capstonemsib.data.remote.FirebaseCallback
+import com.aldion.capstonemsib.data.remote.RemoteStatementRepository
+import com.aldion.capstonemsib.data.remote.Response
+import com.aldion.capstonemsib.data.room.LocalStatementRepository
+import kotlinx.coroutines.Dispatchers
 
-class QuestionTestViewModel(private val statementRepository: StatementRepository) : ViewModel() {
+class QuestionTestViewModel(private val remoteStatementRepository: RemoteStatementRepository = RemoteStatementRepository()) : ViewModel() {
 
-    private val _question = MutableLiveData<ArrayList<Statement>>()
+    fun getResponseUsingCallback(callback: FirebaseCallback) {
+        remoteStatementRepository.getResponseFromRealtimeDatabaseUsingCallback(callback)
+    }
 
-    val question: LiveData<ArrayList<Statement>> = _question
+    fun getResponseUsingLiveData() : LiveData<Response> {
+        return remoteStatementRepository.getResponseFromRealtimeDatabaseUsingLiveData()
+    }
 
-    fun getAllStatement() {
-        statementRepository.getAllStatement()
+    val responseLiveData = liveData(Dispatchers.IO) {
+        emit(remoteStatementRepository.getResponseFromRealtimeDatabaseUsingCoroutines())
     }
 }
