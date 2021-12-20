@@ -1,4 +1,4 @@
-package com.aldion.capstonemsib.ui
+package com.aldion.capstonemsib
 
 import android.content.Intent
 import android.os.Bundle
