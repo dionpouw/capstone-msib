@@ -129,7 +129,7 @@ object setData {
                 14,
                 "Saya tidak merasa lebih buruk dari sebelumnya",
                 "Saya cemas jangan-jangan sudah tua dan tidak menarik",
-                "Saya merasa ada perubahan dalam penampilan sehingga tidak menarik firefox",
+                "Saya merasa ada perubahan dalam penampilan sehingga tidak menarik",
                 "Saya yakin terlihat buruk"
             )
         )
