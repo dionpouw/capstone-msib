@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "508238194739",
+    "firebase_url": "https://abi-atma-apps-default-rtdb.firebaseio.com",
+    "project_id": "abi-atma-apps",
+    "storage_bucket": "abi-atma-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508238194739:android:9e1940e3df60eb98949b46",
+        "android_client_info": {
+          "package_name": "com.abiatma.psychologistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508238194739-524jg36vvndmaqssh25uju9c3k66dkcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLXA1rzKFXTcPmMhFFieloWQms2au8_SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508238194739-524jg36vvndmaqssh25uju9c3k66dkcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508238194739:android:fd3757f4877f90bd949b46",
+        "android_client_info": {
+          "package_name": "com.aldion.capstonemsib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508238194739-524jg36vvndmaqssh25uju9c3k66dkcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLXA1rzKFXTcPmMhFFieloWQms2au8_SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508238194739-524jg36vvndmaqssh25uju9c3k66dkcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

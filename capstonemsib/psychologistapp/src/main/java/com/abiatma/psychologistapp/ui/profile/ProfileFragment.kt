@@ -1,17 +1,14 @@
-package com.aldion.capstonemsib.ui.profile
+package com.abiatma.psychologistapp.ui.profile
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.Navigation
-import androidx.navigation.findNavController
-import com.aldion.capstonemsib.R
-import com.aldion.capstonemsib.databinding.FragmentProfileBinding
-import com.aldion.capstonemsib.ui.signin.SignInActivity
-import com.aldion.capstonemsib.utils.Preferences
+import androidx.fragment.app.Fragment
+import com.abiatma.psychologistapp.databinding.FragmentProfileBinding
+import com.abiatma.psychologistapp.ui.signin.SignInActivity
+import com.abiatma.psychologistapp.utils.Preferences
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
@@ -20,10 +17,6 @@ class ProfileFragment : Fragment() {
     private val binding get() = _binding
 
     lateinit var preferences: Preferences
-
-//    private var listTransaction = ProfileAdapter()
-//
-//    private var datalist = ArrayList<Transaction>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -44,17 +37,15 @@ class ProfileFragment : Fragment() {
         binding?.apply {
             tvProfilName.text = preferences.getValue("name")
             tvProfilEmail.text = preferences.getValue("email")
-            tvProfilDateBirth.text = preferences.getValue("dateOfBirth")
-            tvProfilPhone.text = preferences.getValue("telephoneNumber")
             tvUsername.text = preferences.getValue("username")
 
             Glide.with(this@ProfileFragment)
                 .load(preferences.getValue("url"))
                 .apply(RequestOptions.circleCropTransform())
                 .into(imgProfile)
-            btnEdit.setOnClickListener { view ->
-                view.findNavController().navigate(R.id.action_navigation_profile_to_profileEditFragment)
-            }
+//            btnEdit.setOnClickListener { view ->
+//                view.findNavController().navigate(R.id.action_navigation_profile_to_profileEditFragment)
+//            }
 
             btnLogOut.setOnClickListener(){
                 preferences.setValue("status", "0")
