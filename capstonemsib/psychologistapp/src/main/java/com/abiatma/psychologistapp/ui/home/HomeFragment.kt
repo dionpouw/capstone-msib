@@ -34,7 +34,7 @@ class HomeFragment : Fragment() {
         preferences = Preferences(requireActivity().applicationContext)
 
         binding?.apply {
-            tvName.text = "Halo "+ preferences.getValue("name")+","
+            tvName.text = "Halo " + preferences.getValue("name") + ","
 
             Glide.with(this@HomeFragment)
                 .load(preferences.getValue("url"))
