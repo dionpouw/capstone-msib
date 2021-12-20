@@ -102,4 +102,12 @@
     <string name="title_activity_home">HomeActivity</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="no_str">No STR</string>
+    <string name="hint_no_str">Masukkan no STR kamu</string>
+    <string name="hint_practice_place">Masukkan tempat praktik kamu</string>
+    <string name="psycholog_type">Tipe Psikolog</string>
+    <string name="hint_type">Masukkan tipe psikolog kamu</string>
+    <string name="work_experience">Lama Bekerja</string>
+    <string name="hint_work_experience">Masukkan lama bekerja kamu</string>
+    <string name="hint_alumni">Masukkan riwayat pendidikan kamu</string>
 </resources>
