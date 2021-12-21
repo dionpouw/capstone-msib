@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/shape_rectangle"
     app:cardCornerRadius="9dp"
     app:cardElevation="3dp"
     app:cardUseCompatPadding="true">
@@ -94,9 +95,5 @@
             app:layout_constraintStart_toStartOf="@+id/tv_type"
             app:layout_constraintTop_toBottomOf="@+id/tv_type"
             app:drawableLeftCompat="@drawable/bag" />
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </androidx.cardview.widget.CardView>
