@@ -1,6 +1,7 @@
 package com.aldion.capstonemsib.ui.home
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,6 +10,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Psychologist
+import com.aldion.capstonemsib.ui.consultation.DetailPsychologistActivity
+import com.aldion.capstonemsib.ui.consultation.chat.ChatActivity
 import com.bumptech.glide.Glide
 
 class HomeAdapter(
@@ -22,6 +25,7 @@ class HomeAdapter(
         private val tvName: TextView = view.findViewById(R.id.tv_name_show)
         private val tvType: TextView = view.findViewById(R.id.tv_type)
         private val tvExperience: TextView = view.findViewById(R.id.tvExperience)
+        private val btnChat: TextView = view.findViewById(R.id.btnChat)
 
         private val tvImage: ImageView = view.findViewById(R.id.iv_poster_image)
 
@@ -37,6 +41,14 @@ class HomeAdapter(
 
             itemView.setOnClickListener {
                 listener(data)
+            }
+
+            btnChat.setOnClickListener {
+                val intent = Intent(
+                    context,
+                    ChatActivity::class.java
+                ).putExtra("data", data)
+                context.startActivity(intent)
             }
         }
     }

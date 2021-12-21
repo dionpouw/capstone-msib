@@ -21,7 +21,6 @@ class ChatActivity : AppCompatActivity() {
     var chatList = ArrayList<Chat>()
     var topic = ""
 
-    @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityChatBinding.inflate(layoutInflater)
@@ -35,8 +34,7 @@ class ChatActivity : AppCompatActivity() {
             Glide.with(this@ChatActivity)
                 .load(data?.url)
                 .into(imgProfile)
-            chatRecyclerView.layoutManager =
-                LinearLayoutManager(this@ChatActivity, LinearLayout.VERTICAL, false)
+            chatRecyclerView.layoutManager = LinearLayoutManager(this@ChatActivity.applicationContext)
 
             btnSendMessage.setOnClickListener {
                 val message = etMessage.text.toString()

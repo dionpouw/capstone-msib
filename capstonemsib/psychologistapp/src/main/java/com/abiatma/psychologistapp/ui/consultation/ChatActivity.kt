@@ -1,17 +1,24 @@
 package com.abiatma.psychologistapp.ui.consultation
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
+import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.abiatma.psychologistapp.notification.RetrofitInstance
 import com.abiatma.psychologistapp.databinding.ActivityChatBinding
 import com.abiatma.psychologistapp.entity.Chat
+import com.abiatma.psychologistapp.entity.PushNotification
 import com.abiatma.psychologistapp.entity.User
 import com.abiatma.psychologistapp.utils.Preferences
 import com.bumptech.glide.Glide
+import com.codingwithme.firebasechat.model.NotificationData
 import com.google.firebase.database.*
+import com.google.gson.Gson
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import java.lang.Exception
 import java.util.ArrayList
 
 class ChatActivity : AppCompatActivity() {
@@ -21,7 +28,6 @@ class ChatActivity : AppCompatActivity() {
     var chatList = ArrayList<Chat>()
     var topic = ""
 
-    @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityChatBinding.inflate(layoutInflater)
@@ -37,7 +43,7 @@ class ChatActivity : AppCompatActivity() {
                 .into(imgProfile)
 
             chatRecyclerView.layoutManager =
-                LinearLayoutManager(this@ChatActivity, LinearLayout.VERTICAL, false)
+                LinearLayoutManager(this@ChatActivity.applicationContext)
 
             btnSendMessage.setOnClickListener {
                 val message = etMessage.text.toString()
@@ -51,6 +57,13 @@ class ChatActivity : AppCompatActivity() {
                         message
                     )
                     etMessage.setText("")
+                    topic = data?.name!!
+                    PushNotification(
+                        NotificationData(data.name!!, message),
+                        topic
+                    ).also {
+                        sendNotification(it)
+                    }
                 }
             }
             readMessage(preferences.getValue("username").toString(), data?.username!!)
@@ -97,4 +110,18 @@ class ChatActivity : AppCompatActivity() {
             }
         })
     }
+
+    private fun sendNotification(notification: PushNotification) =
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val response = RetrofitInstance.api.postNotification(notification)
+                if (response.isSuccessful) {
+                    Log.d("TAG", "Response: ${Gson().toJson(response)}")
+                } else {
+                    Log.e("TAG", response.errorBody()!!.toString())
+                }
+            } catch (e: Exception) {
+                Log.e("TAG", e.toString())
+            }
+        }
 }

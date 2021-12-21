@@ -42,9 +42,10 @@
         android:layout_marginTop="16dp"
         android:layout_weight="0.5"
         android:padding="5dp"
-        android:src="@drawable/stream_ui_arrow_left"
+        android:src="@drawable/arrow_left"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/icon_back" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/chatRecyclerView"
@@ -63,28 +64,34 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:layout_weight="1"
-        android:background="@drawable/shape_rectangle_edit_text"
+        android:background="@drawable/shape_rectangle_edit_grey"
         android:fontFamily="@font/pmedium"
         android:hint="@string/type_message"
         android:inputType="text"
-        android:padding="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:textColor="@color/darkerBlack"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnSendMessage"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/btnSendMessage"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:background="@color/white"
         android:contentDescription="@string/button_send"
         android:src="@drawable/send_button"
         app:layout_constraintBottom_toBottomOf="@+id/etMessage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/etMessage" />
+        app:layout_constraintTop_toTopOf="@+id/etMessage"
+        tools:ignore="TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
