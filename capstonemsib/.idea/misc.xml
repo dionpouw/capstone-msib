@@ -36,11 +36,13 @@
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/item_profil_history.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/item_psycholog.xml" value="0.536" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/app/src/main/res/layout/item_test_type.xml" value="0.4" />
+        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/ic_home_non.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/ic_launcher_foreground.xml" value="0.18229166666666666" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/item_left_side_background.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/item_right_side_background.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/shape_rectangle.xml" value="0.27291666666666664" />
+        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/drawable/shape_rectangle_edit_grey.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/psychologistapp/src/main/res/layout/activity_sign_in.xml" value="0.25677083333333334" />
@@ -62,6 +64,7 @@
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/drawable-v24/shape_rectangle.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/drawable/item_left_side_background.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/drawable/item_right_side_background.xml" value="0.27291666666666664" />
+        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/drawable/shape_rectangle_edit_grey.xml" value="0.27291666666666664" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/activity_chat.xml" value="0.4" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/activity_detail_psychologist.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/activity_home.xml" value="0.25677083333333334" />
@@ -69,7 +72,7 @@
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/activity_sign_up.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/activity_sign_up_photo_screen.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/activity_splash.xml" value="0.25677083333333334" />
-        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/fragment_home.xml" value="0.25677083333333334" />
+        <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/fragment_home.xml" value="0.4" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/fragment_profile.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/fragment_profile_edit.xml" value="0.25677083333333334" />
         <entry key="..\:/Dicoding (New)/SIB/Capstone/capstone-msib/capstonemsib/user app/src/main/res/layout/item_left.xml" value="0.4" />
