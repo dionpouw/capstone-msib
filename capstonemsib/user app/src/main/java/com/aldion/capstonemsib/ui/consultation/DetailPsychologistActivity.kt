@@ -37,7 +37,9 @@ class DetailPsychologistActivity : AppCompatActivity() {
                 .into(imgPsychologist)
 
             btnChat.setOnClickListener {
-                val intent = Intent(this@DetailPsychologistActivity, ChatActivity::class.java)
+                val intent = Intent(
+                    this@DetailPsychologistActivity,
+                    ChatActivity::class.java).putExtra("data", data)
                 startActivity(intent)
             }
 

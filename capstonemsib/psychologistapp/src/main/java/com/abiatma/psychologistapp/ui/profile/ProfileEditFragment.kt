@@ -58,7 +58,7 @@ class ProfileEditFragment : Fragment() {
         storageReference = storage.reference
 
         mFirebaseInstance = FirebaseDatabase.getInstance()
-        mDatabaseReference = mFirebaseInstance.getReference("User")
+        mDatabaseReference = mFirebaseInstance.getReference("psychologist")
 
         preferences = Preferences(requireContext())
         binding?.apply {

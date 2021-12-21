@@ -27,7 +27,8 @@
         android:theme="@style/Theme.CapstoneMSIB">
         <activity
             android:name=".ui.consultation.ChatActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity
             android:name=".ui.home.HomeActivity"
             android:exported="false" />

@@ -2,16 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="100dp"
+    android:background="@drawable/shape_rectangle"
+    android:layout_marginTop="8dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/userImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:src="@drawable/profil_blue"
         app:civ_border_width="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,7 +26,7 @@
         android:fontFamily="@font/psemibold"
         android:maxLines="1"
         android:textSize="16sp"
-        android:hint="@string/halo_name"
+        android:text="@string/exp_name"
         android:textColor="@color/black"
         android:scrollbarSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +35,7 @@
 
     <TextView
         android:id="@+id/temp"
-        android:hint="@string/temp"
+        android:text="@string/temp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/pmedium"
