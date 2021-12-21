@@ -26,9 +26,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstoneMSIB">
         <activity
+            android:name=".ui.consultation.chat.ChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.consultation.DetailPsychologistActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".ui.signup.SignUpPhotoScreenActivity"
             android:exported="false"

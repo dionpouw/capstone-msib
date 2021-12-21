@@ -101,4 +101,6 @@
     <string name="next_question">Next Question</string>
     <string name="log_out">Log Out</string>
     <string name="icon_edit_profile">Icon Edit Profile</string>
+    <string name="type_message">Type Message</string>
+    <string name="button_send">Button Send</string>
 </resources>
