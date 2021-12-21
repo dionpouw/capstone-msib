@@ -110,4 +110,7 @@
     <string name="work_experience">Lama Bekerja</string>
     <string name="hint_work_experience">Masukkan lama bekerja kamu</string>
     <string name="hint_alumni">Masukkan riwayat pendidikan kamu</string>
+    <string name="temp">temp</string>
+    <string name="type_message">Type Message</string>
+    <string name="button_send">Button Send</string>
 </resources>

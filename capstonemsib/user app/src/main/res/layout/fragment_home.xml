@@ -20,7 +20,7 @@
             android:fontFamily="@font/psemibold"
             android:text="@string/hi_natasya"
             android:textColor="@color/darkerBlack"
-            android:textSize="18sp"
+            android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
