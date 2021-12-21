@@ -5,7 +5,6 @@ import androidx.room.Entity
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-@Entity(tableName = "user")
 data class User (
     var email: String? = "",
     var name: String? = "",
