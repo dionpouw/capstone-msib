@@ -20,11 +20,6 @@
         android:label="@string/title_test"
         tools:layout="@layout/fragment_test" />
     <fragment
-        android:id="@+id/navigation_psycholog"
-        android:name="com.aldion.capstonemsib.ui.consultation.PsychologistFragment"
-        android:label="@string/title_psycholog"
-        tools:layout="@layout/fragment_psycholog" />
-    <fragment
         android:id="@+id/navigation_profile"
         android:name="com.aldion.capstonemsib.ui.profile.ProfileFragment"
         android:label="@string/title_profile"

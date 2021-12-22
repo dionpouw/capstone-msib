@@ -10,8 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Psychologist
-import com.aldion.capstonemsib.ui.consultation.DetailPsychologistActivity
-import com.aldion.capstonemsib.ui.consultation.chat.ChatActivity
+import com.aldion.capstonemsib.ui.consultation.ChatActivity
 import com.bumptech.glide.Glide
 
 class HomeAdapter(

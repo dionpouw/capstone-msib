@@ -1,9 +1,7 @@
-package com.aldion.capstonemsib.ui.consultation.chat
+package com.aldion.capstonemsib.ui.consultation
 
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.aldion.capstonemsib.data.entity.Chat

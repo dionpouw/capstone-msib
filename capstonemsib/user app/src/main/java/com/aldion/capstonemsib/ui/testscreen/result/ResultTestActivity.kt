@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aldion.capstonemsib.databinding.ActivityResultTestBinding
-import com.aldion.capstonemsib.ui.consultation.PsychologistFragment
+import com.aldion.capstonemsib.ui.home.HomeActivity
 import com.aldion.capstonemsib.ui.testscreen.TestFragment
 
 class ResultTestActivity : AppCompatActivity() {
@@ -22,7 +22,7 @@ class ResultTestActivity : AppCompatActivity() {
             }
 
             btnConsultation.setOnClickListener{
-                val intentConsultation = Intent(this@ResultTestActivity, PsychologistFragment::class.java)
+                val intentConsultation = Intent(this@ResultTestActivity, HomeActivity::class.java)
                 startActivity(intentConsultation)
             }
         }

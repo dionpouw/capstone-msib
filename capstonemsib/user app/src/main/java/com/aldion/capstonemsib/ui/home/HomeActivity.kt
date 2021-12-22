@@ -23,7 +23,6 @@ class HomeActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration.Builder(
             R.id.navigation_home,
             R.id.navigation_test,
-            R.id.navigation_psycholog,
             R.id.navigation_profile
         ).build()
 

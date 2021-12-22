@@ -9,10 +9,6 @@
         android:icon="@drawable/ic_test_non"
         android:title="@string/title_test" />
     <item
-        android:id="@+id/navigation_psycholog"
-        android:icon="@drawable/ic_psycholog_non"
-        android:title="@string/title_psycholog" />
-    <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_profile_non"
         android:title="@string/title_profile" />
