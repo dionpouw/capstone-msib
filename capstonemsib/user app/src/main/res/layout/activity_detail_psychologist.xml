@@ -5,12 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:padding="12dp"
     tools:context=".ui.consultation.DetailPsychologistActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="2"
+            android:fontFamily="@font/psemibold"
+            android:text="@string/detail_psychologist"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgBack"
+            app:layout_constraintTop_toTopOf="@+id/imgBack" />
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="0.5"
+            android:contentDescription="@string/icon_back"
+            android:padding="5dp"
+            android:src="@drawable/arrow_left"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -18,10 +46,12 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
             android:paddingBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toBottomOf="@+id/imgBack">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -31,6 +61,7 @@
                     android:id="@+id/imgPsychologist"
                     android:layout_width="220dp"
                     android:layout_height="220dp"
+                    android:layout_marginTop="8dp"
                     android:contentDescription="@string/image_detail_psycholog"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +113,6 @@
                         android:textColor="@color/black"
                         android:textSize="14sp"
                         app:drawableLeftCompat="@drawable/bag" />
-
                 </LinearLayout>
 
                 <TextView

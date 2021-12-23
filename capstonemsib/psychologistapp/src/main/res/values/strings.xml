@@ -113,4 +113,5 @@
     <string name="temp">temp</string>
     <string name="type_message">Type Message</string>
     <string name="button_send">Button Send</string>
+    <string name="icon_back">Icon Back</string>
 </resources>
