@@ -73,7 +73,6 @@ class QuestionTestActivity : AppCompatActivity() {
                     currentQuestion += 1
                     resultTest.add(selectedOption)
                     setQuestion(currentQuestion)
-
                 }
                 btnPrevious.setOnClickListener {
                     currentQuestion -= 1
@@ -84,6 +83,7 @@ class QuestionTestActivity : AppCompatActivity() {
                 btnNext.text = getString(R.string.test_finished)
                 btnNext.setOnClickListener {
                     val intent = Intent(this@QuestionTestActivity, ResultTestActivity::class.java)
+                    intent.putExtra("TEST_RESULT",resultTest.sum())
                     startActivity(intent)
                     Log.d("Debug","Hasilnya ialah ${resultTest.sum()}")
                 }

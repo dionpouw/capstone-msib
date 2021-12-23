@@ -53,6 +53,7 @@
     <string name="image_result_test">Image Result Test</string>
     <string name="complete_test">Tes Sudah Selesai</string>
     <string name="desc_result_test">Dari tes yang sudah kamu lewati, \nsepertinya kamu harus konsultasi deh. \nUntuk langsung konsultasi, kamu bisa \ntekan tombol konsultasi di bawah ini.</string>
+    <string name="desc_normal_result_test">Dari tes yang sudah kamu lewati, kami ucapkan selamat karena anda baik-baik saja namun jika ingin konsultasi anda dapat menekan tombol dibawah ini</string>
     <string name="back_to_test">Kembali ke Tes</string>
     <string name="number_of_questions">Pertanyaan %1$d/21</string>
     <string name="question">Apakah kamu mengalami gangguan pola makan?</string>
