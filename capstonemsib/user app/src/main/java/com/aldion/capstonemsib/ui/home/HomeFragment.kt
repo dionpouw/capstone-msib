@@ -44,7 +44,7 @@ class HomeFragment : Fragment() {
         mDatabase = FirebaseDatabase.getInstance().getReference("psychologist")
 
         binding?.apply {
-            tvName.text = "Halo "+ preferences.getValue("name")+","
+            tvName.text = "Halo " + preferences.getValue("name") + ","
 
             Glide.with(this@HomeFragment)
                 .load(preferences.getValue("url"))
@@ -54,18 +54,18 @@ class HomeFragment : Fragment() {
             rvHomeFragment.layoutManager = LinearLayoutManager(requireContext().applicationContext)
             getData()
 
-            itemHomeTest.iRight.setOnClickListener(
+            itemHomeTest.iRight.setOnClickListener {
                 Navigation.createNavigateOnClickListener(R.id.action_navigation_home_to_navigation_test)
-            )
+            }
         }
     }
 
     private fun getData() {
-        mDatabase.addValueEventListener(object : ValueEventListener{
+        mDatabase.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 datalist.clear()
-                for (getDataSnapshot in snapshot.children){
-                    val psychologist =getDataSnapshot.getValue(Psychologist::class.java)
+                for (getDataSnapshot in snapshot.children) {
+                    val psychologist = getDataSnapshot.getValue(Psychologist::class.java)
                     datalist.add(psychologist!!)
                 }
 
@@ -83,7 +83,7 @@ class HomeFragment : Fragment() {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                Toast.makeText(context, ""+error.message, Toast.LENGTH_LONG).show()
+                Toast.makeText(context, "" + error.message, Toast.LENGTH_LONG).show()
             }
         })
     }

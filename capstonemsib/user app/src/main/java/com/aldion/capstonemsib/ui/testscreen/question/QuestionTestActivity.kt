@@ -1,9 +1,13 @@
 package com.aldion.capstonemsib.ui.testscreen.question
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.Typeface
 import android.os.Bundle
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Statement
 import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
@@ -18,8 +22,8 @@ class QuestionTestActivity : AppCompatActivity() {
     private val binding get() = _binding
     private var _binding: ActivityQuestionTestBinding? = null
     private var currentQuestion = 0
-    private var currentProgress = 0
-    private var resultTest = 0
+    private var selectedOption = 0
+    private lateinit var resultTest: ArrayList<Int>
     private lateinit var mDatabase: DatabaseReference
     private var datalist = ArrayList<Statement>()
 
@@ -33,12 +37,26 @@ class QuestionTestActivity : AppCompatActivity() {
         //getData()
         //print(datalist)
         setQuestion(currentQuestion)
+
+        binding?.tvOption1?.setOnClickListener {
+            selectedOptionStyle(binding?.tvOption1!!, 0)
+        }
+        binding?.tvOption2?.setOnClickListener {
+            selectedOptionStyle(binding?.tvOption2!!, 1)
+        }
+        binding?.tvOption3?.setOnClickListener {
+            selectedOptionStyle(binding?.tvOption3!!, 2)
+        }
+        binding?.tvOption4?.setOnClickListener {
+            selectedOptionStyle(binding?.tvOption3!!, 3)
+        }
     }
 
     private fun setQuestion(position: Int) {
         binding?.apply {
             tvProgress.text = getString(R.string.number_of_questions, position + 1)
-            pbQuestion.progress = currentProgress
+            pbQuestion.progress = position + 1
+            pbQuestion.max = datalist.size
             tvOption1.text = datalist[position].opt1
             tvOption2.text = datalist[position].opt2
             tvOption3.text = datalist[position].opt3
@@ -47,12 +65,12 @@ class QuestionTestActivity : AppCompatActivity() {
             if (position != datalist.size - 1) {
                 btnNext.setOnClickListener {
                     currentQuestion += 1
-                    currentProgress += 5
+                    resultTest.add(selectedOption)
                     setQuestion(currentQuestion)
+
                 }
                 btnPrevious.setOnClickListener {
                     currentQuestion -= 1
-                    currentProgress -= 5
                     setQuestion(currentQuestion)
                 }
             } else {
@@ -63,6 +81,13 @@ class QuestionTestActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    private fun selectedOptionStyle(view: TextView, opt: Int) {
+        selectedOption = opt
+        view.background = ContextCompat.getDrawable(this, R.drawable.shape_rectangle_primary)
+        view.typeface = Typeface.DEFAULT_BOLD
+        view.setTextColor(Color.parseColor("#FFFFFF"))
     }
 
     private fun getData() {
