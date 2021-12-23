@@ -25,7 +25,7 @@ class LocalStatementRepository(private val statementDao: StatementDao) {
         return statementDao.getAllStatement()
     }
 
-    fun insert(statement: Statement) {
+    fun insert(statement: List<Statement>) {
         return statementDao.insert(statement)
     }
 }

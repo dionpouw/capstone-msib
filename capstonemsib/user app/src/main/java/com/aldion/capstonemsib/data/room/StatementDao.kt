@@ -13,5 +13,5 @@ interface StatementDao {
     fun getAllStatement():LiveData<MutableList<Statement>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insert(statement: Statement)
+    fun insert(statement: List<Statement>)
 }
