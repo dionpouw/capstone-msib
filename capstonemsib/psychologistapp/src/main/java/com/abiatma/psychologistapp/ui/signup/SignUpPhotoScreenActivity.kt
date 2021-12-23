@@ -63,7 +63,7 @@ class SignUpPhotoScreenActivity : AppCompatActivity() {
 
                 } else {
                     ImagePicker.with(this@SignUpPhotoScreenActivity)
-                        .cameraOnly()	//User can only capture image using Camera
+                        .cropSquare()
                         .start()
                 }
             }
