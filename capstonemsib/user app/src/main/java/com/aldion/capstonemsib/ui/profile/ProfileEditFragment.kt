@@ -76,6 +76,11 @@ class ProfileEditFragment : Fragment() {
                 .apply(RequestOptions.circleCropTransform())
                 .into(imgProfile)
 
+            imgBack.setOnClickListener {
+                view.findNavController()
+                    .navigate(R.id.action_profileEditFragment_to_navigation_profile)
+            }
+
 //            ivAdd.setOnClickListener {
 //                if (statusAdd) {
 //                    statusAdd = false

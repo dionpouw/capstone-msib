@@ -11,6 +11,8 @@ import androidx.core.content.ContextCompat
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Statement
 import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
+import com.aldion.capstonemsib.ui.home.HomeActivity
+import com.aldion.capstonemsib.ui.testscreen.TestFragment
 import com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity
 import com.aldion.capstonemsib.utils.SetData
 import com.google.firebase.database.DataSnapshot
@@ -37,6 +39,9 @@ class QuestionTestActivity : AppCompatActivity() {
         //getData()
         //print(datalist)
         setQuestion(currentQuestion)
+
+        binding?.imgBack?.setOnClickListener {
+            onBackPressed()
 
         binding?.tvOption1?.setOnClickListener {
             selectedOptionStyle(binding?.tvOption1!!, 0)

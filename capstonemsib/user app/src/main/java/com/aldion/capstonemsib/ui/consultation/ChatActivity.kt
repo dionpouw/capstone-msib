@@ -48,7 +48,12 @@ class ChatActivity : AppCompatActivity() {
                     etMessage.setText("")
                 }
             }
+
             readMessage(preferences.getValue("username").toString(), data?.username!!)
+
+            imgBack.setOnClickListener {
+                onBackPressed()
+            }
         }
     }
 
