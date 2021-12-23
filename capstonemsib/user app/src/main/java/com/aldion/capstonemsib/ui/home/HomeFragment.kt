@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Psychologist
@@ -43,6 +44,7 @@ class HomeFragment : Fragment() {
         preferences = Preferences(requireActivity().applicationContext)
         mDatabase = FirebaseDatabase.getInstance().getReference("psychologist")
 
+        showLoadingVisibility(true)
         binding?.apply {
             tvName.text = "Halo " + preferences.getValue("name") + ","
 
@@ -54,6 +56,9 @@ class HomeFragment : Fragment() {
             rvHomeFragment.layoutManager = LinearLayoutManager(requireContext().applicationContext)
             getData()
 
+            ivProfile.setOnClickListener {
+                view.findNavController().navigate(R.id.action_navigation_home_to_navigation_profile)
+            }
             itemHomeTest.iRight.setOnClickListener {
                 Navigation.createNavigateOnClickListener(R.id.action_navigation_home_to_navigation_test)
             }
@@ -64,11 +69,11 @@ class HomeFragment : Fragment() {
         mDatabase.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 datalist.clear()
+                showLoadingVisibility(false)
                 for (getDataSnapshot in snapshot.children) {
                     val psychologist = getDataSnapshot.getValue(Psychologist::class.java)
                     datalist.add(psychologist!!)
                 }
-
                 binding?.apply {
                     if (datalist.isNotEmpty()) {
                         rvHomeFragment.adapter = HomeAdapter(datalist) {
@@ -86,6 +91,16 @@ class HomeFragment : Fragment() {
                 Toast.makeText(context, "" + error.message, Toast.LENGTH_LONG).show()
             }
         })
+    }
+
+    private fun showLoadingVisibility(state: Boolean) {
+        if (!state) {
+            binding?.pbHome?.visibility = View.GONE
+            binding?.rvHomeFragment?.visibility = View.VISIBLE
+        } else {
+            binding?.pbHome?.visibility = View.VISIBLE
+            binding?.rvHomeFragment?.visibility = View.INVISIBLE
+        }
     }
 
     override fun onDestroyView() {

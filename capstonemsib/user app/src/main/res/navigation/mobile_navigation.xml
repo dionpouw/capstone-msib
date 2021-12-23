@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_navigation_home_to_navigation_test"
             app:destination="@id/navigation_test" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
     </fragment>
     <fragment
         android:id="@+id/navigation_test"
