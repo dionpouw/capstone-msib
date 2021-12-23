@@ -2,8 +2,8 @@ package com.aldion.capstonemsib.ui.testscreen.question
 
 import android.content.Intent
 import android.graphics.Color
-import android.graphics.Typeface
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -23,7 +23,7 @@ class QuestionTestActivity : AppCompatActivity() {
     private var _binding: ActivityQuestionTestBinding? = null
     private var currentQuestion = 0
     private var selectedOption = 0
-    private lateinit var resultTest: ArrayList<Int>
+    private var resultTest = ArrayList<Int>()
     private lateinit var mDatabase: DatabaseReference
     private var datalist = ArrayList<Statement>()
 
@@ -48,7 +48,7 @@ class QuestionTestActivity : AppCompatActivity() {
             selectedOptionStyle(binding?.tvOption3!!, 2)
         }
         binding?.tvOption4?.setOnClickListener {
-            selectedOptionStyle(binding?.tvOption3!!, 3)
+            selectedOptionStyle(binding?.tvOption4!!, 3)
         }
     }
 
@@ -71,6 +71,7 @@ class QuestionTestActivity : AppCompatActivity() {
                 }
                 btnPrevious.setOnClickListener {
                     currentQuestion -= 1
+                    resultTest.add(selectedOption)
                     setQuestion(currentQuestion)
                 }
             } else {
@@ -78,6 +79,7 @@ class QuestionTestActivity : AppCompatActivity() {
                 btnNext.setOnClickListener {
                     val intent = Intent(this@QuestionTestActivity, ResultTestActivity::class.java)
                     startActivity(intent)
+                    Log.d("Debug","Hasilnya ialah ${resultTest.sum()}")
                 }
             }
         }
@@ -86,7 +88,6 @@ class QuestionTestActivity : AppCompatActivity() {
     private fun selectedOptionStyle(view: TextView, opt: Int) {
         selectedOption = opt
         view.background = ContextCompat.getDrawable(this, R.drawable.shape_rectangle_primary)
-        view.typeface = Typeface.DEFAULT_BOLD
         view.setTextColor(Color.parseColor("#FFFFFF"))
     }
 
