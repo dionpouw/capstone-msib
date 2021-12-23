@@ -18,6 +18,8 @@ class QuestionTestActivity : AppCompatActivity() {
     private val binding get() = _binding
     private var _binding: ActivityQuestionTestBinding? = null
     private var currentQuestion = 0
+    private var currentProgress = 0
+    private var resultTest = 0
     private lateinit var mDatabase: DatabaseReference
     private var datalist = ArrayList<Statement>()
 
@@ -29,12 +31,14 @@ class QuestionTestActivity : AppCompatActivity() {
         //mDatabase = FirebaseDatabase.getInstance().getReference("Question")
         datalist = SetData.getQuestion() as ArrayList<Statement>
         //getData()
-        print(datalist)
+        //print(datalist)
         setQuestion(currentQuestion)
     }
 
     private fun setQuestion(position: Int) {
         binding?.apply {
+            tvProgress.text = getString(R.string.number_of_questions, position + 1)
+            pbQuestion.progress = currentProgress
             tvOption1.text = datalist[position].opt1
             tvOption2.text = datalist[position].opt2
             tvOption3.text = datalist[position].opt3
@@ -43,6 +47,12 @@ class QuestionTestActivity : AppCompatActivity() {
             if (position != datalist.size - 1) {
                 btnNext.setOnClickListener {
                     currentQuestion += 1
+                    currentProgress += 5
+                    setQuestion(currentQuestion)
+                }
+                btnPrevious.setOnClickListener {
+                    currentQuestion -= 1
+                    currentProgress -= 5
                     setQuestion(currentQuestion)
                 }
             } else {
@@ -71,5 +81,4 @@ class QuestionTestActivity : AppCompatActivity() {
             }
         })
     }
-
 }

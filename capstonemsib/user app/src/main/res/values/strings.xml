@@ -54,7 +54,7 @@
     <string name="complete_test">Tes Sudah Selesai</string>
     <string name="desc_result_test">Dari tes yang sudah kamu lewati, \nsepertinya kamu harus konsultasi deh. \nUntuk langsung konsultasi, kamu bisa \ntekan tombol konsultasi di bawah ini.</string>
     <string name="back_to_test">Kembali ke Tes</string>
-    <string name="number_of_questions">Pertanyaan 1/20</string>
+    <string name="number_of_questions">Pertanyaan %1$d/21</string>
     <string name="question">Apakah kamu mengalami gangguan pola makan?</string>
     <string name="desc_option_one">Saya mengambil keputusan-\nkeputusan sama baiknya \ndengan sebelumnnya</string>
     <string name="desc_option_two">Saya lebih banyak menunda \nkeputusan dari biasanya</string>
