@@ -14,14 +14,14 @@ data class Statement(
     val id: Int = 0,
 
     @ColumnInfo(name = "optA")
-    val optA: String,
+    val opt1: String? = null,
 
     @ColumnInfo(name = "optB")
-    val optB: String,
+    val opt2: String? = null,
 
     @ColumnInfo(name = "optC")
-    val optC: String,
+    val opt3: String? = null,
 
     @ColumnInfo(name = "optD")
-    val optD: String
+    val opt4: String? = null
 ) : Parcelable
