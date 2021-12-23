@@ -2,7 +2,7 @@ package com.aldion.capstonemsib.utils
 
 import com.aldion.capstonemsib.data.entity.Statement
 
-object setData {
+object SetData {
 
     fun getQuestion(): List<Statement> {
         val question = ArrayList<Statement>()

@@ -1,16 +1,23 @@
 package com.aldion.capstonemsib.ui.testscreen.question
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Statement
 import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
-import com.google.firebase.database.*
+import com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity
+import com.aldion.capstonemsib.utils.SetData
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.ValueEventListener
 
 class QuestionTestActivity : AppCompatActivity() {
     private val binding get() = _binding
     private var _binding: ActivityQuestionTestBinding? = null
-    private lateinit var viewModel: QuestionTestViewModel
+    private var currentQuestion = 0
     private lateinit var mDatabase: DatabaseReference
     private var datalist = ArrayList<Statement>()
 
@@ -19,12 +26,33 @@ class QuestionTestActivity : AppCompatActivity() {
         _binding = ActivityQuestionTestBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
-        mDatabase = FirebaseDatabase.getInstance().getReference("Question")
-        getData()
+        //mDatabase = FirebaseDatabase.getInstance().getReference("Question")
+        datalist = SetData.getQuestion() as ArrayList<Statement>
+        //getData()
+        print(datalist)
+        setQuestion(currentQuestion)
+    }
 
-        println(datalist)
+    private fun setQuestion(position: Int) {
+        binding?.apply {
+            tvOption1.text = datalist[position].opt1
+            tvOption2.text = datalist[position].opt2
+            tvOption3.text = datalist[position].opt3
+            tvOption4.text = datalist[position].opt4
 
-
+            if (position != datalist.size - 1) {
+                btnNext.setOnClickListener {
+                    currentQuestion += 1
+                    setQuestion(currentQuestion)
+                }
+            } else {
+                btnNext.text = getString(R.string.test_finished)
+                btnNext.setOnClickListener {
+                    val intent = Intent(this@QuestionTestActivity, ResultTestActivity::class.java)
+                    startActivity(intent)
+                }
+            }
+        }
     }
 
     private fun getData() {
@@ -33,7 +61,8 @@ class QuestionTestActivity : AppCompatActivity() {
                 datalist.clear()
                 for (getDataSnapshot in snapshot.children) {
                     val question = getDataSnapshot.getValue(Statement::class.java)
-                    datalist.add(question!!)
+                    datalist.addAll(listOf(question!!))
+                    println(datalist)
                 }
             }
 
@@ -43,8 +72,4 @@ class QuestionTestActivity : AppCompatActivity() {
         })
     }
 
-
-    companion object {
-        private const val TAG = "TAG"
-    }
 }

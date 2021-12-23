@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
 import com.aldion.capstonemsib.data.entity.Statement
-import com.aldion.capstonemsib.utils.setData
+import com.aldion.capstonemsib.utils.SetData
 import java.util.concurrent.Executors
 
 @Database(entities = [Statement::class], version = 1, exportSchema = false)
@@ -40,7 +40,7 @@ abstract class StatementDatabase : RoomDatabase() {
 
         private fun populateDbAsyncTask(statementDao: StatementDao) {
             statementDao.insert(
-                setData.getQuestion()
+                SetData.getQuestion()
             )
         }
     }
