@@ -57,13 +57,13 @@ class ChatActivity : AppCompatActivity() {
                         message
                     )
                     etMessage.setText("")
-                    topic = data?.name!!
-                    PushNotification(
-                        NotificationData(data.name!!, message),
-                        topic
-                    ).also {
-                        sendNotification(it)
-                    }
+//                    topic = data?.name!!
+//                    PushNotification(
+//                        NotificationData(data.name!!, message),
+//                        topic
+//                    ).also {
+//                        sendNotification(it)
+//                    }
                 }
             }
             readMessage(preferences.getValue("username").toString(), data?.username!!)
@@ -111,17 +111,17 @@ class ChatActivity : AppCompatActivity() {
         })
     }
 
-    private fun sendNotification(notification: PushNotification) =
-        CoroutineScope(Dispatchers.IO).launch {
-            try {
-                val response = RetrofitInstance.api.postNotification(notification)
-                if (response.isSuccessful) {
-                    Log.d("TAG", "Response: ${Gson().toJson(response)}")
-                } else {
-                    Log.e("TAG", response.errorBody()!!.toString())
-                }
-            } catch (e: Exception) {
-                Log.e("TAG", e.toString())
-            }
-        }
+//    private fun sendNotification(notification: PushNotification) =
+//        CoroutineScope(Dispatchers.IO).launch {
+//            try {
+//                val response = RetrofitInstance.api.postNotification(notification)
+//                if (response.isSuccessful) {
+//                    Log.d("TAG", "Response: ${Gson().toJson(response)}")
+//                } else {
+//                    Log.e("TAG", response.errorBody()!!.toString())
+//                }
+//            } catch (e: Exception) {
+//                Log.e("TAG", e.toString())
+//            }
+//        }
 }
