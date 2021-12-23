@@ -42,6 +42,7 @@ class QuestionTestActivity : AppCompatActivity() {
 
         binding?.imgBack?.setOnClickListener {
             onBackPressed()
+        }
 
         binding?.tvOption1?.setOnClickListener {
             selectedOptionStyle(binding?.tvOption1!!, 0)
