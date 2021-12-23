@@ -18,9 +18,23 @@ class ResultTestActivity : AppCompatActivity() {
 
         val scoreTest = intent.getIntExtra("TEST_RESULT", 0)
 
-        if (scoreTest <= 10){
-            binding!!.tvDescResultTest.text = getString(R.string.desc_normal_result_test)
-        }
+        if (scoreTest <= 10) {
+            binding?.apply {
+                binding!!.tvDescResultTest.text = getString(R.string.desc_normal_result_test)
+                binding!!.btnBackToTest.text = getString(R.string.back_to_home)
+
+                btnBackToTest.setOnClickListener {
+                    val intentBackToTest = Intent(this@ResultTestActivity, TestFragment::class.java)
+                    startActivity(intentBackToTest)
+                }
+
+                btnConsultation.setOnClickListener {
+                    val intentConsultation =
+                        Intent(this@ResultTestActivity, HomeActivity::class.java)
+                    startActivity(intentConsultation)
+                }
+            }
+        } else {
             binding?.apply {
                 btnBackToTest.setOnClickListener {
                     val intentBackToTest = Intent(this@ResultTestActivity, TestFragment::class.java)
@@ -33,6 +47,7 @@ class ResultTestActivity : AppCompatActivity() {
                     startActivity(intentConsultation)
                 }
             }
+        }
     }
 
     override fun onDestroy() {

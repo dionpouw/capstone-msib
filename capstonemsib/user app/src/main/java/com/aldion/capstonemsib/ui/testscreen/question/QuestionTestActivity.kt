@@ -11,8 +11,6 @@ import androidx.core.content.ContextCompat
 import com.aldion.capstonemsib.R
 import com.aldion.capstonemsib.data.entity.Statement
 import com.aldion.capstonemsib.databinding.ActivityQuestionTestBinding
-import com.aldion.capstonemsib.ui.home.HomeActivity
-import com.aldion.capstonemsib.ui.testscreen.TestFragment
 import com.aldion.capstonemsib.ui.testscreen.result.ResultTestActivity
 import com.aldion.capstonemsib.utils.SetData
 import com.google.firebase.database.DataSnapshot
@@ -30,11 +28,13 @@ class QuestionTestActivity : AppCompatActivity() {
     private var datalist = ArrayList<Statement>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         _binding = ActivityQuestionTestBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
         //mDatabase = FirebaseDatabase.getInstance().getReference("Question")
+        currentQuestion = 0
         datalist = SetData.getQuestion() as ArrayList<Statement>
         //getData()
         //print(datalist)
@@ -58,7 +58,24 @@ class QuestionTestActivity : AppCompatActivity() {
         }
     }
 
+    private fun setDefaultStyleOption() {
+        selectedOption = 0
+        binding?.tvOption1?.background =
+            ContextCompat.getDrawable(this, R.drawable.shape_rectangle_secondary)
+        binding?.tvOption1?.setTextColor(Color.parseColor("#6E5DE7"))
+        binding?.tvOption2?.background =
+            ContextCompat.getDrawable(this, R.drawable.shape_rectangle_secondary)
+        binding?.tvOption2?.setTextColor(Color.parseColor("#6E5DE7"))
+        binding?.tvOption3?.background =
+            ContextCompat.getDrawable(this, R.drawable.shape_rectangle_secondary)
+        binding?.tvOption3?.setTextColor(Color.parseColor("#6E5DE7"))
+        binding?.tvOption4?.background =
+            ContextCompat.getDrawable(this, R.drawable.shape_rectangle_secondary)
+        binding?.tvOption4?.setTextColor(Color.parseColor("#6E5DE7"))
+    }
+
     private fun setQuestion(position: Int) {
+        setDefaultStyleOption()
         binding?.apply {
             tvProgress.text = getString(R.string.number_of_questions, position + 1)
             pbQuestion.progress = position + 1
@@ -83,15 +100,16 @@ class QuestionTestActivity : AppCompatActivity() {
                 btnNext.text = getString(R.string.test_finished)
                 btnNext.setOnClickListener {
                     val intent = Intent(this@QuestionTestActivity, ResultTestActivity::class.java)
-                    intent.putExtra("TEST_RESULT",resultTest.sum())
+                    intent.putExtra("TEST_RESULT", resultTest.sum())
                     startActivity(intent)
-                    Log.d("Debug","Hasilnya ialah ${resultTest.sum()}")
+                    Log.d("Debug", "Hasilnya ialah ${resultTest.sum()}")
                 }
             }
         }
     }
 
     private fun selectedOptionStyle(view: TextView, opt: Int) {
+        setDefaultStyleOption()
         selectedOption = opt
         view.background = ContextCompat.getDrawable(this, R.drawable.shape_rectangle_primary)
         view.setTextColor(Color.parseColor("#FFFFFF"))

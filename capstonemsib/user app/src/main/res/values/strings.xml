@@ -109,5 +109,6 @@
     <string name="test_finished">Test Finished</string>
     <string name="detail_psychologist">Detail Psikolog</string>
     <string name="test_bdi">Test BDI</string>
+    <string name="back_to_home">Kembali ke halaman utama</string>
     <string name="edit_profile">Edit Profile</string>
 </resources>
