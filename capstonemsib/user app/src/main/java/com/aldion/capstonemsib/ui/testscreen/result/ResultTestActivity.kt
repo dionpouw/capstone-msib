@@ -23,28 +23,27 @@ class ResultTestActivity : AppCompatActivity() {
                 binding!!.tvDescResultTest.text = getString(R.string.desc_normal_result_test)
                 binding!!.btnBackToTest.text = getString(R.string.back_to_home)
 
-                btnBackToTest.setOnClickListener {
-                    val intentBackToTest = Intent(this@ResultTestActivity, TestFragment::class.java)
-                    startActivity(intentBackToTest)
-                }
-
                 btnConsultation.setOnClickListener {
                     val intentConsultation =
                         Intent(this@ResultTestActivity, HomeActivity::class.java)
                     startActivity(intentConsultation)
+                }
+
+                btnBackToTest.setOnClickListener {
+                    val intentBackToTest = Intent(this@ResultTestActivity, HomeActivity::class.java)
+                    startActivity(intentBackToTest)
                 }
             }
         } else {
             binding?.apply {
-                btnBackToTest.setOnClickListener {
-                    val intentBackToTest = Intent(this@ResultTestActivity, TestFragment::class.java)
-                    startActivity(intentBackToTest)
-                }
-
                 btnConsultation.setOnClickListener {
                     val intentConsultation =
                         Intent(this@ResultTestActivity, HomeActivity::class.java)
                     startActivity(intentConsultation)
+                }
+                btnBackToTest.setOnClickListener {
+                    val intentBackToTest = Intent(this@ResultTestActivity, TestFragment::class.java)
+                    startActivity(intentBackToTest)
                 }
             }
         }
